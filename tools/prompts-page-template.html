@@ -71,13 +71,13 @@ button:focus-visible,.toggle:focus-within{outline:2px solid var(--gold);outline-
 <div class="wrap">
   <header>
     <h1>Drink photo prompts</h1>
-    <p class="sub">One ChatGPT prompt for each of the 77 Luxe Café Pro recipes. Each one describes the exact glass, layers and garnish from its recipe.</p>
+    <p class="sub">One ChatGPT prompt for each of the 77 Luxe Café Pro recipes. Each prompt has ChatGPT look up real photos of the drink first, then make a new, realistic photo with the exact glass, layers and garnish from our recipe.</p>
     <ol class="how">
-      <li><span>Tap <b>Copy prompt</b> on a drink and paste it into ChatGPT.</span></li>
+      <li><span>Tap <b>Copy prompt</b> on a drink and paste it into ChatGPT. It searches for real photos, then makes the picture.</span></li>
       <li><span>Download the picture. Tap the file name under the drink to copy it, and save the picture with that name.</span></li>
       <li><span>Tick the circle so you know it's done. Your ticks stay on this device.</span></li>
     </ol>
-    <p class="tip">If a picture comes out wrong, like the wrong glass, an extra garnish or any writing, reply in ChatGPT with "Redo it, but…" and the fix. Start a fresh ChatGPT chat every 10 or so drinks so details from earlier pictures don't creep in.</p>
+    <p class="tip">If ChatGPT doesn't search first, turn on Search in its tools menu and paste the prompt again. If a picture still looks fake, save a real photo of that drink that you like and attach it in ChatGPT along with the prompt. An attached photo is the strongest reference. If something is wrong, like the glass or an extra garnish, reply "Redo it, but…" with the fix. Start a fresh chat every 10 or so drinks so details from earlier pictures don't creep in.</p>
   </header>
 
   <div class="bar">
@@ -102,8 +102,8 @@ const cats=[];DATA.forEach(d=>{if(!cats.find(c=>c.id===d.cat))cats.push({id:d.ca
 if(cat!=='all'&&!cats.find(c=>c.id===cat))cat='all';
 const $=id=>document.getElementById(id);
 const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function subject(p){const m=p.match(/Subject: (.*?)\. (Also in frame|Nothing else)/);const s=m?m[1]:'';return s.charAt(0).toUpperCase()+s.slice(1)}
-function props(p){const m=p.match(/Also in frame: (.*?)\. Setting/);return m?m[1]:''}
+function subject(p){const m=p.match(/Drink: (.*?)\.\n/);const s=m?m[1]:'';return s.charAt(0).toUpperCase()+s.slice(1)}
+function props(p){const m=p.match(/Also in frame: (.*?)\.\n/);return m?m[1]:''}
 function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove('show'),1600)}
 async function copy(text,btn){
   let ok=false;
