@@ -1,0 +1,55 @@
+rules_version = '2';
+// Luxe Café: paste this whole file into Firebase console › Firestore Database › Rules, then tap Publish.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function me() { return request.auth.uid; }
+    function isMember(hid) {
+      return signedIn() && me() in get(/databases/$(database)/documents/households/$(hid)).data.members;
+    }
+    function okProfile(p) {
+      return p is map && p.keys().hasOnly(['name', 'color', 'joinedAt'])
+        && (!('name' in p) || (p.name is string && p.name.size() <= 30));
+    }
+
+    // Your own pointer to your kitchen, plus your name and color.
+    match /users/{uid} {
+      allow read: if signedIn() && me() == uid;
+      allow write: if signedIn() && me() == uid
+        && request.resource.data.keys().hasOnly(['householdId', 'name', 'color']);
+    }
+
+    // A kitchen (household). Its random id is the invite code: whoever has the link can add
+    // themselves, and people can only ever change their own entry in the members list.
+    match /households/{hid} {
+      allow read: if signedIn() && me() in resource.data.members;
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['createdBy', 'createdAt', 'members'])
+        && request.resource.data.createdBy == me()
+        && request.resource.data.members.keys().hasOnly([me()])
+        && okProfile(request.resource.data.members[me()]);
+      allow update: if signedIn()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['members'])
+        && request.resource.data.members.diff(resource.data.members).affectedKeys().hasOnly([me()])
+        && request.resource.data.members.size() <= 6
+        && (!(me() in request.resource.data.members) || okProfile(request.resource.data.members[me()]));
+
+      // Favorites, ratings, notes and "made it" counts for one recipe.
+      match /marks/{recipe} {
+        allow read: if isMember(hid);
+        allow write: if isMember(hid)
+          && recipe.matches('^[a-z0-9-]{1,60}$')
+          && request.resource.data.keys().hasOnly(['fav', 'rating', 'note', 'made']);
+      }
+
+      // The shared shopping list.
+      match /shopping/{item} {
+        allow read, delete: if isMember(hid);
+        allow create, update: if isMember(hid)
+          && request.resource.data.keys().hasOnly(['text', 'rid', 'done', 'by', 'at'])
+          && request.resource.data.text is string && request.resource.data.text.size() <= 200
+          && request.resource.data.done is bool;
+      }
+    }
+  }
+}

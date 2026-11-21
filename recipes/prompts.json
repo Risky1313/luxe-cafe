@@ -1,0 +1,695 @@
+[
+ {
+  "id": "espresso-shot",
+  "name": "Espresso Shot",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "espresso-shot.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a double espresso in a small white porcelain espresso cup with a thick hazelnut-brown crema with tiger-striping, on a matching saucer. Also in frame: a few whole roasted coffee beans beside the saucer. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "latte",
+  "name": "Latte",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a latte in a wide matte stone-colored ceramic mug, smooth light-tan surface with a simple glossy rosetta of latte art, thin layer of microfoam. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cappuccino",
+  "name": "Cappuccino",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "cappuccino.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cappuccino in a classic white 6 oz cappuccino cup and saucer, tall domed cap of thick white milk foam lightly dusted with cocoa powder. Also in frame: a small pinch of cocoa powder dust on the saucer. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "flat-white",
+  "name": "Flat White",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "flat-white.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a flat white in an 8 oz glazed ceramic cup, glossy velvety light-brown surface with a small tulip latte-art pattern, very thin foam. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "macchiato",
+  "name": "Macchiato",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "macchiato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an espresso macchiato in a small white espresso cup: dark espresso with crema marked by a single small dollop of white milk foam in the center. Also in frame: a small spoon on the saucer. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cortado",
+  "name": "Cortado",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "cortado.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cortado in a small clear 4.5 oz Gibraltar glass, roughly half espresso and half silky steamed milk, light-caramel color with a thin layer of microfoam on top. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "vanilla-cappuccino",
+  "name": "Vanilla Cappuccino",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "vanilla-cappuccino.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a vanilla cappuccino in an 8 oz white cappuccino cup, tall fluffy white foam cap. Also in frame: a whole vanilla bean pod and a small glass bottle of clear golden vanilla syrup beside it. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "caramel-macchiato",
+  "name": "Caramel Macchiato",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "caramel-macchiato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a small 6 oz glass cup with thick white milk foam on top of espresso, a glossy amber caramel drizzle in a crosshatch over the foam. Also in frame: a small dish of caramel sauce. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cinnamon-honey-latte",
+  "name": "Cinnamon Latte with Honey",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "cinnamon-honey-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a 12 oz latte in a stone-gray ceramic mug, creamy tan surface with simple latte art and a light dusting of ground cinnamon. Also in frame: a cinnamon stick and a small honey dipper with golden honey. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "classic-mocha",
+  "name": "Classic Mocha with Chocolate Froth",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "classic-mocha.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a mocha in a large mug, chocolate-brown espresso under a thick cocoa-tinted froth cap. Also in frame: a few squares of milk chocolate. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "chai-latte-espresso",
+  "name": "Chai Latte with Espresso",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "chai-latte-espresso.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a chai latte with espresso in a large mug, warm spiced tan color, smooth froth on top. Also in frame: two whole star anise and a cinnamon stick. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "affogato",
+  "name": "Affogato",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": true,
+  "file": "affogato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an affogato in a small clear glass bowl: a round scoop of vanilla bean ice cream with hot dark espresso just poured over, melting into creamy ribbons. Also in frame: a small espresso cup that has just been poured, and a dessert spoon. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "spanish-latte",
+  "name": "Spanish Latte",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": false,
+  "file": "spanish-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a Spanish latte in a small clear heatproof glass, visible layers: a pale band of sweetened condensed milk at the bottom, dark espresso, and light steamed milk on top. Also in frame: a small open can of sweetened condensed milk. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-bombon",
+  "name": "Café Bombón",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": false,
+  "file": "cafe-bombon.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cafe bombon in a small clear glass showing two crisp layers: thick cream-white sweetened condensed milk on the bottom half and dark espresso on the top half, a small crown of white milk foam. Also in frame: a long-handled spoon. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "pumpkin-spice-latte",
+  "name": "Pumpkin Spice Latte",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": false,
+  "file": "pumpkin-spice-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a pumpkin spice latte in a large stone-colored mug, topped with a swirl of whipped cream and a dusting of pumpkin pie spice. Also in frame: a small sugar pumpkin and two cinnamon sticks. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "einspanner",
+  "name": "Einspänner (Viennese Coffee)",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": false,
+  "file": "einspanner.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an Einspanner in an 8.5 oz footed clear glass mug: dark espresso in the bottom third, a thick distinct layer of softly whipped white cream on top, finished with fine chocolate shavings. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-cubano",
+  "name": "Café Cubano",
+  "cat": "espresso",
+  "catName": "Espresso",
+  "ninja": false,
+  "file": "cafe-cubano.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: two small white espresso cups of Cuban coffee, very dark sweet espresso topped with a thick light-tan sugar foam (espumita), on saucers. Also in frame: a small metal pitcher with a spoon and a little dish of granulated sugar. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "piccolo",
+  "name": "Piccolo Latte",
+  "cat": "ristretto",
+  "catName": "Ristretto",
+  "ninja": false,
+  "file": "piccolo.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a piccolo latte in a tiny 3 oz clear glass, filled to the brim, light-caramel milky coffee with a small heart of latte art and a thin foam rim. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "melbourne-magic",
+  "name": "Melbourne Magic",
+  "cat": "ristretto",
+  "catName": "Ristretto",
+  "ninja": false,
+  "file": "melbourne-magic.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a Melbourne Magic in a 5 oz ceramic cup, a rich darker-than-latte coffee with glossy flat-white microfoam and a small latte-art heart. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "ristretto-over-ice",
+  "name": "Ristretto Over Ice",
+  "cat": "ristretto",
+  "catName": "Ristretto",
+  "ninja": false,
+  "file": "ristretto-over-ice.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a ristretto over ice in a short clear rocks glass with three large ice cubes, dark coffee diluted with cold water, a few thin slices of fresh ginger. Also in frame: a small piece of fresh ginger root. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "thyme-dark-choco-macchiato",
+  "name": "Thyme & Dark Chocolate Macchiato",
+  "cat": "ristretto",
+  "catName": "Ristretto",
+  "ninja": false,
+  "file": "thyme-dark-choco-macchiato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a small espresso cup of ristretto topped with a mound of hot milk foam, scattered with tiny fresh thyme leaves and freshly grated dark chocolate. Also in frame: a sprig of fresh thyme and a small block of dark chocolate. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "almond-lemon-brulee",
+  "name": "Ristretto Almond Lemon Brûlée",
+  "cat": "ristretto",
+  "catName": "Ristretto",
+  "ninja": false,
+  "file": "almond-lemon-brulee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a small clear glass of dark ristretto topped with a mound of milk foam whose top is a glassy, torched golden-brown brown-sugar crust like a creme brulee, scattered with chopped toasted almonds and fine grated lemon zest. Also in frame: a few toasted almonds and half a lemon. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-lungo",
+  "name": "Iced Lungo",
+  "cat": "lungo",
+  "catName": "Lungo",
+  "ninja": false,
+  "file": "iced-lungo.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced lungo in a tall clear glass over ice cubes, dark coffee with a light foamy layer on top from shaking. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-lungo-macchiato",
+  "name": "Iced Lungo Macchiato",
+  "cat": "lungo",
+  "catName": "Lungo",
+  "ninja": false,
+  "file": "iced-lungo-macchiato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced lungo macchiato in a tall clear glass: dark coffee with crushed ice, topped with a few spoonfuls of white milk foam and a light dusting of chocolate powder. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "blueberry-lungo",
+  "name": "Blueberry Lungo",
+  "cat": "lungo",
+  "catName": "Lungo",
+  "ninja": false,
+  "file": "blueberry-lungo.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a lungo in a small clear 4 oz glass cup, dark coffee with a deep purple layer of blueberry jam visible at the bottom. Also in frame: a few fresh blueberries and a small jar of blueberry jam. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-viennois",
+  "name": "Café Viennois",
+  "cat": "lungo",
+  "catName": "Lungo",
+  "ninja": false,
+  "file": "cafe-viennois.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a lungo cup filled with coffee and generously crowned with a tall mound of dense white milk foam, topped with grated dark chocolate. Also in frame: a small block of dark chocolate. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "stockholm-spice",
+  "name": "Stockholm Spice Lungo",
+  "cat": "lungo",
+  "catName": "Lungo",
+  "ninja": false,
+  "file": "stockholm-spice.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a clear glass lungo cup of dark black coffee with a thin golden crema, a light trace of cinnamon on the crema, no milk. Also in frame: a whole nutmeg with a small grater, a cinnamon stick and a single whole clove. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "americano",
+  "name": "Americano",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": true,
+  "file": "americano.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a hot americano in a white ceramic mug, dark coffee with a thin golden crema on top. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "americano-con-crema",
+  "name": "Americano con Crema",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": false,
+  "file": "americano-con-crema.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an americano in a mug topped with a few spoonfuls of stiff white milk foam and a light sprinkle of sugar. Also in frame: a curl of fresh orange peel. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-americano",
+  "name": "Iced Americano",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": false,
+  "file": "iced-americano.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced americano in a clear glass with ice cubes and dark coffee, condensation on the glass. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "sparkling-long-black",
+  "name": "Sparkling Long Black Over Ice",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": false,
+  "file": "sparkling-long-black.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a tall clear glass with four ice cubes and sparkling water with visible bubbles, dark espresso poured on top creating a layered dark-over-clear effect. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "spiced-americano",
+  "name": "Spiced Americano with Cinnamon Whipped Cream",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": false,
+  "file": "spiced-americano.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a spiced americano in a 6 to 8 oz white ceramic cup, dark coffee topped with a soft dollop of white whipped cream dusted with ground cinnamon. Also in frame: a cinnamon stick and a small jug of amber spiced syrup. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "red-eye",
+  "name": "Red Eye",
+  "cat": "americano",
+  "catName": "Americano",
+  "ninja": false,
+  "file": "red-eye.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a red eye in a large 16 oz white ceramic mug, black drip coffee with a thin layer of golden espresso crema floating on top, no milk. Also in frame: a few whole roasted coffee beans. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-hazelnut-latte",
+  "name": "Iced Hazelnut Latte",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": true,
+  "file": "iced-hazelnut-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced hazelnut latte in a clear 12 oz glass with ice, creamy light-tan coffee and milk. Also in frame: a small pile of whole hazelnuts. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "brown-sugar-oat-shaken",
+  "name": "Brown Sugar Oat Milk Shaken Latte",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": true,
+  "file": "brown-sugar-oat-shaken.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a brown sugar oat milk shaken espresso in a clear 10 oz glass with ice: a frothy caramel-brown espresso layer with oat milk poured on top, swirling. Also in frame: a small dish of brown sugar. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-dirty-chai",
+  "name": "Iced Dirty Chai",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": true,
+  "file": "iced-dirty-chai.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced dirty chai in a tall clear 16 oz glass with ice, spiced milky chai with a darker espresso swirl. Also in frame: two star anise and a cinnamon stick. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "espresso-martini",
+  "name": "Espresso Martini",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": true,
+  "file": "espresso-martini.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an espresso martini in a stemmed martini glass, deep brown with a thick creamy tan foam top, three coffee beans floating in the center. Also in frame: a cocktail shaker in soft focus behind it. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-choc-strawberry-latte",
+  "name": "Iced Chocolate Strawberry Latte",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": true,
+  "file": "iced-choc-strawberry-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced latte in a 16 oz clear glass: red strawberry syrup and chocolate syrup streaks on the ice at the bottom, milky coffee in the middle, and a thick pink strawberry cold foam on top. Also in frame: two fresh strawberries. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-caramel-macchiato",
+  "name": "Iced Caramel Macchiato",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": false,
+  "file": "iced-caramel-macchiato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced caramel macchiato in a tall clear 16 oz glass with ice: white milk on the bottom, espresso cascading on top, and a crosshatch of caramel drizzle over the top. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "espresso-tonic",
+  "name": "Espresso Tonic",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": false,
+  "file": "espresso-tonic.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an espresso tonic in a clear 8 oz highball with ice: sparkling clear tonic water below and dark espresso floating on top, a lemon wedge on the rim. Also in frame: a halved lemon. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "shakerato",
+  "name": "Shakerato with Sweet Cream",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": false,
+  "file": "shakerato.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a caffe shakerato in a coupe glass, dark coffee with a thick, fine pale-tan foam layer from shaking, a little sweet cream drizzled in. Also in frame: a cocktail shaker in soft focus behind it. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-coconut-coffee",
+  "name": "Iced Coconut Coffee",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": false,
+  "file": "iced-coconut-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced coconut coffee in a clear 12 oz glass with crushed ice and white coconut milk, dark espresso swirling down into the milk in marbled ribbons. Also in frame: a halved fresh coconut and a small dish of brown coconut sugar. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-honey-oat-coffee",
+  "name": "Iced Honey Oat Coffee",
+  "cat": "cold-pressed",
+  "catName": "Cold Pressed",
+  "ninja": false,
+  "file": "iced-honey-oat-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced honey oat coffee in a clear 10 oz glass with ice cubes, dark espresso coffee on the bottom with creamy oat milk poured on top and just starting to blend. Also in frame: a small honey dipper with golden honey and a small pile of rolled oats. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-au-lait",
+  "name": "Café au Lait",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": true,
+  "file": "cafe-au-lait.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cafe au lait in a wide 12 oz bowl-shaped cup, light-brown coffee with a thick froth top. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-de-olla",
+  "name": "Café de Olla",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": false,
+  "file": "cafe-de-olla.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: cafe de olla in a traditional glazed red-brown clay mug (jarrito), dark black coffee with a cinnamon stick in the mug. Also in frame: a cone of piloncillo sugar and a cinnamon stick. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "salted-caramel-apple-coffee",
+  "name": "Salted Caramel Apple Coffee",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": false,
+  "file": "salted-caramel-apple-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a 12 oz mug of coffee topped with whipped cream, a caramel drizzle, a dash of cinnamon and a rolled wafer cookie sticking out. Also in frame: a red apple slice. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cardamom-coffee",
+  "name": "South Indian Cardamom Coffee",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": false,
+  "file": "cardamom-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a large mug of milky coffee, light caramel color, smooth surface. Also in frame: a few green cardamom pods, one cracked open. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cinnamon-mocha-coffee",
+  "name": "Cinnamon Mocha Coffee",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": false,
+  "file": "cinnamon-mocha-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cinnamon mocha in a 12 oz ceramic mug, warm chocolate-brown milky coffee topped with a swirl of whipped cream, a cinnamon stick standing in the mug. Also in frame: a little dish of cocoa powder. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "bulletproof-coffee",
+  "name": "Bulletproof Coffee",
+  "cat": "classic",
+  "catName": "Classic Coffee",
+  "ninja": false,
+  "file": "bulletproof-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: bulletproof coffee in a 10 oz ceramic mug, a creamy, frothy, light caramel-brown coffee with a fine foam layer on top, no latte art. Also in frame: a small pat of butter on a dish and a small glass bottle of clear MCT oil. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "irish-coffee-cold-foam",
+  "name": "Irish Coffee with Cold Foam",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": true,
+  "file": "irish-coffee-cold-foam.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an Irish coffee in a 16 oz clear glass mug: dark coffee with a thick, bright white layer of cold foam floating on top. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "mexican-spiced-coffee",
+  "name": "Mexican-Spiced Coffee with Chocolate Cold Foam",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": true,
+  "file": "mexican-spiced-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a 14 oz mug of dark coffee topped with a thick chocolate-brown cold foam, lightly dusted with cinnamon. Also in frame: a cinnamon stick and a small dried red chili. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "yuenyeung",
+  "name": "Hong Kong Yuenyeung (Coffee Milk Tea)",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": false,
+  "file": "yuenyeung.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: Hong Kong yuenyeung in a thick white diner-style ceramic mug, opaque milky tan-brown coffee milk tea. Also in frame: a small pile of loose black tea leaves. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cafe-brulot",
+  "name": "Café Brûlot",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": false,
+  "file": "cafe-brulot.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: cafe brulot in a small white demitasse cup, dark coffee, with a long clove-studded orange peel spiral resting on the saucer. Also in frame: a cinnamon stick and a few whole cloves. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "honey-coffee",
+  "name": "Honey Coffee",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": false,
+  "file": "honey-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a mug of light-brown honey coffee with a smooth creamy surface. Also in frame: a small honey dipper with golden honey and a cinnamon stick. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "vietnamese-egg-coffee",
+  "name": "Vietnamese Egg Coffee (Cà Phê Trứng)",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": false,
+  "file": "vietnamese-egg-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: Vietnamese egg coffee in a small clear heatproof glass: dark coffee on the bottom and a thick, separate pale-yellow whipped egg cream layer on top, lightly dusted with cinnamon. Also in frame: a small open can of sweetened condensed milk. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "caramel-mocha",
+  "name": "Caramel Mocha",
+  "cat": "rich",
+  "catName": "Rich Coffee",
+  "ninja": false,
+  "file": "caramel-mocha.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a caramel mocha in a 14 oz ceramic mug, chocolate-brown coffee topped with a tall swirl of whipped cream and a glossy amber butterscotch-caramel drizzle. Also in frame: a small dish of caramel sauce. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-salted-caramel-cold-foam",
+  "name": "Iced Coffee with Salted Caramel Cold Foam",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": true,
+  "file": "iced-salted-caramel-cold-foam.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced coffee in a 16 oz clear glass with ice and dark coffee, topped with a thick tan salted caramel cold foam. Also in frame: a few flakes of sea salt. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-peppermint-cold-foam",
+  "name": "Iced Coffee with Peppermint Cold Foam",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": true,
+  "file": "iced-peppermint-cold-foam.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced coffee in a 16 oz clear glass with ice and dark coffee, topped with a thick white cold foam. Also in frame: a small sprig of fresh mint. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "vietnamese-iced-coffee",
+  "name": "Vietnamese-Style Iced Coffee",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": true,
+  "file": "vietnamese-iced-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a Vietnamese iced coffee in a 16 oz clear glass full of ice, creamy caramel-brown coffee with condensed milk. Also in frame: a small open can of sweetened condensed milk. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "thai-iced-coffee",
+  "name": "Thai Iced Coffee",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": false,
+  "file": "thai-iced-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a Thai iced coffee in a tall 16 oz glass packed with ice, dark sweet coffee with white evaporated milk cascading down through it in swirls. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "japanese-iced-coffee",
+  "name": "Japanese Iced Coffee",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": false,
+  "file": "japanese-iced-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: Japanese iced coffee in a clear glass with ice, a clear, bright, reddish-brown black coffee. Also in frame: a glass carafe of coffee and ice in soft focus behind. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-cinnamon-honey-coffee",
+  "name": "Iced Cinnamon Honey Coffee",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": false,
+  "file": "iced-cinnamon-honey-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced coffee in a 16 oz clear glass with ice, a splash of milk swirling into the dark coffee. Also in frame: a cinnamon stick and a small honey dipper. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "mazagran",
+  "name": "Mazagran (Coffee Lemonade)",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": false,
+  "file": "mazagran.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a mazagran in a tall clear 12 oz glass full of ice, light-brown iced coffee lemonade, a thin lemon wheel on the rim. Also in frame: a halved lemon and a small glass carafe of coffee over ice in soft focus behind. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "iced-hazelnut-coffee",
+  "name": "Iced Hazelnut Coffee",
+  "cat": "over-ice",
+  "catName": "Over Ice",
+  "ninja": false,
+  "file": "iced-hazelnut-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: an iced hazelnut coffee in a tall clear glass full of ice, dark coffee with a pour of milk swirling into it. Also in frame: a small pile of whole hazelnuts. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "almond-caramel-cold-brew",
+  "name": "Almond Milk Caramel Cold Brew",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": true,
+  "file": "almond-caramel-cold-brew.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cold brew in a clear 12 oz glass with ice, a ribbon of almond milk swirling into the dark coffee. Also in frame: a few whole almonds. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cold-brew-cold-foam",
+  "name": "Cold Brew with Cold Foam",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": true,
+  "file": "cold-brew-cold-foam.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cold brew in a clear glass with ice, topped with a thick white cold foam. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "vanilla-sweet-cream-cold-brew",
+  "name": "Vanilla Sweet Cream Cold Brew",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": false,
+  "file": "vanilla-sweet-cream-cold-brew.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a vanilla sweet cream cold brew in a tall 16 oz clear glass with ice: dark cold brew with white sweet cream cascading down from the top in billowing swirls. Also in frame: a whole vanilla bean pod. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "salted-caramel-cream-cold-brew",
+  "name": "Salted Caramel Cream Cold Brew",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": false,
+  "file": "salted-caramel-cream-cold-brew.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cold brew in a 16 oz clear glass with ice, topped with a thick tan caramel cold foam sprinkled with flaky salt. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "pumpkin-cream-cold-brew",
+  "name": "Pumpkin Cream Cold Brew",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": false,
+  "file": "pumpkin-cream-cold-brew.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cold brew in a 12 oz clear glass with ice, topped with a thick orange-tinted pumpkin cream foam dusted with cinnamon. Also in frame: a small sugar pumpkin. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cold-brew-salted-honey-foam",
+  "name": "Cold Brew with Salted Honey Cold Foam",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": false,
+  "file": "cold-brew-salted-honey-foam.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a cold brew in a clear 16 oz glass with ice, dark coffee topped with a thick pale-gold honey cold foam with a few flakes of sea salt on top. Also in frame: a small honey dipper with golden honey. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "cold-brew-coconut-milkshake",
+  "name": "Cold Brew Coconut Chocolate Milkshake",
+  "cat": "cold-brew",
+  "catName": "Cold Brew",
+  "ninja": false,
+  "file": "cold-brew-coconut-milkshake.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a thick light-mocha cold brew coconut chocolate milkshake in a tall clear milkshake glass, topped with a swirl of whipped cream and toasted coconut flakes. Also in frame: a small dish of semisweet chocolate chips and half a coconut. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "mocha-whipped-iced-coffee",
+  "name": "Mocha Whipped Iced Coffee",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": true,
+  "file": "mocha-whipped-iced-coffee.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a 12 oz clear glass with ice and cold white milk, topped with a thick, fluffy, chocolate-brown whipped mocha layer. Nothing else in the frame besides the drink. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "matcha-latte",
+  "name": "Matcha Latte",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": false,
+  "file": "matcha-latte.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a matcha latte in a large ceramic mug, bright jade-green with a fine frothy surface. Also in frame: a small bamboo matcha whisk and a little dish of green matcha powder. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "london-fog",
+  "name": "London Fog Latte",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": false,
+  "file": "london-fog.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a London Fog latte in an 8 oz mug, pale tea-tan color with a soft milk foam top. Also in frame: an Earl Grey tea bag tag hanging over the rim and a sprig of dried lavender. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "hot-toddy",
+  "name": "Classic Hot Toddy",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": false,
+  "file": "hot-toddy.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a hot toddy in a clear glass mug, warm amber liquid with a lemon round floating and a cinnamon stick. Also in frame: a small honey jar and half a lemon. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: low three-quarter view from just above eye level, so the layers through the glass and the top of the drink are both visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "medicine-ball",
+  "name": "Honey Citrus Mint Tea (Medicine Ball)",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": false,
+  "file": "medicine-ball.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a honey citrus mint tea in a large white ceramic mug, a clear warm golden-amber tea with two tea bag tags hanging over the rim. Also in frame: half a lemon, a small honey jar and a sprig of fresh mint. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ },
+ {
+  "id": "creamy-hot-cocoa",
+  "name": "Creamy Hot Cocoa",
+  "cat": "hot-water",
+  "catName": "Hot Water",
+  "ninja": false,
+  "file": "creamy-hot-cocoa.png",
+  "prompt": "Photorealistic editorial drink photo, square 1:1 format. Subject: a creamy hot cocoa in a 12 oz ceramic mug, smooth rich chocolate-brown cocoa topped with a soft swirl of whipped cream. Also in frame: a little dish of cocoa powder. Setting: a pale, warm stone-gray countertop, a plain softly blurred stone-colored background, and soft warm golden window light from the side. Camera: about 45 degrees above the cup so the surface of the drink is clearly visible, shallow depth of field, drink centered and sharp. Show only what is described: no extra garnishes, straws, napkins, text, logos, labels, people or hands."
+ }
+]

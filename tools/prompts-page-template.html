@@ -1,0 +1,155 @@
+<title>Luxe Café Photo Prompts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow column of drink cards, sticky filter bar, gold progress line. Stone & Gold. */
+:root{
+  --stone:#ECE8E1; --stone-2:#E2DDD4; --card:#F7F5F1; --ink:#2B2824; --muted:#6F675D;
+  --gold:#A8803D; --gold-soft:#D9C39A; --line:#D3CCC0; --ok:#4E7A55;
+  --display:"Marcellus","Cormorant Garamond",Georgia,serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --stone:#1C1A17; --stone-2:#24211D; --card:#2A2723; --ink:#EEE9E1; --muted:#A69D90;
+  --gold:#D2AE6C; --gold-soft:#6E5A36; --line:#3A3530; --ok:#8DBB92; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --stone:#1C1A17; --stone-2:#24211D; --card:#2A2723; --ink:#EEE9E1; --muted:#A69D90;
+  --gold:#D2AE6C; --gold-soft:#6E5A36; --line:#3A3530; --ok:#8DBB92; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--stone);color:var(--ink);font:16px/1.55 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--stone)}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px}
+header h1{font:400 clamp(30px,6vw,42px)/1.1 var(--display);margin:0 0 6px;letter-spacing:.01em;text-wrap:balance}
+header p.sub{margin:0;color:var(--muted)}
+.how{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px;counter-reset:s}
+.how li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;counter-increment:s}
+.how li::before{content:counter(s);font:500 13px/26px var(--mono);text-align:center;width:26px;height:26px;border:1px solid var(--gold);color:var(--gold);border-radius:50%}
+.tip{margin:16px 0 0;font-size:14px;color:var(--muted);border-left:2px solid var(--gold-soft);padding-left:12px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--stone);padding-block:14px 12px;margin-top:22px;border-bottom:1px solid var(--line)}
+.prog{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:14px;color:var(--muted)}
+.prog b{color:var(--ink);font:500 15px var(--mono);font-variant-numeric:tabular-nums}
+.track{height:3px;background:var(--line);border-radius:2px;margin:8px 0 12px;overflow:hidden}
+.track i{display:block;height:100%;width:0;background:var(--gold);transition:width .4s ease}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:transparent;color:var(--ink);font:500 13px var(--body);padding:6px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--stone);border-color:var(--ink)}
+.chip small{color:inherit;opacity:.6;font-family:var(--mono);margin-left:4px}
+.toggle{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-left:auto;cursor:pointer;user-select:none}
+.section{margin-top:30px}
+.section h2{font:400 22px/1.2 var(--display);margin:0 0 12px;display:flex;align-items:baseline;gap:10px}
+.section h2 span{font:500 12px var(--mono);color:var(--muted);letter-spacing:.04em}
+.list{display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:10px;min-width:0;transition:opacity .25s}
+.card.done{opacity:.55}
+.top{display:flex;align-items:flex-start;gap:12px}
+.top .t{flex:1;min-width:0}
+.name{font-weight:600;font-size:17px;line-height:1.3}
+.badge{display:inline-block;font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-soft);border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:2px}
+.file{font:13px var(--mono);color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-align:left;word-break:break-all}
+.file:hover,.file:focus-visible{color:var(--gold)}
+.check{flex:none;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line);background:transparent;cursor:pointer;display:grid;place-items:center;color:transparent}
+.check[aria-checked="true"]{background:var(--ok);border-color:var(--ok);color:var(--card)}
+.check svg{width:16px;height:16px}
+.subject{margin:0;font-size:15px}
+details{font-size:14px;color:var(--muted)}
+details summary{cursor:pointer;width:max-content;max-width:100%}
+details p{margin:8px 0 0;font-family:var(--mono);font-size:12.5px;line-height:1.6;white-space:pre-wrap;word-break:break-word;color:var(--ink);background:var(--stone-2);border-radius:8px;padding:10px 12px}
+.copy{justify-self:start;display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--stone);border:0;border-radius:999px;padding:9px 16px;font:600 14px var(--body);cursor:pointer}
+.copy.ok{background:var(--gold);color:#1C1A17}
+.copy svg{width:15px;height:15px}
+button:focus-visible,.toggle:focus-within{outline:2px solid var(--gold);outline-offset:2px}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;background:var(--ink);color:var(--stone);padding:8px 14px;border-radius:999px;font-size:14px;transition:.25s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Drink photo prompts</h1>
+    <p class="sub">One ChatGPT prompt for each of the 77 Luxe Café Pro recipes. Each one describes the exact glass, layers and garnish from its recipe.</p>
+    <ol class="how">
+      <li><span>Tap <b>Copy prompt</b> on a drink and paste it into ChatGPT.</span></li>
+      <li><span>Download the picture. Tap the file name under the drink to copy it, and save the picture with that name.</span></li>
+      <li><span>Tick the circle so you know it's done. Your ticks stay on this device.</span></li>
+    </ol>
+    <p class="tip">If a picture comes out wrong, like the wrong glass, an extra garnish or any writing, reply in ChatGPT with "Redo it, but…" and the fix. Start a fresh ChatGPT chat every 10 or so drinks so details from earlier pictures don't creep in.</p>
+  </header>
+
+  <div class="bar">
+    <div class="prog"><span><b id="doneN">0</b> of <b id="totalN">77</b> pictures done</span>
+      <label class="toggle" for="hideDone"><input type="checkbox" id="hideDone"> Hide done</label></div>
+    <div class="track"><i id="fill"></i></div>
+    <div class="chips" id="chips" role="toolbar" aria-label="Category"></div>
+  </div>
+
+  <main id="out"></main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const DATA = __DATA__;
+const ICON_COPY='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>';
+const ICON_TICK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let done=new Set(store.get('lc-done',[])), cat=store.get('lc-cat','all'), hide=store.get('lc-hide',false);
+const cats=[];DATA.forEach(d=>{if(!cats.find(c=>c.id===d.cat))cats.push({id:d.cat,name:d.catName})});
+if(cat!=='all'&&!cats.find(c=>c.id===cat))cat='all';
+const $=id=>document.getElementById(id);
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function subject(p){const m=p.match(/Subject: (.*?)\. (Also in frame|Nothing else)/);const s=m?m[1]:'';return s.charAt(0).toUpperCase()+s.slice(1)}
+function props(p){const m=p.match(/Also in frame: (.*?)\. Setting/);return m?m[1]:''}
+function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove('show'),1600)}
+async function copy(text,btn){
+  let ok=false;
+  try{await navigator.clipboard.writeText(text);ok=true}catch(e){
+    const ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.select();try{ok=document.execCommand('copy')}catch(e2){}ta.remove()}
+  return ok;
+}
+function chips(){
+  const counts={};DATA.forEach(d=>counts[d.cat]=(counts[d.cat]||0)+1);
+  $('chips').innerHTML=[{id:'all',name:'All',n:DATA.length},...cats.map(c=>({...c,n:counts[c.id]}))]
+    .map(c=>`<button class="chip" data-cat="${c.id}" aria-pressed="${c.id===cat}">${esc(c.name)}<small>${c.n}</small></button>`).join('');
+}
+function render(){
+  $('doneN').textContent=done.size;$('totalN').textContent=DATA.length;
+  $('fill').style.width=(done.size/DATA.length*100)+'%';$('hideDone').checked=hide;
+  const show=cats.filter(c=>cat==='all'||c.id===cat);let html='',any=false;
+  show.forEach(c=>{
+    const items=DATA.filter(d=>d.cat===c.id&&!(hide&&done.has(d.id)));
+    if(!items.length)return;any=true;
+    const left=DATA.filter(d=>d.cat===c.id&&!done.has(d.id)).length;
+    html+=`<section class="section"><h2>${esc(c.name)}<span>${left?left+' TO GO':'ALL DONE'}</span></h2><div class="list">`+
+      items.map(d=>{const isDone=done.has(d.id),pr=props(d.prompt);return `<article class="card${isDone?' done':''}" data-id="${d.id}">
+        <div class="top"><div class="t"><div class="name">${esc(d.name)}${d.ninja?'<span class="badge">Ninja</span>':''}</div>
+          <button class="file" data-file="${d.file}" aria-label="Copy file name ${d.file}">${d.file}</button></div>
+          <button class="check" role="checkbox" aria-checked="${isDone}" aria-label="Mark ${esc(d.name)} done">${ICON_TICK}</button></div>
+        <p class="subject">${esc(subject(d.prompt))}${pr?'. With '+esc(pr):''}.</p>
+        <details><summary>See the full prompt</summary><p>${esc(d.prompt)}</p></details>
+        <button class="copy" data-copy="${d.id}">${ICON_COPY}<span>Copy prompt</span></button></article>`}).join('')+`</div></section>`;
+  });
+  $('out').innerHTML=any?html:'<p class="empty">Every picture in this view is done. Turn off "Hide done" to see them again.</p>';
+}
+document.addEventListener('click',async e=>{
+  const chip=e.target.closest('.chip');
+  if(chip){cat=chip.dataset.cat;store.set('lc-cat',cat);chips();render();return}
+  const chk=e.target.closest('.check');
+  if(chk){const id=chk.closest('.card').dataset.id;done.has(id)?done.delete(id):done.add(id);store.set('lc-done',[...done]);render();return}
+  const cp=e.target.closest('.copy');
+  if(cp){const d=DATA.find(x=>x.id===cp.dataset.copy);const ok=await copy(d.prompt);
+    if(ok){cp.classList.add('ok');cp.querySelector('span').textContent='Copied';toast('Prompt copied. Paste it into ChatGPT.');
+      setTimeout(()=>{cp.classList.remove('ok');cp.querySelector('span').textContent='Copy prompt'},1800)}
+    else{const det=cp.parentElement.querySelector('details');det.open=true;const p=det.querySelector('p');const r=document.createRange();r.selectNodeContents(p);const s=getSelection();s.removeAllRanges();s.addRange(r);toast('Copy was blocked. The prompt is selected, so copy it by hand.')}
+    return}
+  const f=e.target.closest('.file');
+  if(f){const ok=await copy(f.dataset.file);toast(ok?'File name copied':'Copy was blocked. The name is '+f.dataset.file)}
+});
+$('hideDone').addEventListener('change',e=>{hide=e.target.checked;store.set('lc-hide',hide);render()});
+chips();render();
+</script>
