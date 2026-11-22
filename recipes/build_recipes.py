@@ -972,6 +972,320 @@ R("creamy-hot-cocoa", "Creamy Hot Cocoa", "hot-water",
   rating="5.0 ★ (127 ratings)", flavor=["chocolate", "cozy"])
 
 # ======================================================================
+# MORE RECIPES (added 2026-11-22): popular café drinks
+# ======================================================================
+ACC = lambda path: ("web", "A Couple Cooks (Sonja Overhiser)", "https://www.acouplecooks.com/" + path)
+SBX = lambda path: ("web", "Starbucks at Home", "https://athome.starbucks.com/recipe/" + path)
+VANILLA_SYRUP = dict(name="Vanilla syrup", ingredients=["½ cup sugar", "½ cup water", "2 tsp vanilla extract"],
+    steps=["Warm the sugar and water in a small pan over medium heat for 1 to 2 minutes, stirring until the sugar dissolves. Don't let it simmer.",
+           "Take it off the heat, stir in the vanilla and let it cool. Keeps in the fridge for about a month."])
+LAVENDER_SYRUP = dict(name="Lavender syrup", ingredients=["½ cup sugar", "½ cup water", "¼ cup dried culinary lavender"],
+    steps=["Bring the sugar, water and lavender to a simmer, stirring until the sugar dissolves.",
+           "Turn off the heat, let it steep 20 minutes, then strain into a jar. Keeps in the fridge for about a month."])
+BROWN_SUGAR_SYRUP = dict(name="Brown sugar syrup", ingredients=["½ cup packed dark brown sugar", "½ cup water"],
+    steps=["Simmer the brown sugar and water, stirring, until dissolved and slightly thick.", "Cool before using. Keeps in the fridge for about 2 weeks."])
+
+# ---------------- Espresso ----------------
+R("vanilla-latte", "Vanilla Latte", "espresso", ACC("vanilla-latte/"),
+  "hot", True, "quick", 4, "1 latte", "10 oz mug",
+  ["Double shot of espresso (2 oz)", "4 oz (½ cup) whole milk or oat milk", "½ tbsp vanilla syrup"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY or PLANT-BASED"),
+  espresso_steps("Double", "ESPRESSO", "a 10 oz mug") +
+  froth_steps("4 oz cold milk (fill to the minimum line if needed)", "THIN FROTH", "DAIRY (or PLANT-BASED)", extra="the vanilla syrup") +
+  ["Pour the milk into the center of the espresso, finishing with a thin layer of foam."],
+  tips=["Make it iced: brew on COLD-PRESSED over a glass of ice, stir in the syrup and pour in cold milk."],
+  note="Sonja steams the syrup with the milk, so the Pro's jug does the same job.",
+  sub=[VANILLA_SYRUP], rating="5.0 ★ (2 ratings)", flavor=["vanilla", "creamy"])
+
+R("white-chocolate-mocha", "White Chocolate Mocha", "espresso", SBX("white-chocolate-mocha"),
+  "hot", True, "quick", 4, "1 mug", "12 oz mug",
+  ["4 tbsp white chocolate chips or chopped white chocolate", "Double shot of espresso", "1 cup (8 oz) 2% milk", "Whipped cream"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY"),
+  ["Put the white chocolate in a 12 oz mug and warm it in the microwave in 15-second bursts until soft."] +
+  espresso_steps("Double", "ESPRESSO", "the mug") +
+  ["Stir the hot espresso into the white chocolate until smooth."] +
+  froth_steps("1 cup cold 2% milk (up to the LATTE line)", "THIN FROTH") +
+  ["Pour the frothed milk into the mug and top with whipped cream."],
+  note="Starbucks uses a single 1 oz shot. A double stands up better to the sweet white chocolate. Use the Single basket for theirs.",
+  rating="5.0 ★ (8 ratings)", flavor=["sweet", "creamy"])
+
+R("gingerbread-latte", "Gingerbread Latte", "espresso", ACC("gingerbread-latte/"),
+  "hot", True, "fancy", 4, "1 latte", "10 oz mug",
+  ["Double shot of espresso (2 oz)", "1 tbsp gingerbread syrup", "4 oz (½ cup) whole milk or oat milk", "Ground cinnamon, to garnish"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY or PLANT-BASED"),
+  espresso_steps("Double", "ESPRESSO", "a 10 oz mug", cup_prep="Put the gingerbread syrup in a 10 oz mug.") +
+  ["Stir the syrup into the espresso."] +
+  froth_steps("4 oz cold milk (fill to the minimum line if needed)", "THIN FROTH", "DAIRY (or PLANT-BASED)") +
+  ["Pour the milk into the center of the espresso, finishing with foam, and dust with cinnamon."],
+  sub=[dict(name="Gingerbread syrup", ingredients=["1 inch fresh ginger, peeled", "3 cinnamon sticks", "1 tbsp allspice berries (or 1½ tsp ground)", "½ cup brown sugar", "⅔ cup water", "1 tsp vanilla extract"],
+            steps=["Toast the cinnamon and allspice in a small pan over medium-low heat for 2 minutes.",
+                   "Add the ginger, water, brown sugar and vanilla. Keep at a low simmer for 15 to 20 minutes.",
+                   "Strain and cool. Keeps in the fridge for about a month."])],
+  rating="5.0 ★ (1 rating)", flavor=["warm spice", "sweet"])
+
+R("lavender-latte", "Lavender Latte", "espresso", ACC("lavender-latte/"),
+  "hot", True, "fancy", 4, "1 latte", "10 oz mug",
+  ["Double shot of espresso (2 oz)", "1 tbsp lavender syrup", "4 oz (½ cup) whole milk or oat milk", "Dried lavender buds, to garnish (optional)"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY or PLANT-BASED"),
+  espresso_steps("Double", "ESPRESSO", "a 10 oz mug", cup_prep="Put the lavender syrup in a 10 oz mug.") +
+  ["Stir the syrup into the espresso."] +
+  froth_steps("4 oz cold milk (fill to the minimum line if needed)", "THIN FROTH", "DAIRY (or PLANT-BASED)") +
+  ["Pour the milk into the center of the espresso, finishing with foam. Scatter a few lavender buds on top."],
+  sub=[LAVENDER_SYRUP], rating="5.0 ★ (1 rating)", flavor=["floral", "sweet"])
+
+R("caramelized-honey-latte", "Caramelized Honey Latte", "espresso", SBX("caramelized-honey-latte"),
+  "hot", True, "fancy", 15, "1 latte (plus honey milk for 3 more)", "12 oz mug",
+  ["½ cup honey, plus a drizzle to finish", "1 tsp water", "½ tsp lemon juice", "4 cups unsweetened milk", "Double shot of espresso (2 oz)"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY"),
+  ["Simmer the honey, water and lemon juice in a small pan over medium heat, stirring.",
+   "Once it bubbles, stop stirring and let it cook 1 to 2 minutes until it darkens and smells nutty.",
+   "Take the pan off the heat and slowly whisk in the 4 cups of milk. Let it cool a little. This is enough honey milk for 4 lattes; keep the rest in the fridge."] +
+  espresso_steps("Double", "ESPRESSO", "a 12 oz mug") +
+  froth_steps("1 cup of the honey milk (up to the LATTE line)", "THIN FROTH") +
+  ["Pour the honey milk into the espresso and finish with a drizzle of honey."],
+  note="Starbucks combines the warm honey milk with the espresso, then froths more milk on top. Frothing the honey milk itself does both in one step.",
+  rating="5.0 ★ (1 rating)", flavor=["honey", "caramel"])
+
+R("maple-pecan-latte", "Maple Pecan Latte", "espresso", ("web", "CopyKat (Stephanie Manley)", "https://copykat.com/starbucks-maple-pecan-latte/"),
+  "hot", True, "quick", 4, "1 latte", "12 oz mug",
+  ["Double shot of espresso", "2 tbsp maple syrup", "1 cup (8 oz) milk", "2 tbsp whipped cream", "1 tsp chopped pecans"],
+  S("Double", "ESPRESSO", froth="THIN FROTH", milkType="DAIRY"),
+  espresso_steps("Double", "ESPRESSO", "a 12 oz mug", cup_prep="Put the maple syrup in a 12 oz mug.") +
+  froth_steps("1 cup cold milk (up to the LATTE line)", "THIN FROTH") +
+  ["Stir the maple syrup into the espresso, add the milk and stir again.", "Top with whipped cream and the chopped pecans."],
+  note="Stephanie uses a 1.5 oz shot. A Double basket shot is about 2 oz.",
+  rating="5.0 ★ (6 ratings)", flavor=["maple", "nutty"])
+
+R("cafe-con-leche", "Café con Leche", "espresso", ("web", "A Sassy Spoon (Ericka Sanchez)", "https://asassyspoon.com/cafe-con-leche/"),
+  "hot", True, "quick", 4, "1 mug", "8 oz mug",
+  ["Double shot of espresso (dark Cuban-style roast if you have it)", "½ cup (4 oz) whole milk", "2 tsp sugar, or to taste", "Pinch of salt (optional)"],
+  S("Double", "ESPRESSO", froth="STEAMED MILK", milkType="DAIRY"),
+  froth_steps("½ cup cold whole milk (fill to the minimum line if needed)", "STEAMED MILK") +
+  ["Pour the hot milk into an 8 oz mug and stir in the sugar."] +
+  espresso_steps("Double", "ESPRESSO", "a small cup") +
+  ["Pour the espresso into the milk and stir until light brown. Taste, and add more sugar or a tiny pinch of salt if you like."],
+  note="Ericka brews ¼ cup of moka-pot coffee. A Double basket shot is close to that, and STEAMED MILK replaces heating the milk in a pan.",
+  rating="4.85 ★ (19 ratings)", flavor=["mellow", "sweet"])
+
+# ---------------- Cold Pressed ----------------
+R("iced-mocha", "Iced Mocha", "cold-pressed", ACC("iced-mocha/"),
+  "iced", True, "quick", 4, "1 drink", "12 oz glass",
+  ["Double shot of espresso (2 oz)", "1 tbsp chocolate chips", "1 tbsp simple syrup or chocolate syrup", "¼ cup (2 oz) milk or oat milk", "Ice"],
+  S("Double", "ESPRESSO", froth="COLD FOAM", milkType="DAIRY or PLANT-BASED"),
+  ["Put the chocolate chips in a heatproof jar."] +
+  espresso_steps("Double", "ESPRESSO", "the jar") +
+  ["Cover the jar and shake hard until the chocolate melts. Pour into a 12 oz glass full of ice."] +
+  froth_steps("the milk and simple syrup (fill to the minimum line if needed)", "COLD FOAM", "DAIRY (or PLANT-BASED)") +
+  ["Spoon the foamy milk over the chocolate espresso."],
+  note="This one is brewed on ESPRESSO, not COLD-PRESSED: the hot shot is what melts the chocolate. Sonja shakes the milk in a jar to foam it; the COLD FOAM preset does it for you.",
+  rating="5.0 ★ (1 rating)", flavor=["chocolate", "bold"])
+
+R("iced-white-mocha", "Iced White Chocolate Mocha", "cold-pressed", ACC("iced-white-chocolate-mocha/"),
+  "iced", True, "quick", 4, "1 drink", "12 oz glass",
+  ["Double shot of espresso (2 oz)", "2 tbsp white chocolate chips", "2 tbsp milk", "Ice", "Cold foam: 2 oz heavy cream + 1 oz milk"],
+  S("Double", "ESPRESSO", froth="COLD FOAM", milkType="DAIRY"),
+  ["Put the white chocolate chips in a heatproof jar."] +
+  espresso_steps("Double", "ESPRESSO", "the jar") +
+  ["Cover and shake hard until the chocolate melts. Stir in the 2 tbsp milk and pour into a 12 oz glass full of ice."] +
+  froth_steps("the heavy cream and milk", "COLD FOAM") +
+  ["Spoon the cold foam over the top."],
+  note="Brewed on ESPRESSO so the hot shot melts the white chocolate.",
+  rating="5.0 ★ (1 rating)", flavor=["sweet", "creamy"])
+
+R("iced-lavender-oat-latte", "Iced Lavender Oat Milk Latte", "cold-pressed",
+  ("web", "We Are Not Martha (Sues)", "https://wearenotmartha.com/iced-lavender-oatmilk-latte-starbucks-copycat/"),
+  "iced", True, "quick", 3, "1 drink", "16 oz glass",
+  ["Double shot of cold-pressed espresso (2 oz)", "1 tbsp lavender syrup", "Ice", "10 oz barista-style oat milk"],
+  S("Double", "COLD-PRESSED"),
+  espresso_steps("Double", "COLD-PRESSED", "a 16 oz glass", cup_prep="Put the lavender syrup in a 16 oz glass.") +
+  ["Stir, fill the glass with ice and top with the oat milk."],
+  note="Sues makes a lavender sugar powder and uses blonde espresso; her notes say lavender syrup works too. Use a lighter roast if you have one.",
+  sub=[LAVENDER_SYRUP], rating="5.0 ★ (2 ratings)", flavor=["floral", "creamy"])
+
+R("iced-pistachio-latte", "Iced Pistachio Latte", "cold-pressed",
+  ("web", "Seattle Coffee Gear", "https://www.seattlecoffeegear.com/blogs/scg-blog/iced-pistachio-latte-recipe"),
+  "iced", True, "fancy", 3, "1 drink", "Tall glass",
+  ["Double shot of cold-pressed espresso (2 oz)", "1 to 2 tbsp pistachio syrup", "Ice", "6 oz cold milk or plant milk", "Toasted pistachios, chopped, to garnish"],
+  S("Double", "COLD-PRESSED"),
+  espresso_steps("Double", "COLD-PRESSED", "the glass", cup_prep="Fill a tall glass with ice.") +
+  ["Stir in the pistachio syrup, pour in the cold milk and top with chopped pistachios."],
+  sub=[dict(name="Pistachio syrup", ingredients=["1 cup pistachios", "1 cup water", "1 cup sugar"],
+            steps=["Lightly crush the pistachios in a small pan, add the water and sugar and bring to a boil.",
+                   "Simmer 5 minutes, stirring now and then, then strain out the nuts and cool. Keeps 2 weeks in the fridge."])],
+  flavor=["nutty", "sweet"])
+
+R("dirty-matcha", "Iced Dirty Matcha Latte", "cold-pressed",
+  ("web", "Tara's Multicultural Table", "https://tarasmulticulturaltable.com/iced-matcha-espresso-latte/"),
+  "iced", True, "fancy", 5, "1 drink", "12 oz clear glass",
+  ["1 tsp matcha powder, sifted", "2 tbsp hot water (not boiling)", "1 tbsp vanilla syrup or honey", "Ice", "½ cup (4 oz) cold milk", "Double shot of cold-pressed espresso (2 oz)"],
+  S("Double", "COLD-PRESSED", hotWater="LOW"),
+  ["Sift the matcha into a small bowl."] +
+  hot_water_steps("a small cup", "the smallest size", "LOW") +
+  ["Whisk 2 tbsp of the hot water into the matcha until smooth, then whisk in the vanilla syrup or honey.",
+   "Pour the matcha into a clear 12 oz glass, fill with ice and slowly pour the milk over an ice cube so it layers on top."] +
+  espresso_steps("Double", "COLD-PRESSED", "a small cup") +
+  ["Slowly pour the espresso over an ice cube to make a third layer. Stir before drinking."],
+  flavor=["grassy", "bold"])
+
+R("toasted-vanilla-shaken", "Toasted Vanilla Oat Milk Shaken Espresso", "cold-pressed",
+  ("web", "We Are Not Martha (Sues)", "https://wearenotmartha.com/iced-toasted-vanilla-oatmilk-shaken-espresso-starbucks-copycat/"),
+  "iced", True, "fancy", 3, "1 grande", "16 oz glass",
+  ["Triple shot of cold-pressed espresso (3 oz, light roast if you have it)", "1½ oz toasted vanilla syrup", "Ice", "4 oz (½ cup) oat milk"],
+  S("Luxe", "COLD-PRESSED"),
+  espresso_steps("Luxe", "COLD-PRESSED", "a cocktail shaker", cup_prep="Put the toasted vanilla syrup and a handful of ice in a cocktail shaker.") +
+  ["Shake hard for about 20 seconds until frothy.", "Pour into a 16 oz glass of ice and top with the oat milk."],
+  note="Sues uses 3 oz of espresso. The Luxe basket's cold-pressed shot is about that size.",
+  sub=[dict(name="Toasted vanilla syrup", ingredients=["1 vanilla bean", "1 cup water", "1 cup sugar"],
+            steps=["Split the vanilla bean, cut it into small pieces and toast them in a dry pan over medium-low heat for a few minutes, stirring, until fragrant.",
+                   "Bring the water and sugar to a boil, lower the heat, add the vanilla and simmer about 10 minutes.",
+                   "Cool, keeping the vanilla pieces in to infuse. Strain before using."])],
+  rating="5.0 ★ (9 ratings)", flavor=["vanilla", "toasty"])
+
+R("chocolate-almond-shaken", "Iced Chocolate Almond Milk Shaken Espresso", "cold-pressed", SBX("iced-chocolate-almond-shaken-espresso"),
+  "iced", True, "quick", 3, "1 drink", "12 oz glass",
+  ["Double shot of cold-pressed espresso", "1½ tbsp chocolate syrup, plus a drizzle", "1 cup ice, plus more for the glass", "½ cup (4 oz) almond milk"],
+  S("Double", "COLD-PRESSED"),
+  espresso_steps("Double", "COLD-PRESSED", "a cocktail shaker", cup_prep="Put the chocolate syrup and 1 cup ice in a cocktail shaker.") +
+  ["Shake hard until frothy and ice cold.", "Strain into a glass full of ice, add the almond milk and drizzle with chocolate syrup."],
+  rating="4.0 ★ (2 ratings)", flavor=["chocolate", "nutty"])
+
+# ---------------- Over Ice ----------------
+R("vanilla-iced-coffee", "Vanilla Iced Coffee", "over-ice", ACC("vanilla-iced-coffee/"),
+  "iced", True, "quick", 4, "1 drink", "12 oz glass",
+  ["Ice", "6 oz over-ice coffee", "¼ cup (2 oz) milk of your choice", "2 to 3 tsp vanilla syrup"],
+  S("Luxe", "OVER ICE", 6),
+  coffee_steps("OVER ICE", 6, "the glass", cup_prep="Fill a 12 oz glass with ice and add the vanilla syrup.") +
+  ["Add the milk, stir and taste. Add more syrup or milk if you like."],
+  note="Sonja uses ½ cup cold brew concentrate or strong coffee. OVER ICE brews it strong and hot straight onto the ice.",
+  sub=[VANILLA_SYRUP], rating="5.0 ★ (2 ratings)", flavor=["vanilla", "smooth"])
+
+R("brown-sugar-iced-coffee", "Brown Sugar Iced Coffee", "over-ice",
+  ("web", "Coffee at Three", "https://coffeeatthree.com/iced-brown-sugar-coffee/"),
+  "iced", True, "quick", 5, "1 drink", "12 oz glass",
+  ["1 tbsp brown sugar", "2 tbsp hot water", "1 cup ice", "⅓ cup milk (any kind)", "6 oz over-ice coffee"],
+  S("Luxe", "OVER ICE", 6, hotWater="HIGH, a splash"),
+  ["Put the brown sugar in a 12 oz glass, add 2 tbsp hot water from the hot water spout and stir until dissolved.",
+   "Add the ice and slowly pour in the milk."] +
+  coffee_steps("OVER ICE", 6, "the glass") +
+  ["Stir before drinking."],
+  note="Coffee at Three uses ⅓ cup of cold brew or double-strength coffee. The 6 oz OVER ICE size gives a slightly bigger, equally strong drink.",
+  rating="4.8 ★ (30 ratings)", flavor=["caramel", "smooth"])
+
+R("coffee-float", "Iced Coffee Float", "over-ice",
+  ("web", "Little Sugar Snaps (Elaine)", "https://www.littlesugarsnaps.com/wprm_print/coffee-float-iced-latte-with-ice-cream"),
+  "iced", True, "quick", 4, "1 drink", "Tall heatproof glass",
+  ["Ice", "Double shot of espresso (2 oz)", "Syrup of your choice (optional)", "Up to ½ cup (4 oz) milk", "1 scoop vanilla ice cream"],
+  S("Double", "COLD-PRESSED"),
+  espresso_steps("Double", "COLD-PRESSED", "the glass", cup_prep="Fill a tall heatproof glass with ice and add syrup if you like.") +
+  ["Pour in the milk, leaving room at the top.", "Float a scoop of vanilla ice cream on top and serve with a long spoon."],
+  note="Elaine brews hot espresso over the ice. COLD-PRESSED is smoother over ice and melts the ice cream less.",
+  flavor=["dessert", "creamy"])
+
+# ---------------- Cold Brew ----------------
+R("chocolate-cream-cold-brew", "Chocolate Cream Cold Brew", "cold-brew",
+  ("web", "CopyKat (Stephanie Manley)", "https://copykat.com/starbucks-chocolate-cream-cold-brew/"),
+  "iced", True, "fancy", 8, "1 drink", "16 oz glass",
+  ["Ice", "1 tbsp vanilla syrup", "8 oz cold brew", "Chocolate cream: 2 oz heavy cream, 1 oz 2% milk, 1 tbsp chocolate syrup, ½ tsp malt powder, 1 tsp sugar, tiny pinch of salt"],
+  S("Luxe", "COLD BREW", 8, froth="COLD FOAM", milkType="DAIRY"),
+  froth_steps("the heavy cream and milk", "COLD FOAM", extra="the chocolate syrup, malt powder, sugar and salt") +
+  ["Keep the chocolate foam in the jug while you brew."] +
+  coffee_steps("COLD BREW", 8, "the glass", cup_prep="Fill a 16 oz glass halfway with ice and add the vanilla syrup.") +
+  ["Pour the chocolate cream foam over the top."],
+  note="Stephanie blends a bigger batch of the foam (½ cup cream, ½ cup milk). This is half of it, sized for the frother.",
+  rating="5.0 ★ (4 ratings)", flavor=["chocolate", "creamy"])
+
+R("irish-cream-cold-brew", "Irish Cream Cold Brew", "cold-brew",
+  ("web", "Feast + West (Jenny Park)", "https://feastandwest.com/irish-cream-cold-brew/"),
+  "iced", True, "fancy", 10, "1 drink", "12 oz glass",
+  ["Ice", "10 oz cold brew", "½ oz (1 tbsp) Irish cream syrup", "Cold foam: ½ cup heavy cream, 1 tbsp Irish cream liqueur or syrup, 1 tbsp sugar"],
+  S("Luxe", "COLD BREW", 10, froth="COLD FOAM", milkType="DAIRY"),
+  froth_steps("½ cup cold heavy cream", "COLD FOAM", extra="the Irish cream liqueur (or syrup) and sugar") +
+  coffee_steps("COLD BREW", 10, "the glass", cup_prep="Fill a 12 oz glass with ice.") +
+  ["Stir in the Irish cream syrup to taste, leaving an inch at the top.", "Spoon the foam over the top."],
+  sub=[dict(name="Irish cream syrup (alcohol-free option)", ingredients=["½ cup sugar", "½ cup water", "¾ tsp unsweetened cocoa", "¾ tsp instant espresso powder", "1 tsp vanilla extract", "1 tsp Irish whiskey (optional)"],
+            steps=["Heat the sugar and water until dissolved, then turn off the heat.", "Whisk in the cocoa and espresso powder, then the vanilla and whiskey.", "Strain into a jar. Keeps a month in the fridge."])],
+  rating="5.0 ★ (53 ratings)", flavor=["creamy", "chocolate"])
+
+R("brown-sugar-cold-brew", "Brown Sugar Cold Brew with Brown Sugar Foam", "cold-brew",
+  ("web", "Food Network (Sunny Anderson)", "https://www.foodnetwork.com/recipes/sunny-anderson/sunnys-brown-sugar-cold-brew-coffee-with-brown-sugar-cold-foam-13326520"),
+  "iced", True, "quick", 8, "1 drink", "16 oz glass",
+  ["Ice", "1 tbsp brown sugar syrup", "10 oz cold brew", "¼ cup sweetened vanilla oat or almond milk, chilled", "1½ tsp dark brown sugar", "Cinnamon sugar, to dust"],
+  S("Luxe", "COLD BREW", 10, froth="COLD FOAM", milkType="PLANT-BASED"),
+  froth_steps("the chilled vanilla oat or almond milk (fill to the minimum line if needed)", "COLD FOAM", "PLANT-BASED", extra="the dark brown sugar") +
+  coffee_steps("COLD BREW", 10, "the glass", cup_prep="Fill a 16 oz glass with ice and add the brown sugar syrup.") +
+  ["Spoon the foam on top and dust with cinnamon sugar."],
+  note="Sunny steeps a pitcher of cold brew overnight. The Pro's COLD BREW style makes one glass in minutes.",
+  sub=[BROWN_SUGAR_SYRUP], flavor=["caramel", "warm spice"])
+
+# ---------------- Classic ----------------
+R("gingerbread-coffee", "Sweet & Spiced Gingerbread Coffee", "classic", SBX("sweet-spiced-gingerbread-coffee"),
+  "hot", True, "quick", 4, "1 mug", "12 oz mug",
+  ["½ tsp molasses", "2 tsp brown sugar, plus a sprinkle", "⅛ tsp ground cinnamon, plus a sprinkle", "8 oz brewed coffee", "4 oz whole milk"],
+  S("Luxe", "CLASSIC", 8, froth="THICK FROTH", milkType="DAIRY"),
+  ["Put the molasses, brown sugar and cinnamon in a 12 oz mug."] +
+  coffee_steps("CLASSIC", 8, "the mug") +
+  ["Stir until the molasses dissolves."] +
+  froth_steps("4 oz cold whole milk (fill to the minimum line if needed)", "THICK FROTH") +
+  ["Pour the frothed milk over the coffee and sprinkle with cinnamon and brown sugar."],
+  note="Starbucks uses gingerbread-flavored pods. Plain beans work fine: the molasses and spice carry the flavor.",
+  flavor=["warm spice", "sweet"])
+
+R("maple-brown-sugar-coffee", "Maple Vanilla Brown Sugar Coffee", "classic", SBX("maple-vanilla-brown-sugar"),
+  "hot", True, "quick", 4, "1 mug", "12 oz mug",
+  ["8 oz brewed coffee", "1½ tbsp half-and-half", "2 tsp brown sugar", "¼ tsp vanilla extract", "1 tsp maple syrup (for plain beans)", "Whipped cream and cinnamon (optional)"],
+  S("Luxe", "CLASSIC", 8),
+  coffee_steps("CLASSIC", 8, "a 12 oz mug") +
+  ["Stir in the half-and-half, brown sugar, vanilla and maple syrup.", "Top with whipped cream and a pinch of cinnamon if you like."],
+  note="Starbucks brews maple pecan flavored pods. With regular beans, the teaspoon of maple syrup brings the maple back.",
+  flavor=["maple", "sweet"])
+
+R("hot-buttered-coffee", "Hot Buttered Coffee", "classic", ("web", "Taste of Home", "https://www.tasteofhome.com/recipes/hot-buttered-coffee/"),
+  "hot", False, "quick", 3, "1 mug (mix for 20)", "10 oz mug",
+  ["1 tbsp spiced butter mix", "8 oz brewed coffee (dark roast)", "Cinnamon stick and whipped cream (optional)"],
+  S("Luxe", "RICH", 8),
+  ["Put 1 tbsp of the spiced butter mix in a 10 oz mug."] +
+  coffee_steps("RICH", 8, "the mug") +
+  ["Stir until the butter melts. Add a cinnamon stick and whipped cream if you like."],
+  note="Taste of Home calls for a dark roast, so we brew on RICH. Keep it in the Classic list since it's an everyday mug.",
+  sub=[dict(name="Spiced butter mix (makes 20)", ingredients=["1 cup packed brown sugar", "¼ cup butter, softened", "1 tsp vanilla extract", "½ tsp ground cinnamon", "¼ tsp ground nutmeg", "¼ tsp ground allspice", "⅛ tsp ground cloves"],
+            steps=["Mix everything until smooth.", "Keep in an airtight container in the fridge for up to 2 weeks."])],
+  flavor=["buttery", "warm spice"])
+
+R("spiced-coffee", "Spiced Coffee", "classic", ("web", "Taste of Home", "https://www.tasteofhome.com/recipes/spiced-coffee/"),
+  "hot", False, "quick", 5, "1 mug", "12 oz mug",
+  ["2 tsp sugar", "1½ tsp chocolate syrup", "1 small drop anise extract (about ⅛ tsp, or to taste)", "1 cinnamon stick", "2 whole cloves", "8 oz brewed coffee"],
+  S("Luxe", "CLASSIC", 8),
+  ["Put the sugar, chocolate syrup, anise, cinnamon stick and cloves in a 12 oz mug."] +
+  coffee_steps("CLASSIC", 8, "the mug") +
+  ["Stir and let it steep 3 to 4 minutes, then lift out the cloves. Keep the cinnamon stick in as a stirrer."],
+  note="Taste of Home slow-cooks 8 cups for 2 hours. This is one mug, steeped right in the cup.",
+  flavor=["warm spice", "chocolate"])
+
+# ---------------- Rich ----------------
+R("peppermint-mocha", "Peppermint Mocha", "rich", ("web", "Bigger Bolder Baking (Gemma Stafford)", "https://www.biggerbolderbaking.com/starbucks-peppermint-mocha/"),
+  "hot", True, "quick", 5, "1 mug", "14 oz mug",
+  ["1 oz (30 g) bittersweet chocolate, chopped", "8 oz rich coffee", "½ cup (4 oz) milk", "⅛ tsp peppermint extract", "Whipped cream and crushed candy canes"],
+  S("Luxe", "RICH", 8, froth="STEAMED MILK", milkType="DAIRY"),
+  ["Put the chopped chocolate in a 14 oz mug."] +
+  coffee_steps("RICH", 8, "the mug") +
+  ["Stir until the chocolate melts."] +
+  froth_steps("½ cup cold milk (fill to the minimum line if needed)", "STEAMED MILK") +
+  ["Stir the milk and peppermint extract into the mug. Top with whipped cream and crushed candy canes."],
+  note="Gemma simmers everything in a pan for 2 minutes. Hot RICH coffee melts the chocolate and STEAMED MILK heats the milk.",
+  rating="4.65 ★ (113 ratings)", flavor=["chocolate", "minty"])
+
+R("maple-cream-coffee", "Maple Cream Coffee", "rich", ("web", "Taste of Home", "https://www.tasteofhome.com/recipes/maple-cream-coffee/"),
+  "hot", True, "quick", 4, "1 mug", "10 oz mug",
+  ["6 tbsp half-and-half", "2 tbsp maple syrup", "5 oz rich coffee", "2 tbsp whipped cream"],
+  S("Luxe", "RICH", 6, froth="STEAMED MILK", milkType="DAIRY"),
+  froth_steps("the half-and-half (fill to the minimum line if needed)", "STEAMED MILK", extra="the maple syrup") +
+  ["Pour the warm maple cream into a 10 oz mug."] +
+  coffee_steps("RICH", 6, "the mug") +
+  ["Stir and top with whipped cream."],
+  note="Taste of Home warms the cream and syrup in a pan and makes 2 cups. This is one cup.",
+  flavor=["maple", "creamy"])
+
+# ======================================================================
 # duplicate check
 # ======================================================================
 def norm(s):
