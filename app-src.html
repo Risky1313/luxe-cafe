@@ -34,7 +34,7 @@ html{-webkit-text-size-adjust:100%;overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;
   padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 body.lock{overflow:hidden}
-html,body,a,button,input,label,select,textarea,summary,[data-act],.card{touch-action:manipulation}
+html,body,a,button,input,label,select,textarea,summary,[data-act],.card{touch-action:pan-x pan-y}
 button,input,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 a{color:inherit}
@@ -462,8 +462,11 @@ body.slock{overflow:hidden}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.5.0";
+const APP_V="1.5.1";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
+// The app never zooms: block pinch and double-tap zoom (iOS Safari ignores user-scalable=no on its own)
+["gesturestart","gesturechange","gestureend"].forEach(t=>document.addEventListener(t,e=>e.preventDefault(),{passive:false}));
+document.addEventListener("touchmove",e=>{if(e.touches.length>1||(e.scale&&e.scale!==1))e.preventDefault()},{passive:false});
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 RECIPES.forEach(r=>{r.optional=r.optional||[];r.ingAll=r.ingredients.concat(r.optional)});
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";

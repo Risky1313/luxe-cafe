@@ -25,7 +25,7 @@ const V=(src.match(/const APP_V="([^"]+)"/)||[])[1]||"0";
 const json=s=>JSON.stringify(s).replace(/</g,"\\u003c");
 const head=`<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>Luxe Café</title>
 <meta name="description" content="Our recipes for the Ninja Luxe Café Pro.">
 <meta name="apple-mobile-web-app-capable" content="yes">
