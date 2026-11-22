@@ -18,6 +18,7 @@ Our recipe site for the Ninja Luxe Café Pro (ES701): https://risky1313.github.i
 | `build.js` | `node build.js` builds `index.html` and `version.json`. Bump `APP_V` in `app-src.html` with every change so phones reload the new version. |
 | `recipes/build_recipes.py` | The recipe list. `python3 recipes/build_recipes.py` writes `recipes/recipes.json` and refuses duplicate ids, names or drinks. |
 | `recipes/looks.py`, `recipes/build_prompts.py` | What each drink looks like, turned into ChatGPT image prompts (`recipes/image-prompts.md`). |
+| `images/credits.json` | The real drink photos: each one is a free Unsplash photo (Unsplash License, free to use). Lists the photo and photographer; the recipe page shows a small credit in the photo's corner. |
 | `tools/add_photos.py` | `python3 tools/add_photos.py <folder>` turns `<recipe-id>.png` pictures into `images/<recipe-id>.webp`. Until a drink has a photo, the site draws a simple illustration. |
 
 ## Sharing a kitchen

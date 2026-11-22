@@ -7,6 +7,9 @@ const photos=fs.existsSync("images")?fs.readdirSync("images").filter(f=>f.endsWi
 const ids=new Set(data.recipes.map(r=>r.id));
 const stray=photos.filter(p=>!ids.has(p));
 if(stray.length)console.warn("Photos with no matching recipe id:",stray.join(", "));
+// Photographer credits (Unsplash License: free to use, credit appreciated): images/credits.json
+const cred=fs.existsSync("images/credits.json")?JSON.parse(fs.readFileSync("images/credits.json","utf8")):{};
+const credits={};for(const p of photos)if(cred[p])credits[p]=[cred[p].by,cred[p].page];
 // Firebase sign-in loads a helper frame from the project's auth domain.
 const cfg=fs.existsSync("firebase-config.js")?fs.readFileSync("firebase-config.js","utf8"):"";
 const authDomain=(cfg.match(/authDomain:\s*"([^"]+)"/)||[])[1];
@@ -36,7 +39,7 @@ const head=`<!doctype html>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Marcellus&display=swap">
 <script>window.APP_BUILD=${json(V)};try{var t=JSON.parse(localStorage.getItem("lc-theme"));if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
-<script>window.RECIPES=${json(data)};window.PHOTOS=${json(photos)};</script>
+<script>window.RECIPES=${json(data)};window.PHOTOS=${json(photos)};window.CREDITS=${json(credits)};</script>
 <script src="firebase-config.js"></script>
 <script src="${FB}firebase-app-compat.js"></script>
 <script src="${FB}firebase-auth-compat.js"></script>

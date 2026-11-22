@@ -212,6 +212,8 @@ h1,h2,h3{font-weight:400;text-wrap:balance;margin:0}
 .dhero .ph{border-radius:0 0 28px 28px;aspect-ratio:1;max-height:min(62vh,560px);width:100%;box-shadow:none}
 @media (min-width:760px){.dhero{padding-top:calc(16px + env(safe-area-inset-top,0px))}.dhero .ph{border-radius:28px}}
 .dhero .nj{top:auto;bottom:16px;left:16px;font-size:10.5px;padding:6px 9px 5px}
+.pcred{position:absolute;right:12px;bottom:10px;z-index:2;max-width:60%;font:500 9px/1.2 var(--body);letter-spacing:.02em;color:rgb(255 255 255/.6);text-decoration:none;text-shadow:0 1px 3px rgb(0 0 0/.6);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pcred:hover,.pcred:focus-visible{color:#fff}
 .fab{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));width:44px;height:44px;border-radius:50%;border:0;display:grid;place-items:center;
   background:color-mix(in srgb,var(--card) 80%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 2px 10px rgb(0 0 0/.15)}
 .fab svg{width:22px;height:22px}
@@ -445,8 +447,8 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.0.0";
-const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]);
+const APP_V="1.1.0";
+const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
 const $=id=>document.getElementById(id);
@@ -643,7 +645,7 @@ function openRecipe(id){
   const src=r.source.kind==="ninja"?`From <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.site)}</a>, Ninja's own recipe for the Luxe Café.`
     :`Adapted from <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.site)}</a>${r.rating?`, rated ${esc(r.rating)} there`:""}.`;
   const fixT=fixTypeOf(r);
-  pg.innerHTML=`<div class="dhero"><div class="ph">${photo(r,true)}${r.source.kind==="ninja"?'<span class="nj">Ninja original</span>':""}</div>
+  pg.innerHTML=`<div class="dhero"><div class="ph">${photo(r,true)}${r.source.kind==="ninja"?'<span class="nj">Ninja original</span>':""}${PHOTOS.has(r.id)&&CREDITS[r.id]?`<a class="pcred" href="${esc(CREDITS[r.id][1])}" target="_blank" rel="noopener">Photo: ${esc(CREDITS[r.id][0])} / Unsplash</a>`:""}</div>
       <button class="fab back" data-act="back" aria-label="Back">${IC.back}</button><button class="fab fav" id="favBtn" data-act="fav" aria-pressed="false" aria-label="Favorite">${IC.heart}</button></div>
     <div class="wrap narrow dbody">
       <div class="dtitle"><p class="eyebrow">${esc(catName(r.category))}</p><h1>${esc(r.name)}</h1>

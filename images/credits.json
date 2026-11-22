@@ -1,0 +1,464 @@
+{
+ "espresso-shot": {
+  "photo": "photo-1612509590595-785e974ed690",
+  "page": "https://unsplash.com/photos/white-ceramic-mug-on-blue-textile-fT8d7dtGCT0",
+  "by": "Victoria Shes",
+  "profile": "https://unsplash.com/@victoriakosmo"
+ },
+ "latte": {
+  "photo": "photo-1650097364104-eef0e54af0da",
+  "page": "https://unsplash.com/photos/a-cappuccino-with-a-leaf-design-on-it-7zow7-ZranQ",
+  "by": "Sepehr Moazed",
+  "profile": "https://unsplash.com/@sepmo"
+ },
+ "cappuccino": {
+  "photo": "photo-1622240506921-042a4e71c172",
+  "page": "https://unsplash.com/photos/white-ceramic-mug-with-brown-liquid-inside-vgNU1ujE8Mk",
+  "by": "Nuttawut Anek",
+  "profile": "https://unsplash.com/@nutanek"
+ },
+ "flat-white": {
+  "photo": "photo-1760306081298-93e10f2be897",
+  "page": "https://unsplash.com/photos/a-white-cup-of-latte-with-latte-art-yVwtB6uOBRI",
+  "by": "Haberdoedas",
+  "profile": "https://unsplash.com/@haberdoedas"
+ },
+ "macchiato": {
+  "photo": "photo-1579992357154-faf4bde95b3d",
+  "page": "https://unsplash.com/photos/white-ceramic-cup-with-brown-liquid-dAYJfrtVjh0",
+  "by": "Nathan Dumlao",
+  "profile": "https://unsplash.com/@nate_dumlao"
+ },
+ "cortado": {
+  "photo": "photo-1519532059956-a63a37af5deb",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-eSzClaMXNkk",
+  "by": "Ben Moreland",
+  "profile": "https://unsplash.com/@relentlessjpg"
+ },
+ "vanilla-cappuccino": {
+  "photo": "photo-1517256064527-09c73fc73e38",
+  "page": "https://unsplash.com/photos/white-ceramic-teacup-on-white-ceramic-saucer-filled-with-coffee-in-focus-photography-VCXk_bO97VQ",
+  "by": "allison griffith",
+  "profile": "https://unsplash.com/@allisongmedia"
+ },
+ "caramel-macchiato": {
+  "photo": "photo-1570517130750-10c67ffdde09",
+  "page": "https://unsplash.com/photos/full-filled-drinking-glass-beside-opened-book-xHS6cMvtTiU",
+  "by": "Sonalika Vakili",
+  "profile": "https://unsplash.com/@sonay"
+ },
+ "cinnamon-honey-latte": {
+  "photo": "photo-1724198218212-f9cc4121d4cb",
+  "page": "https://unsplash.com/photos/a-glass-of-white-wine-and-cinnamon-on-a-wooden-tray-90E2kbVxMvI",
+  "by": "Madeline Liu",
+  "profile": "https://unsplash.com/@madeline_sd"
+ },
+ "classic-mocha": {
+  "photo": "photo-1618576230663-9714aecfb99a",
+  "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-gXtvTOs4tzg",
+  "by": "Zoe",
+  "profile": "https://unsplash.com/@_imd"
+ },
+ "chai-latte-espresso": {
+  "photo": "photo-1555251415-4716d9d0b8af",
+  "page": "https://unsplash.com/photos/white-mug-filled-with-brown-coffee-eNfR6MUyjBI",
+  "by": "Mae Mu",
+  "profile": "https://unsplash.com/@picoftasty"
+ },
+ "affogato": {
+  "photo": "photo-1638543284847-3a6bed3e1689",
+  "page": "https://unsplash.com/photos/a-person-pouring-caramel-sauce-into-a-glass-kRS7qyKfVhY",
+  "by": "Ieva Kisunaite",
+  "profile": "https://unsplash.com/@kisunaite"
+ },
+ "spanish-latte": {
+  "photo": "photo-1726734010578-204bc02fa11b",
+  "page": "https://unsplash.com/photos/a-glass-of-coffee-sitting-on-top-of-a-wooden-table-6JI_HMxB0c4",
+  "by": "Erwan NONON",
+  "profile": "https://unsplash.com/@erwannonon"
+ },
+ "cafe-bombon": {
+  "photo": "photo-1678376675757-b7754404c0cd",
+  "page": "https://unsplash.com/photos/a-cup-of-coffee-sitting-on-top-of-a-white-saucer-vFsaIJqGnUI",
+  "by": "Ludovico Ceroseis",
+  "profile": "https://unsplash.com/@ludovico_06"
+ },
+ "pumpkin-spice-latte": {
+  "photo": "photo-1724198217375-f298dc745f55",
+  "page": "https://unsplash.com/photos/a-cup-of-cappuccino-and-cinnamon-sticks-on-a-table-YDlcL-_GxMw",
+  "by": "Madeline Liu",
+  "profile": "https://unsplash.com/@madeline_sd"
+ },
+ "einspanner": {
+  "photo": "photo-1482623167695-c6268f3eb9b3",
+  "page": "https://unsplash.com/photos/coffee-latte-on-ceramic-mug-qF2sV-V0i1Y",
+  "by": "Patrycja Polechonska",
+  "profile": "https://unsplash.com/@ppolecho"
+ },
+ "piccolo": {
+  "photo": "photo-1696448953697-f61e93bc920d",
+  "page": "https://unsplash.com/photos/a-cup-of-coffee-with-coffee-beans-on-a-table-WVsR46OdHXc",
+  "by": "Nico Ruzin",
+  "profile": "https://unsplash.com/@juvellin_media"
+ },
+ "melbourne-magic": {
+  "photo": "photo-1705672763732-538d9a515ec1",
+  "page": "https://unsplash.com/photos/a-cappuccino-with-a-leaf-on-top-of-it-lIeM9Hpw2HA",
+  "by": "Siamak",
+  "profile": "https://unsplash.com/@onlysiamak"
+ },
+ "ristretto-over-ice": {
+  "photo": "photo-1749104953130-819934417466",
+  "page": "https://unsplash.com/photos/iced-coffee-in-a-glass-on-a-wooden-table-RINd-WHrxRk",
+  "by": "Gaia&Co",
+  "profile": "https://unsplash.com/@gaiacoffee"
+ },
+ "thyme-dark-choco-macchiato": {
+  "photo": "photo-1553742198-6eea5ac42a24",
+  "page": "https://unsplash.com/photos/white-ceramic-teacup-filled-with-brown-coffee-niAkR1H24tE",
+  "by": "Gabi Miranda",
+  "profile": "https://unsplash.com/@gabimirandan"
+ },
+ "iced-lungo": {
+  "photo": "photo-1722578358332-33c761fb8f01",
+  "page": "https://unsplash.com/photos/a-glass-of-soda-sitting-on-top-of-a-wooden-table-oEF7nYkMOII",
+  "by": "nameless 3791",
+  "profile": "https://unsplash.com/@unidentifieduser"
+ },
+ "iced-lungo-macchiato": {
+  "photo": "photo-1728978096068-0f15dc964c4c",
+  "page": "https://unsplash.com/photos/a-glass-of-iced-coffee-on-a-wooden-table-UdmwtUFLHkA",
+  "by": "Laughing Zhu",
+  "profile": "https://unsplash.com/@laughing_zhu"
+ },
+ "blueberry-lungo": {
+  "photo": "photo-1589221998760-8b0273a4a167",
+  "page": "https://unsplash.com/photos/brown-liquid-in-white-ceramic-mug-fYQzG-5uD5M",
+  "by": "Juan Burgos",
+  "profile": "https://unsplash.com/@jphotomedia"
+ },
+ "cafe-viennois": {
+  "photo": "photo-1601390376450-e8bbc109d122",
+  "page": "https://unsplash.com/photos/white-cream-in-clear-glass-mug-CiY3nuAlj3Y",
+  "by": "Crystal Tubens",
+  "profile": "https://unsplash.com/@crystaltubens"
+ },
+ "americano": {
+  "photo": "photo-1582252852999-5ca546037481",
+  "page": "https://unsplash.com/photos/white-ceramic-mug-with-coffee-7mZODg-IX6Q",
+  "by": "Lingchor",
+  "profile": "https://unsplash.com/@lingchor"
+ },
+ "americano-con-crema": {
+  "photo": "photo-1784044085797-9a9feb775d0e",
+  "page": "https://unsplash.com/photos/hot-americano-coffee-on-a-rustic-wooden-table-M7x2OzWpy0g",
+  "by": "engin akyurt",
+  "profile": "https://unsplash.com/@enginakyurt"
+ },
+ "iced-americano": {
+  "photo": "photo-1517959105821-eaf2591984ca",
+  "page": "https://unsplash.com/photos/selective-focus-photo-of-glass-of-brown-liquid-X6aY_j6JD_Y",
+  "by": "Blake Wisz",
+  "profile": "https://unsplash.com/@blakewisz"
+ },
+ "sparkling-long-black": {
+  "photo": "photo-1629654613528-5d0a2e4166de",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-ice-and-black-liquid-i597Mg_WSPw",
+  "by": "Qasim Malick",
+  "profile": "https://unsplash.com/@qasimmalick"
+ },
+ "iced-hazelnut-latte": {
+  "photo": "photo-1761673930163-8d3d6d73cd7a",
+  "page": "https://unsplash.com/photos/iced-coffee-with-cinnamon-and-ice-cubes-LPDn9x-F6GM",
+  "by": "Hannah Reid",
+  "profile": "https://unsplash.com/@hannahcreid"
+ },
+ "brown-sugar-oat-shaken": {
+  "photo": "photo-1692299107317-5247cd821a40",
+  "page": "https://unsplash.com/photos/a-glass-of-milk-being-poured-into-it-llnjlZSysNQ",
+  "by": "Wojciech Pacześ",
+  "profile": "https://unsplash.com/@wojtekpaczes"
+ },
+ "iced-dirty-chai": {
+  "photo": "photo-1527156231393-7023794f363c",
+  "page": "https://unsplash.com/photos/highball-glass-filled-with-iced-coffee-_tSgUmeYMm8",
+  "by": "Eiliv Aceron",
+  "profile": "https://unsplash.com/@shootdelicious"
+ },
+ "espresso-martini": {
+  "photo": "photo-1607687633950-c745bdb4da70",
+  "page": "https://unsplash.com/photos/clear-wine-glass-with-black-liquid-sui13fYo_NM",
+  "by": "Kike Salazar N",
+  "profile": "https://unsplash.com/@kikesalazarn"
+ },
+ "iced-choc-strawberry-latte": {
+  "photo": "photo-1629174114500-6ec256a6213f",
+  "page": "https://unsplash.com/photos/strawberry-and-white-liquid-in-clear-drinking-glass-_ayGb95FK4o",
+  "by": "Trinh Le Nguyen Ai",
+  "profile": "https://unsplash.com/@sinoolee"
+ },
+ "iced-caramel-macchiato": {
+  "photo": "photo-1517701550927-30cf4ba1dba5",
+  "page": "https://unsplash.com/photos/clear-glass-filled-ice-coffee-vZOZJH_xkUk",
+  "by": "Nathan Dumlao",
+  "profile": "https://unsplash.com/@nate_dumlao"
+ },
+ "espresso-tonic": {
+  "photo": "photo-1753700281029-b3d15df20ec4",
+  "page": "https://unsplash.com/photos/iced-coffee-in-a-stylish-glass-1YHJLJKPxD0",
+  "by": "Marco Weitzenboeck",
+  "profile": "https://unsplash.com/@wildstueck"
+ },
+ "shakerato": {
+  "photo": "photo-1562878424-0da674456d33",
+  "page": "https://unsplash.com/photos/iced-cold-drinks-in-drinking-glass-0iYgMT7lH7E",
+  "by": "Matt Hoffman",
+  "profile": "https://unsplash.com/@__matthoffman__"
+ },
+ "cafe-au-lait": {
+  "photo": "photo-1760175445000-0e01e193d1cd",
+  "page": "https://unsplash.com/photos/a-cup-of-coffee-with-latte-art-on-a-saucer-5nYLHK68TLM",
+  "by": "nameless 3791",
+  "profile": "https://unsplash.com/@unidentifieduser"
+ },
+ "cafe-de-olla": {
+  "photo": "photo-1616995837523-c2b478fc81a5",
+  "page": "https://unsplash.com/photos/brown-ceramic-mug-on-brown-saucer-M0YMW-Dh-iQ",
+  "by": "Gaelle Marcel",
+  "profile": "https://unsplash.com/@gaellemarcel"
+ },
+ "salted-caramel-apple-coffee": {
+  "photo": "photo-1699240747374-f4342935b859",
+  "page": "https://unsplash.com/photos/an-apple-and-cinnamon-stick-sit-on-a-kitchen-counter-pe73BaHIEj4",
+  "by": "Natilyn Hicks Photography",
+  "profile": "https://unsplash.com/@natilyn"
+ },
+ "cardamom-coffee": {
+  "photo": "photo-1668236482744-b48b28650f12",
+  "page": "https://unsplash.com/photos/a-metal-coffee-maker-with-coffee-beans-Wu_s3trPEVM",
+  "by": "Paul",
+  "profile": "https://unsplash.com/@paul19977"
+ },
+ "irish-coffee-cold-foam": {
+  "photo": "photo-1641197491392-ac6a8b042ad6",
+  "page": "https://unsplash.com/photos/a-cappuccino-is-sitting-on-a-wooden-table-7dx1JLmYcTU",
+  "by": "Mathias Reding",
+  "profile": "https://unsplash.com/@matreding"
+ },
+ "mexican-spiced-coffee": {
+  "photo": "photo-1589396575653-c09c794ff6a6",
+  "page": "https://unsplash.com/photos/white-ice-cream-on-brown-cone-4Lqjr8gu_bg",
+  "by": "Tetiana Shyshkina",
+  "profile": "https://unsplash.com/@shyshkina"
+ },
+ "yuenyeung": {
+  "photo": "photo-1576064535151-4fe1b5dbca3e",
+  "page": "https://unsplash.com/photos/brown-liquid-in-white-ceramic-mug-cYreorHL39c",
+  "by": "Олег Мороз",
+  "profile": "https://unsplash.com/@tengyart"
+ },
+ "cafe-brulot": {
+  "photo": "photo-1673404252786-a96717c7065d",
+  "page": "https://unsplash.com/photos/a-person-stirring-a-drink-in-a-glass-cup-aHLwoxhT8EE",
+  "by": "Angelo Pantazis",
+  "profile": "https://unsplash.com/@angelopantazis"
+ },
+ "honey-coffee": {
+  "photo": "photo-1667553578203-ced877950699",
+  "page": "https://unsplash.com/photos/a-plate-of-cookies-and-a-cup-of-coffee-dYHI2b6H5pk",
+  "by": "Amandine BATAILLE",
+  "profile": "https://unsplash.com/@amandine_bataille_photo"
+ },
+ "iced-salted-caramel-cold-foam": {
+  "photo": "photo-1741321723835-7c4f3ef95b5a",
+  "page": "https://unsplash.com/photos/iced-coffee-with-foam-and-a-straw-1bb1iX_8FtA",
+  "by": "Kseniia Selkälä",
+  "profile": "https://unsplash.com/@suosikki_kuvat"
+ },
+ "iced-peppermint-cold-foam": {
+  "photo": "photo-1782595671414-c8856400acc9",
+  "page": "https://unsplash.com/photos/a-layered-iced-coffee-sits-on-a-wooden-counter-FF3K6rPHjLs",
+  "by": "YAN-YOU CHEN",
+  "profile": "https://unsplash.com/@jerrychen1997"
+ },
+ "vietnamese-iced-coffee": {
+  "photo": "photo-1504753793650-d4a2b783c15e",
+  "page": "https://unsplash.com/photos/selective-focus-photography-of-milk-pouring-on-shot-glass-HP4VFH70LMc",
+  "by": "Jorik Blom",
+  "profile": "https://unsplash.com/@jorik93"
+ },
+ "thai-iced-coffee": {
+  "photo": "photo-1461023058943-07fcbe16d735",
+  "page": "https://unsplash.com/photos/glass-cup-filled-with-ice-latte-on-tabletop-L-sm1B4L1Ns",
+  "by": "Demi DeHerrera",
+  "profile": "https://unsplash.com/@demidearest"
+ },
+ "japanese-iced-coffee": {
+  "photo": "photo-1747103217713-43b8a7a3e3ba",
+  "page": "https://unsplash.com/photos/a-glass-of-coffee-with-cream-and-sunlight-Uhdp6G8zzWw",
+  "by": "- Kenny",
+  "profile": "https://unsplash.com/@kennyzhang29"
+ },
+ "iced-cinnamon-honey-coffee": {
+  "photo": "photo-1731681963953-b959cb773c1a",
+  "page": "https://unsplash.com/photos/a-glass-filled-with-liquid-sitting-on-top-of-a-table-USdAfJdfPtk",
+  "by": "Monaz Hastam",
+  "profile": "https://unsplash.com/@monazme"
+ },
+ "almond-caramel-cold-brew": {
+  "photo": "photo-1584286595398-a59f21d313f5",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-ice-and-white-liquid-QxfXv6v22lA",
+  "by": "Mayur",
+  "profile": "https://unsplash.com/@mayurpixamind"
+ },
+ "cold-brew-cold-foam": {
+  "photo": "photo-1644764399224-f7d18b1e8d1c",
+  "page": "https://unsplash.com/photos/a-glass-filled-with-liquid-sitting-on-top-of-a-wooden-table-0arB1PrWn40",
+  "by": "Alexandra Tran",
+  "profile": "https://unsplash.com/@alexgoesglobal"
+ },
+ "vanilla-sweet-cream-cold-brew": {
+  "photo": "photo-1589985902809-39d25db22101",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-ice-cubes-Up5VtspHhaM",
+  "by": "Ieva Kisunaite",
+  "profile": "https://unsplash.com/@kisunaite"
+ },
+ "salted-caramel-cream-cold-brew": {
+  "photo": "photo-1729853259792-d0fcaf735ca8",
+  "page": "https://unsplash.com/photos/a-glass-of-iced-coffee-sitting-on-top-of-a-wooden-table-C9eAi6nfuAQ",
+  "by": "Alissa Schilling",
+  "profile": "https://unsplash.com/@alissaschh"
+ },
+ "pumpkin-cream-cold-brew": {
+  "photo": "photo-1634384708631-d9981fbfce08",
+  "page": "https://unsplash.com/photos/a-glass-of-liquid-sitting-on-top-of-a-table-BUOmmwRYBBM",
+  "by": "Natilyn Hicks Photography",
+  "profile": "https://unsplash.com/@natilyn"
+ },
+ "mocha-whipped-iced-coffee": {
+  "photo": "photo-1730190977823-f4b5975b7538",
+  "page": "https://unsplash.com/photos/a-cup-of-ice-cream-and-whipped-cream-9xcwG-kaIl0",
+  "by": "Anna Kumpan",
+  "profile": "https://unsplash.com/@ankumpan"
+ },
+ "matcha-latte": {
+  "photo": "photo-1766426910014-63a302fa137e",
+  "page": "https://unsplash.com/photos/a-cup-of-matcha-latte-with-latte-art-U4kneR_s7bU",
+  "by": "Liana S",
+  "profile": "https://unsplash.com/@cherstve_pechivo"
+ },
+ "london-fog": {
+  "photo": "photo-1643660090137-d6b46fb27fac",
+  "page": "https://unsplash.com/photos/a-close-up-of-a-cup-of-coffee-on-a-table-KfPVaCZL9GM",
+  "by": "Elissa Landry",
+  "profile": "https://unsplash.com/@swivelproject"
+ },
+ "hot-toddy": {
+  "photo": "photo-1657839403771-871ea25b56f3",
+  "page": "https://unsplash.com/photos/a-glass-of-beer-mP2NFL4rq-w",
+  "by": "ENG-HS",
+  "profile": "https://unsplash.com/@rtldtu05"
+ },
+ "cafe-cubano": {
+  "photo": "photo-1776886466178-294041749f06",
+  "page": "https://unsplash.com/photos/a-cup-of-espresso-on-a-marble-table-5lzyQ3OJpO8",
+  "by": "sorour mahboubifard",
+  "profile": "https://unsplash.com/@arhidem"
+ },
+ "almond-lemon-brulee": {
+  "photo": "photo-1794152248363-5f1515df9ac4",
+  "page": "https://unsplash.com/photos/espresso-cup-with-lemon-wedge-hGYmtmN9AsE",
+  "by": "J. Young Jeong",
+  "profile": "https://unsplash.com/@jayossana"
+ },
+ "stockholm-spice": {
+  "photo": "photo-1648192312898-838f9b322f47",
+  "page": "https://unsplash.com/photos/a-cup-of-coffee-sitting-on-top-of-a-table-hT_xR7_1YH8",
+  "by": "Kamal Preet Kaur",
+  "profile": "https://unsplash.com/@kamalpreetkaur"
+ },
+ "spiced-americano": {
+  "photo": "photo-1769279412284-eb8b20e8ec47",
+  "page": "https://unsplash.com/photos/a-mug-of-hot-chocolate-with-whipped-cream-and-cinnamon-HZZ6OQmYWbE",
+  "by": "Emy Abreu",
+  "profile": "https://unsplash.com/@sidebysidestudios"
+ },
+ "red-eye": {
+  "photo": "photo-1608085021987-0f44643e11ca",
+  "page": "https://unsplash.com/photos/black-ceramic-mug-on-brown-wooden-table-xu0TLRXkiOw",
+  "by": "Kelly Sikkema",
+  "profile": "https://unsplash.com/@kellysikkema"
+ },
+ "iced-coconut-coffee": {
+  "photo": "photo-1588413335672-87b35888b55d",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-ice-cream-V_ZxHUAxFmA",
+  "by": "Tijana Drndarski",
+  "profile": "https://unsplash.com/@izgubljenausvemiru"
+ },
+ "iced-honey-oat-coffee": {
+  "photo": "photo-1578612599092-3e97d268ab41",
+  "page": "https://unsplash.com/photos/clear-disposable-plastic-cup-DY8QdRIbpsg",
+  "by": "Rachel McDermott",
+  "profile": "https://unsplash.com/@mrsrachelmcdermott"
+ },
+ "cinnamon-mocha-coffee": {
+  "photo": "photo-1736788268480-aaf266596b31",
+  "page": "https://unsplash.com/photos/a-cup-of-chocolate-sitting-on-top-of-a-wooden-table-NqySwU-9IY0",
+  "by": "Cemrecan Yurtman",
+  "profile": "https://unsplash.com/@cmrcn_"
+ },
+ "bulletproof-coffee": {
+  "photo": "photo-1588685594471-f3af4ee29ad8",
+  "page": "https://unsplash.com/photos/chocolate-drink-on-white-ceramic-saucer-beside-chocolate-cookies-on-brown-wooden-table-EPdLJTs5yzU",
+  "by": "Nadya Filatova",
+  "profile": "https://unsplash.com/@dabyki"
+ },
+ "vietnamese-egg-coffee": {
+  "photo": "photo-1793092915555-626f039fc95e",
+  "page": "https://unsplash.com/photos/layered-coffee-with-foam-and-cocoa-1f9d2TCybeQ",
+  "by": "Meri Schuurmans",
+  "profile": "https://unsplash.com/@merischuurmans"
+ },
+ "caramel-mocha": {
+  "photo": "photo-1716973172733-2a8574d7a606",
+  "page": "https://unsplash.com/photos/a-cup-of-coffee-with-whipped-cream-on-top-2ZCu4wC-mW8",
+  "by": "Aditya Saxena",
+  "profile": "https://unsplash.com/@adityaries"
+ },
+ "mazagran": {
+  "photo": "photo-1596323855852-6c6201ab1e9a",
+  "page": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-and-sliced-lemon-BbUdJTJ_8Hg",
+  "by": "Zachary Keimig",
+  "profile": "https://unsplash.com/@zacharykeimig"
+ },
+ "iced-hazelnut-coffee": {
+  "photo": "photo-1517701604599-bb29b565090c",
+  "page": "https://unsplash.com/photos/clear-cup-with-white-and-brown-contents-llib1mkWXlE",
+  "by": "Nathan Dumlao",
+  "profile": "https://unsplash.com/@nate_dumlao"
+ },
+ "cold-brew-salted-honey-foam": {
+  "photo": "photo-1710811891354-163b00ebcc74",
+  "page": "https://unsplash.com/photos/a-couple-of-drinks-sitting-on-top-of-a-table-aPeyLdY2Pvo",
+  "by": "Youwoon Park",
+  "profile": "https://unsplash.com/@qqquack_"
+ },
+ "cold-brew-coconut-milkshake": {
+  "photo": "photo-1553787499-6f9133860278",
+  "page": "https://unsplash.com/photos/full-filled-cream-glass-on-table-7TeR1A1MUpM",
+  "by": "Jonathan Borba",
+  "profile": "https://unsplash.com/@jonathanborba"
+ },
+ "medicine-ball": {
+  "photo": "photo-1604450655696-bdb0b1993bf7",
+  "page": "https://unsplash.com/photos/white-ceramic-mug-with-yellow-liquid-v2CBwceqAGo",
+  "by": "pure julia",
+  "profile": "https://unsplash.com/@purejulia"
+ },
+ "creamy-hot-cocoa": {
+  "photo": "photo-1542990253-0d0f5be5f0ed",
+  "page": "https://unsplash.com/photos/chocolate-coffee-pouring-in-white-mug-MjZq7A2RJxQ",
+  "by": "Maddi Bazzocco",
+  "profile": "https://unsplash.com/@maddibazzocco"
+ }
+}
