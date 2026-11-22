@@ -344,10 +344,16 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 
 /* ---------- sheet + toast ---------- */
 .scrim{position:fixed;inset:0;z-index:89;background:var(--scrim);animation:fade .2s ease}
+body.slock{overflow:hidden}
+.scrim{touch-action:none}
+.sheet{--dy:0px;transform:translateY(var(--dy));transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+.sheet.drag{transition:none}
+.sheet .grab{position:relative}
+.sheet .grab::before{content:"";position:absolute;inset:-14px -60px}
 @keyframes fade{from{opacity:0}}
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:90;max-height:90vh;overflow-y:auto;overscroll-behavior:contain;background:var(--bg);border-radius:26px 26px 0 0;
   padding:8px var(--gutR) calc(24px + env(safe-area-inset-bottom,0px)) var(--gut);box-shadow:0 -10px 40px rgb(0 0 0/.25);animation:up .32s cubic-bezier(.2,.8,.2,1)}
-@media (min-width:700px){.sheet{left:50%;right:auto;width:560px;transform:translateX(-50%);animation:none}}
+@media (min-width:700px){.sheet{left:50%;right:auto;width:560px;transform:translate(-50%,var(--dy));animation:none}}
 @keyframes up{from{transform:translateY(40px);opacity:0}}
 .sheet .grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:4px auto 14px}
 .sheet h2{font:400 28px/1.15 var(--display);margin-bottom:12px}
@@ -447,7 +453,7 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.2.0";
+const APP_V="1.2.1";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
@@ -745,8 +751,21 @@ function chime(){try{navigator.vibrate&&navigator.vibrate([120,80,120])}catch(e)
     g.gain.setValueAtTime(0,actx.currentTime+d);g.gain.linearRampToValueAtTime(.18,actx.currentTime+d+.02);g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+d+.6);o.connect(g).connect(actx.destination);o.start(actx.currentTime+d);o.stop(actx.currentTime+d+.65)})}catch(e){}}
 
 // ---------- sheets ----------
-function openSheet(html,onOpen){closeSheet();$("sheetHost").innerHTML=`<div class="scrim" data-act="closeSheet"></div><div class="sheet" role="dialog" aria-modal="true"><div class="grab"></div>${html}</div>`;onOpen&&onOpen($("sheetHost").querySelector(".sheet"))}
-function closeSheet(){$("sheetHost").innerHTML=""}
+function openSheet(html,onOpen){closeSheet();$("sheetHost").innerHTML=`<div class="scrim" data-act="closeSheet"></div><div class="sheet" role="dialog" aria-modal="true"><div class="grab"></div>${html}</div>`;
+  const sh=$("sheetHost").querySelector(".sheet");document.body.classList.add("slock");sheetDrag(sh);onOpen&&onOpen(sh)}
+function closeSheet(){$("sheetHost").innerHTML="";document.body.classList.remove("slock")}
+// swipe the sheet down to close it; never let the touch scroll the page behind
+function sheetDrag(sh){let y0=null,t0=0,dy=0,drag=false;
+  $("sheetHost").querySelector(".scrim").addEventListener("touchmove",e=>e.preventDefault(),{passive:false});
+  sh.addEventListener("touchstart",e=>{if(e.touches.length!==1)return;y0=e.touches[0].clientY;t0=Date.now();dy=0;drag=false},{passive:true});
+  sh.addEventListener("touchmove",e=>{if(y0==null)return;const d=e.touches[0].clientY-y0,canScroll=sh.scrollHeight>sh.clientHeight+1;
+    if(!drag&&d>0&&sh.scrollTop<=0&&!e.target.closest("input[type=range]"))drag=true;
+    if(drag){e.preventDefault();dy=Math.max(0,d);sh.classList.add("drag");sh.style.setProperty("--dy",dy+"px");return}
+    if(!canScroll||(d>0&&sh.scrollTop<=0)||(d<0&&sh.scrollTop+sh.clientHeight>=sh.scrollHeight-1))e.preventDefault()},{passive:false});
+  sh.addEventListener("touchend",()=>{if(!drag){y0=null;return}sh.classList.remove("drag");const fast=dy>40&&dy/(Date.now()-t0)>.5;
+    if(dy>Math.min(140,sh.offsetHeight*.3)||fast){sh.style.setProperty("--dy",sh.offsetHeight+"px");const sc=$("sheetHost").querySelector(".scrim");if(sc){sc.style.transition="opacity .25s";sc.style.opacity=0}setTimeout(closeSheet,240)}
+    else sh.style.setProperty("--dy","0px");y0=null;drag=false});
+  sh.addEventListener("touchcancel",()=>{sh.classList.remove("drag");sh.style.setProperty("--dy","0px");y0=null;drag=false})}
 function openFixSheet(rid,issue){const r=byId[rid],type=fixTypeOf(r);if(!type)return;
   const draw=(iss)=>openSheet(`<p class="eyebrow">Taste fixer</p><h2>${esc(r.name)}</h2>${fixHTML(type,iss,rid)}`,sh=>{sh.addEventListener("click",e=>{const b=e.target.closest("[data-fixissue]");if(b){e.stopPropagation();draw(b.dataset.fixissue)}})});
   draw(issue||"sour")}
