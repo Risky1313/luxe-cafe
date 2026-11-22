@@ -447,7 +447,7 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.1.0";
+const APP_V="1.1.1";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
@@ -667,7 +667,7 @@ function openRecipe(id){
   pg.hidden=false;document.body.classList.add("lock");renderRecipeLive();
 }
 function renderRecipeLive(){
-  const id=UI.recipe;if(!id||$("page").hidden)return;const r=byId[id],m=mark(id);
+  const id=UI.recipe;if(!id||$("page").hidden)return;const r=byId[id],m=mark(id);syncIngButtons();
   const fb=$("favBtn"),on=isFav(id);fb.setAttribute("aria-pressed",on);fb.innerHTML=on?IC.heartF:IC.heart;fb.setAttribute("aria-label",on?"Remove from favorites":"Add to favorites");
   const fu=favUids(id).map(memberOf);$("favLine").innerHTML=fu.length?`<span class="avs">${fu.map(x=>avatar(x,"sm")).join("")}</span>Favorited by ${fu.map(x=>x.uid===S.me.uid?"you":esc(first(x.name))).join(" and ")}`:"";
   const ppl=$("people"),ta=document.getElementById("myNote"),typing=ta&&document.activeElement===ta;
@@ -802,8 +802,8 @@ document.addEventListener("click",e=>{
   else if(a==="fav"&&r){const on=!isFav(r.id);BE.setFav(r.id,on);toast(on?"Added to favorites":"Removed from favorites")}
   else if(a==="rate"){const id=UI.brew?UI.brew.id:UI.recipe;const n=+t.dataset.n,cur=(mark(id).rating||{})[S.me.uid]||0;BE.setRating(id,n===cur?0:n);
     if(UI.brew)t.parentElement.querySelectorAll("button").forEach(b=>b.classList.toggle("on",n!==cur&&+b.dataset.n<=n))}
-  else if(a==="addIng"&&r){addItems([{text:r.ingredients[+t.dataset.i],rid:r.id}]);t.classList.add("added");t.innerHTML=IC.check}
-  else if(a==="addAll"&&r){addItems(r.ingredients.map(x=>({text:x,rid:r.id})));document.querySelectorAll(".ing .plus").forEach(p=>{p.classList.add("added");p.innerHTML=IC.check})}
+  else if(a==="addIng"&&r){const txt=r.ingredients[+t.dataset.i];if(onList(txt)){removeItems([txt]);toast("Removed from the shopping list")}else addItems([{text:txt,rid:r.id}])}
+  else if(a==="addAll"&&r){if(r.ingredients.every(onList)){removeItems(r.ingredients);toast("Removed from the shopping list")}else addItems(r.ingredients.map(x=>({text:x,rid:r.id})))}
   else if(a==="brew"&&r){UI.brewPushed=true;go("#brew-"+r.id)}
   else if(a==="bnext")brewStep(1);
   else if(a==="bprev")brewStep(-1);
@@ -830,6 +830,13 @@ $("shopForm").addEventListener("submit",e=>{e.preventDefault();const v=$("shopIn
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){if($("sheetHost").innerHTML)closeSheet();else if(UI.brew)document.querySelector('[data-act="bclose"]').click();else if(UI.recipe)backFromRecipe()}
   if(UI.brew&&!$("sheetHost").innerHTML&&(e.key==="ArrowRight"||e.key==="ArrowLeft")&&!e.target.closest("input,textarea")){brewStep(e.key==="ArrowRight"?1:-1)}});
 addEventListener("scroll",()=>$("top").classList.toggle("scrolled",scrollY>4),{passive:true});
+const onList=txt=>S.shopping.some(i=>!i.done&&norm(i.text)===norm(txt));
+function removeItems(texts){const k=new Set(texts.map(norm));S.shopping.filter(i=>!i.done&&k.has(norm(i.text))).forEach(i=>BE.removeItem(i.id))}
+// Ingredient buttons on the recipe page show what's already on the list; tapping again takes it off.
+function syncIngButtons(){const id=UI.recipe;if(!id||$("page").hidden)return;const r=byId[id];if(!r)return;
+  document.querySelectorAll(".ing .plus").forEach(b=>{const t=r.ingredients[+b.dataset.i],on=onList(t);b.classList.toggle("added",on);b.innerHTML=on?IC.check:IC.plus;
+    b.setAttribute("aria-pressed",on);b.setAttribute("aria-label",(on?"Remove ":"Add ")+t+(on?" from":" to")+" shopping list")});
+  const all=document.querySelector('[data-act="addAll"]');if(all)all.textContent=r.ingredients.every(onList)?"Remove all from list":"Add all to list"}
 function addItems(list){const have=new Set(S.shopping.filter(i=>!i.done).map(i=>norm(i.text)));const add=list.filter(x=>!have.has(norm(x.text)));
   if(!add.length){toast("Already on the shopping list");return}BE.addItems(add);toast(add.length===1?"Added to the shopping list":`Added ${add.length} items to the shopping list`)}
 
