@@ -351,13 +351,13 @@ body.slock{overflow:hidden}
 .sheet .grab{position:relative}
 .sheet .grab::before{content:"";position:absolute;inset:-14px -60px}
 @keyframes fade{from{opacity:0}}
-.sheet{position:fixed;left:0;right:0;bottom:0;z-index:90;max-height:90vh;overflow-y:auto;overscroll-behavior:contain;background:var(--bg);border-radius:26px 26px 0 0;
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:90;max-height:90vh;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;background:var(--bg);border-radius:26px 26px 0 0;
   padding:8px var(--gutR) calc(24px + env(safe-area-inset-bottom,0px)) var(--gut);box-shadow:0 -10px 40px rgb(0 0 0/.25);animation:up .32s cubic-bezier(.2,.8,.2,1)}
 @media (min-width:700px){.sheet{left:50%;right:auto;width:560px;transform:translate(-50%,var(--dy));animation:none}}
 @keyframes up{from{transform:translateY(40px);opacity:0}}
 .sheet .grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:4px auto 14px}
 .sheet h2{font:400 28px/1.15 var(--display);margin-bottom:12px}
-.sheet .grp{display:grid;gap:10px;padding:16px 0;border-top:1px solid var(--line)}
+.sheet .grp{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;padding:16px 0;border-top:1px solid var(--line)}
 .sheet .grp:first-of-type{border-top:0}
 .sheet .lab{font:600 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
 .sheet input[type=text]{height:46px;border-radius:14px;border:1px solid var(--line);background:var(--card);padding:0 14px;font-size:16px;width:100%}
@@ -453,7 +453,7 @@ body.slock{overflow:hidden}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.2.1";
+const APP_V="1.2.2";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
