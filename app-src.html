@@ -225,6 +225,7 @@ h1,h2,h3{font-weight:400;text-wrap:balance;margin:0}
 .dbody{padding-top:20px;padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));display:grid;gap:26px}
 .dtitle{display:grid;gap:8px}
 .dtitle h1{font:400 clamp(32px,8vw,46px)/1.06 var(--display)}
+.blurb{margin:-2px 0 12px;max-width:34em;font-size:15.5px;line-height:1.45;color:var(--ink2);text-wrap:pretty}
 .facts{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--ink2);font-size:14.5px}
 .facts span{display:inline-flex;align-items:center;gap:6px}
 .facts svg{width:16px;height:16px;color:var(--gold)}
@@ -453,7 +454,7 @@ body.slock{overflow:hidden}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.2.2";
+const APP_V="1.3.0";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
@@ -654,7 +655,7 @@ function openRecipe(id){
   pg.innerHTML=`<div class="dhero"><div class="ph">${photo(r,true)}${r.source.kind==="ninja"?'<span class="nj">Ninja original</span>':""}${PHOTOS.has(r.id)&&CREDITS[r.id]?`<a class="pcred" href="${esc(CREDITS[r.id][1])}" target="_blank" rel="noopener">Photo: ${esc(CREDITS[r.id][0])} / Unsplash</a>`:""}</div>
       <button class="fab back" data-act="back" aria-label="Back">${IC.back}</button><button class="fab fav" id="favBtn" data-act="fav" aria-pressed="false" aria-label="Favorite">${IC.heart}</button></div>
     <div class="wrap narrow dbody">
-      <div class="dtitle"><p class="eyebrow">${esc(catName(r.category))}</p><h1>${esc(r.name)}</h1>
+      <div class="dtitle"><p class="eyebrow">${esc(catName(r.category))}</p><h1>${esc(r.name)}</h1>${r.blurb?`<p class="blurb">${esc(r.blurb)}</p>`:""}
         <div class="facts"><span>${IC.clock}${r.minutes} min</span><span>${r.serve==="iced"?IC.snow+"Iced":IC.flame+"Hot"}</span><span>${/glass/i.test(r.glass)?IC.glass:IC.cup}${esc(r.glass)}</span><span>Makes ${esc(r.makes)}</span></div>
         ${(r.flavor||[]).length?`<div class="tags">${r.flavor.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}${r.alcohol?'<span class="tag">contains alcohol</span>':""}</div>`:""}
         <div class="favline" id="favLine"></div></div>

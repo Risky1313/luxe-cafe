@@ -1286,6 +1286,14 @@ R("maple-cream-coffee", "Maple Cream Coffee", "rich", ("web", "Taste of Home", "
   flavor=["maple", "creamy"])
 
 # ======================================================================
+# short descriptions (recipes/blurbs.py)
+from blurbs import BLURBS
+_ids = {r["id"] for r in RECIPES}
+assert not (_ids - set(BLURBS)), ("missing blurb", sorted(_ids - set(BLURBS)))
+assert not (set(BLURBS) - _ids), ("blurb for unknown id", sorted(set(BLURBS) - _ids))
+for r in RECIPES:
+    r["blurb"] = BLURBS[r["id"]]
+
 # duplicate check
 # ======================================================================
 def norm(s):

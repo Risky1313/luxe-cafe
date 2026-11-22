@@ -92,7 +92,8 @@
    "subRecipes": [],
    "flavor": [
     "bold"
-   ]
+   ],
+   "blurb": "A short, strong shot of coffee with a layer of golden crema on top. The base of almost every café drink."
   },
   {
    "id": "latte",
@@ -140,7 +141,8 @@
    "flavor": [
     "creamy",
     "mellow"
-   ]
+   ],
+   "blurb": "Espresso topped with plenty of steamed milk and a thin layer of foam. Smooth, mild and creamy."
   },
   {
    "id": "cappuccino",
@@ -187,7 +189,8 @@
    "flavor": [
     "creamy",
     "airy"
-   ]
+   ],
+   "blurb": "Espresso with equal parts steamed milk and thick, airy foam, finished with a dusting of cocoa."
   },
   {
    "id": "flat-white",
@@ -233,7 +236,8 @@
    "flavor": [
     "velvety",
     "bold"
-   ]
+   ],
+   "blurb": "An Australian favorite: a double espresso with a little velvety steamed milk, so the coffee stays bold."
   },
   {
    "id": "macchiato",
@@ -278,7 +282,8 @@
    "subRecipes": [],
    "flavor": [
     "bold"
-   ]
+   ],
+   "blurb": "A shot of espresso \"marked\" with a spoonful of milk foam. Small and strong."
   },
   {
    "id": "cortado",
@@ -325,7 +330,8 @@
    "subRecipes": [],
    "flavor": [
     "balanced"
-   ]
+   ],
+   "blurb": "Espresso cut with an equal splash of warm steamed milk to soften the edges. Small and balanced."
   },
   {
    "id": "vanilla-cappuccino",
@@ -373,7 +379,8 @@
    "flavor": [
     "sweet",
     "vanilla"
-   ]
+   ],
+   "blurb": "A classic cappuccino sweetened with vanilla syrup under a thick cap of foam."
   },
   {
    "id": "caramel-macchiato",
@@ -423,7 +430,8 @@
    "flavor": [
     "sweet",
     "caramel"
-   ]
+   ],
+   "blurb": "Vanilla-sweet steamed milk with espresso poured on top and a crisscross of caramel drizzle."
   },
   {
    "id": "cinnamon-honey-latte",
@@ -473,7 +481,8 @@
    "flavor": [
     "warm spice",
     "honey"
-   ]
+   ],
+   "blurb": "A latte sweetened with honey and warmed up with cinnamon, dusted with more cinnamon on top."
   },
   {
    "id": "classic-mocha",
@@ -519,7 +528,8 @@
    "subRecipes": [],
    "flavor": [
     "chocolate"
-   ]
+   ],
+   "blurb": "Espresso and chocolate, topped with milk frothed with hot chocolate mix. Like a coffee and a hot cocoa in one."
   },
   {
    "id": "chai-latte-espresso",
@@ -565,7 +575,8 @@
    "subRecipes": [],
    "flavor": [
     "warm spice"
-   ]
+   ],
+   "blurb": "A spiced chai latte with a shot of espresso added. Also called a dirty chai."
   },
   {
    "id": "affogato",
@@ -608,7 +619,8 @@
    "flavor": [
     "dessert",
     "sweet"
-   ]
+   ],
+   "blurb": "An Italian dessert: a scoop of vanilla ice cream \"drowned\" in a hot shot of espresso."
   },
   {
    "id": "spanish-latte",
@@ -661,7 +673,8 @@
    "flavor": [
     "sweet",
     "creamy"
-   ]
+   ],
+   "blurb": "Espresso sweetened with condensed milk and topped with steamed milk. Rich, creamy and caramel-sweet."
   },
   {
    "id": "cafe-bombon",
@@ -712,7 +725,8 @@
    "flavor": [
     "sweet",
     "layered"
-   ]
+   ],
+   "blurb": "A Spanish layered drink: sweetened condensed milk at the bottom, espresso on top and a little milk."
   },
   {
    "id": "pumpkin-spice-latte",
@@ -782,7 +796,8 @@
    "flavor": [
     "warm spice",
     "seasonal"
-   ]
+   ],
+   "blurb": "The fall classic: espresso and steamed milk with homemade pumpkin spice syrup, whipped cream and spice."
   },
   {
    "id": "einspanner",
@@ -835,7 +850,8 @@
    "flavor": [
     "rich",
     "creamy"
-   ]
+   ],
+   "blurb": "A Viennese coffee: strong espresso under a thick cap of cold whipped cream, sipped through the cream."
   },
   {
    "id": "piccolo",
@@ -883,7 +899,8 @@
    "flavor": [
     "sweet",
     "velvety"
-   ]
+   ],
+   "blurb": "A tiny latte: a ristretto shot topped with a little silky steamed milk in a small glass."
   },
   {
    "id": "melbourne-magic",
@@ -933,7 +950,8 @@
    "flavor": [
     "bold",
     "velvety"
-   ]
+   ],
+   "blurb": "A Melbourne café drink: a double ristretto with a small pour of silky milk. Sweet, strong and smooth."
   },
   {
    "id": "ristretto-over-ice",
@@ -979,7 +997,8 @@
    "flavor": [
     "bright",
     "refreshing"
-   ]
+   ],
+   "blurb": "A short, sweet ristretto poured over ice and a little cold water, with optional fresh ginger."
   },
   {
    "id": "thyme-dark-choco-macchiato",
@@ -1028,7 +1047,8 @@
    "flavor": [
     "herbal",
     "chocolate"
-   ]
+   ],
+   "blurb": "A ristretto macchiato with frothed milk, fresh thyme and grated dark chocolate. Herbal and chocolatey."
   },
   {
    "id": "iced-lungo",
@@ -1073,7 +1093,8 @@
    "flavor": [
     "refreshing",
     "smooth"
-   ]
+   ],
+   "blurb": "A long espresso shot poured straight over ice, lightly sweetened if you like."
   },
   {
    "id": "iced-lungo-macchiato",
@@ -1125,7 +1146,8 @@
    "flavor": [
     "smooth",
     "creamy"
-   ]
+   ],
+   "blurb": "A lungo over crushed ice with brown sugar, topped with milk foam and a little chocolate powder."
   },
   {
    "id": "blueberry-lungo",
@@ -1167,7 +1189,8 @@
    "subRecipes": [],
    "flavor": [
     "fruity"
-   ]
+   ],
+   "blurb": "A long espresso shot stirred into a spoonful of blueberry jam. Fruity, bright and a little sweet."
   },
   {
    "id": "cafe-viennois",
@@ -1215,7 +1238,8 @@
    "flavor": [
     "airy",
     "chocolate"
-   ]
+   ],
+   "blurb": "A lungo topped with cold frothed milk and finished with grated dark chocolate."
   },
   {
    "id": "americano",
@@ -1259,7 +1283,8 @@
    "flavor": [
     "clean",
     "bold"
-   ]
+   ],
+   "blurb": "Espresso topped up with hot water, so it's as long as a cup of coffee but with espresso flavor."
   },
   {
    "id": "americano-con-crema",
@@ -1325,7 +1350,8 @@
    "flavor": [
     "citrus",
     "creamy"
-   ]
+   ],
+   "blurb": "An americano with homemade orange syrup and a splash of milk. Citrusy and smooth."
   },
   {
    "id": "iced-americano",
@@ -1371,7 +1397,8 @@
    "flavor": [
     "clean",
     "refreshing"
-   ]
+   ],
+   "blurb": "Espresso over ice with a splash of cold water. Clean, crisp and refreshing."
   },
   {
    "id": "sparkling-long-black",
@@ -1416,7 +1443,8 @@
    "flavor": [
     "sparkling",
     "refreshing"
-   ]
+   ],
+   "blurb": "Espresso poured over ice and sparkling water, with an optional touch of coconut syrup. Light and fizzy."
   },
   {
    "id": "iced-hazelnut-latte",
@@ -1461,7 +1489,8 @@
    "flavor": [
     "nutty",
     "sweet"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso, hazelnut syrup and cold milk over ice. Nutty and smooth."
   },
   {
    "id": "brown-sugar-oat-shaken",
@@ -1507,7 +1536,8 @@
    "flavor": [
     "caramel",
     "creamy"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso shaken with brown sugar and ice, then topped with oat milk."
   },
   {
    "id": "iced-dirty-chai",
@@ -1551,7 +1581,8 @@
    "subRecipes": [],
    "flavor": [
     "warm spice"
-   ]
+   ],
+   "blurb": "Iced chai latte with a shot of cold-pressed espresso. Spiced, creamy and strong."
   },
   {
    "id": "espresso-martini",
@@ -1602,7 +1633,8 @@
    "flavor": [
     "boozy",
     "bold"
-   ]
+   ],
+   "blurb": "A cocktail of cold-pressed espresso, vodka and coffee liqueur, shaken until frothy. Contains alcohol."
   },
   {
    "id": "iced-choc-strawberry-latte",
@@ -1665,7 +1697,8 @@
    "flavor": [
     "fruity",
     "chocolate"
-   ]
+   ],
+   "blurb": "Iced latte layered with strawberry and chocolate syrups, cream and milk. Like chocolate-covered strawberries."
   },
   {
    "id": "iced-caramel-macchiato",
@@ -1739,7 +1772,8 @@
     "caramel",
     "vanilla",
     "layered"
-   ]
+   ],
+   "blurb": "Vanilla milk over ice with cold-pressed espresso poured on top and a caramel drizzle."
   },
   {
    "id": "espresso-tonic",
@@ -1787,7 +1821,8 @@
    "flavor": [
     "sparkling",
     "citrus"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso floated on tonic water and ice with a citrus wedge. Bitter, bubbly and refreshing."
   },
   {
    "id": "shakerato",
@@ -1846,7 +1881,8 @@
    "flavor": [
     "foamy",
     "sweet"
-   ]
+   ],
+   "blurb": "Italian iced coffee: a quad shot shaken hard with ice and syrup until foamy, with sweet cream."
   },
   {
    "id": "cafe-au-lait",
@@ -1893,7 +1929,8 @@
    "flavor": [
     "mellow",
     "creamy"
-   ]
+   ],
+   "blurb": "The French breakfast coffee: brewed coffee with an equal pour of hot steamed milk."
   },
   {
    "id": "cafe-de-olla",
@@ -1939,7 +1976,8 @@
    "flavor": [
     "warm spice",
     "molasses"
-   ]
+   ],
+   "blurb": "Mexican pot coffee: dark coffee sweetened with piloncillo (raw cane sugar) and warmed with cinnamon."
   },
   {
    "id": "salted-caramel-apple-coffee",
@@ -2010,7 +2048,8 @@
     "caramel",
     "apple",
     "seasonal"
-   ]
+   ],
+   "blurb": "Coffee and milk with a homemade salted caramel apple syrup, topped with whipped cream and caramel."
   },
   {
    "id": "cardamom-coffee",
@@ -2061,7 +2100,8 @@
    "flavor": [
     "floral",
     "warm spice"
-   ]
+   ],
+   "blurb": "South Indian-style milky coffee scented with crushed cardamom and sweetened to taste."
   },
   {
    "id": "irish-coffee-cold-foam",
@@ -2113,7 +2153,8 @@
    "flavor": [
     "boozy",
     "creamy"
-   ]
+   ],
+   "blurb": "Hot coffee with brown sugar and Irish whiskey under a cap of cold cream foam. Contains alcohol."
   },
   {
    "id": "mexican-spiced-coffee",
@@ -2168,7 +2209,8 @@
    "flavor": [
     "spicy",
     "chocolate"
-   ]
+   ],
+   "blurb": "Coffee spiced with cinnamon, chili and cayenne, topped with a chocolate cold foam. Warm with a little heat."
   },
   {
    "id": "yuenyeung",
@@ -2217,7 +2259,8 @@
    "flavor": [
     "tea",
     "creamy"
-   ]
+   ],
+   "blurb": "A Hong Kong favorite: half coffee, half strong milk tea, made creamy with evaporated and condensed milk."
   },
   {
    "id": "cafe-brulot",
@@ -2274,7 +2317,8 @@
     "citrus",
     "boozy",
     "warm spice"
-   ]
+   ],
+   "blurb": "A New Orleans party coffee with citrus peel, cloves, cinnamon, brandy and orange liqueur. Contains alcohol."
   },
   {
    "id": "honey-coffee",
@@ -2325,7 +2369,8 @@
    "flavor": [
     "honey",
     "warm spice"
-   ]
+   ],
+   "blurb": "Strong coffee with milk, honey, vanilla and a pinch of cinnamon and nutmeg."
   },
   {
    "id": "iced-salted-caramel-cold-foam",
@@ -2379,7 +2424,8 @@
    "flavor": [
     "caramel",
     "salty-sweet"
-   ]
+   ],
+   "blurb": "Iced coffee topped with a sweet and salty caramel cold foam."
   },
   {
    "id": "iced-peppermint-cold-foam",
@@ -2432,7 +2478,8 @@
    "flavor": [
     "minty",
     "seasonal"
-   ]
+   ],
+   "blurb": "Iced coffee topped with a cool peppermint cold foam."
   },
   {
    "id": "vietnamese-iced-coffee",
@@ -2477,7 +2524,8 @@
    "flavor": [
     "sweet",
     "bold"
-   ]
+   ],
+   "blurb": "Strong coffee and sweetened condensed milk over ice. Bold, sweet and creamy."
   },
   {
    "id": "thai-iced-coffee",
@@ -2529,7 +2577,8 @@
    "flavor": [
     "sweet",
     "creamy"
-   ]
+   ],
+   "blurb": "Strong coffee sweetened with condensed milk and sugar, poured over ice and topped with evaporated milk."
   },
   {
    "id": "japanese-iced-coffee",
@@ -2573,7 +2622,8 @@
    "flavor": [
     "bright",
     "clean"
-   ]
+   ],
+   "blurb": "Light-roast coffee brewed hot straight onto ice, so it chills instantly and keeps its bright flavor."
   },
   {
    "id": "iced-cinnamon-honey-coffee",
@@ -2634,7 +2684,8 @@
    "flavor": [
     "honey",
     "warm spice"
-   ]
+   ],
+   "blurb": "Iced coffee sweetened with a homemade cinnamon honey syrup and a splash of milk."
   },
   {
    "id": "almond-caramel-cold-brew",
@@ -2682,7 +2733,8 @@
    "flavor": [
     "caramel",
     "nutty"
-   ]
+   ],
+   "blurb": "Cold brew over ice with caramel syrup and a splash of almond milk."
   },
   {
    "id": "cold-brew-cold-foam",
@@ -2734,7 +2786,8 @@
    "flavor": [
     "smooth",
     "creamy"
-   ]
+   ],
+   "blurb": "Smooth cold brew over ice, topped with a thick layer of frothed cold cream."
   },
   {
    "id": "vanilla-sweet-cream-cold-brew",
@@ -2784,7 +2837,8 @@
    "flavor": [
     "vanilla",
     "creamy"
-   ]
+   ],
+   "blurb": "Vanilla-sweetened cold brew with a float of vanilla sweet cream on top."
   },
   {
    "id": "salted-caramel-cream-cold-brew",
@@ -2836,7 +2890,8 @@
    "flavor": [
     "caramel",
     "salty-sweet"
-   ]
+   ],
+   "blurb": "Cold brew with caramel, topped with a sweet and salty caramel cream."
   },
   {
    "id": "pumpkin-cream-cold-brew",
@@ -2889,7 +2944,8 @@
    "flavor": [
     "seasonal",
     "warm spice"
-   ]
+   ],
+   "blurb": "Vanilla cold brew topped with a pumpkin spice cold foam. A fall favorite."
   },
   {
    "id": "mocha-whipped-iced-coffee",
@@ -2934,7 +2990,8 @@
    "flavor": [
     "chocolate",
     "whipped"
-   ]
+   ],
+   "blurb": "Whipped instant coffee and cocoa spooned over cold milk and ice. A chocolate take on dalgona coffee."
   },
   {
    "id": "matcha-latte",
@@ -2983,7 +3040,8 @@
    "flavor": [
     "grassy",
     "creamy"
-   ]
+   ],
+   "blurb": "Whisked Japanese green tea powder with frothed coconut milk, sweetened to taste. No coffee."
   },
   {
    "id": "london-fog",
@@ -3033,7 +3091,8 @@
    "flavor": [
     "floral",
     "vanilla"
-   ]
+   ],
+   "blurb": "Earl Grey tea with frothed milk, a little sugar and vanilla. No coffee."
   },
   {
    "id": "hot-toddy",
@@ -3080,7 +3139,8 @@
     "honey",
     "citrus",
     "boozy"
-   ]
+   ],
+   "blurb": "A warm drink of whiskey, honey and lemon in hot water. Contains alcohol, no coffee."
   },
   {
    "id": "cafe-cubano",
@@ -3126,7 +3186,8 @@
    "flavor": [
     "sweet",
     "bold"
-   ]
+   ],
+   "blurb": "A Cuban shot of dark espresso whipped with sugar into a sweet, foamy crema."
   },
   {
    "id": "almond-lemon-brulee",
@@ -3180,7 +3241,8 @@
     "nutty",
     "citrus",
     "dessert"
-   ]
+   ],
+   "blurb": "A ristretto with frothed milk, caramelized brown sugar, toasted almonds and lemon peel. Like a crème brûlée."
   },
   {
    "id": "stockholm-spice",
@@ -3226,7 +3288,8 @@
    "flavor": [
     "warm spice",
     "bold"
-   ]
+   ],
+   "blurb": "A dark lungo spiced with cinnamon, nutmeg and clove, lightly sweetened."
   },
   {
    "id": "spiced-americano",
@@ -3290,7 +3353,8 @@
    "flavor": [
     "warm spice",
     "creamy"
-   ]
+   ],
+   "blurb": "An americano with homemade spiced syrup, topped with cinnamon whipped cream."
   },
   {
    "id": "red-eye",
@@ -3341,7 +3405,8 @@
    "flavor": [
     "bold",
     "extra strong"
-   ]
+   ],
+   "blurb": "Brewed coffee with a shot of espresso added for an extra kick."
   },
   {
    "id": "iced-coconut-coffee",
@@ -3387,7 +3452,8 @@
    "flavor": [
     "tropical",
     "creamy"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso with coconut sugar and coconut milk over crushed ice. Light and tropical."
   },
   {
    "id": "iced-honey-oat-coffee",
@@ -3435,7 +3501,8 @@
    "flavor": [
     "honey",
     "creamy"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso sweetened with honey and topped with oat milk over ice."
   },
   {
    "id": "cinnamon-mocha-coffee",
@@ -3489,7 +3556,8 @@
    "flavor": [
     "chocolate",
     "warm spice"
-   ]
+   ],
+   "blurb": "Brewed coffee with cocoa, cinnamon, vanilla and milk. A quick homemade mocha."
   },
   {
    "id": "bulletproof-coffee",
@@ -3537,7 +3605,8 @@
    "flavor": [
     "rich",
     "buttery"
-   ]
+   ],
+   "blurb": "Coffee blended with butter and MCT oil until creamy and foamy. Rich, with no sugar or milk."
   },
   {
    "id": "vietnamese-egg-coffee",
@@ -3591,7 +3660,8 @@
     "custardy",
     "sweet",
     "dessert"
-   ]
+   ],
+   "blurb": "A Hanoi specialty: dark coffee topped with a thick, custard-like foam of whipped egg yolk and condensed milk."
   },
   {
    "id": "caramel-mocha",
@@ -3647,7 +3717,8 @@
    "flavor": [
     "caramel",
     "chocolate"
-   ]
+   ],
+   "blurb": "Coffee with cocoa, half-and-half and caramel, topped with vanilla whipped cream and caramel drizzle."
   },
   {
    "id": "mazagran",
@@ -3695,7 +3766,8 @@
    "flavor": [
     "citrus",
     "refreshing"
-   ]
+   ],
+   "blurb": "Iced coffee lemonade: coffee with fresh lemon juice and sugar over ice. Tart, sweet and refreshing."
   },
   {
    "id": "iced-hazelnut-coffee",
@@ -3741,7 +3813,8 @@
    "flavor": [
     "nutty",
     "smooth"
-   ]
+   ],
+   "blurb": "Iced coffee with a little hazelnut syrup and milk."
   },
   {
    "id": "cold-brew-salted-honey-foam",
@@ -3804,7 +3877,8 @@
    "flavor": [
     "honey",
     "salty-sweet"
-   ]
+   ],
+   "blurb": "Cold brew sweetened with honey syrup and topped with a salted honey cold foam."
   },
   {
    "id": "cold-brew-coconut-milkshake",
@@ -3852,7 +3926,8 @@
     "dessert",
     "tropical",
     "chocolate"
-   ]
+   ],
+   "blurb": "A milkshake of cold brew, coconut ice cream and chocolate, topped with whipped cream and toasted coconut."
   },
   {
    "id": "medicine-ball",
@@ -3898,7 +3973,8 @@
     "citrus",
     "honey",
     "soothing"
-   ]
+   ],
+   "blurb": "A soothing tea of green and peach teas with warm lemonade and honey. No coffee."
   },
   {
    "id": "creamy-hot-cocoa",
@@ -3945,7 +4021,8 @@
    "flavor": [
     "chocolate",
     "cozy"
-   ]
+   ],
+   "blurb": "Classic hot chocolate made with cocoa, sugar, vanilla and frothed whole milk. No coffee."
   },
   {
    "id": "vanilla-latte",
@@ -4007,7 +4084,8 @@
    "flavor": [
     "vanilla",
     "creamy"
-   ]
+   ],
+   "blurb": "Espresso and steamed milk sweetened with a little vanilla syrup. The most popular flavored latte."
   },
   {
    "id": "white-chocolate-mocha",
@@ -4057,7 +4135,8 @@
    "flavor": [
     "sweet",
     "creamy"
-   ]
+   ],
+   "blurb": "Espresso and steamed milk with melted white chocolate, topped with whipped cream. Sweet and creamy."
   },
   {
    "id": "gingerbread-latte",
@@ -4124,7 +4203,8 @@
    "flavor": [
     "warm spice",
     "sweet"
-   ]
+   ],
+   "blurb": "A holiday latte with gingerbread syrup (ginger, cinnamon and molasses) and a dusting of cinnamon."
   },
   {
    "id": "lavender-latte",
@@ -4187,7 +4267,8 @@
    "flavor": [
     "floral",
     "sweet"
-   ]
+   ],
+   "blurb": "A latte sweetened with homemade lavender syrup. Lightly floral and smooth."
   },
   {
    "id": "caramelized-honey-latte",
@@ -4239,7 +4320,8 @@
    "flavor": [
     "honey",
     "caramel"
-   ]
+   ],
+   "blurb": "A latte made with honey cooked until it turns caramel, then stirred into steamed milk."
   },
   {
    "id": "maple-pecan-latte",
@@ -4290,7 +4372,8 @@
    "flavor": [
     "maple",
     "nutty"
-   ]
+   ],
+   "blurb": "Espresso and steamed milk with maple syrup, topped with whipped cream and chopped pecans."
   },
   {
    "id": "cafe-con-leche",
@@ -4339,7 +4422,8 @@
    "flavor": [
     "mellow",
     "sweet"
-   ]
+   ],
+   "blurb": "The Spanish and Cuban breakfast coffee: strong espresso with hot milk and a little sugar."
   },
   {
    "id": "iced-mocha",
@@ -4390,7 +4474,8 @@
    "flavor": [
     "chocolate",
     "bold"
-   ]
+   ],
+   "blurb": "Espresso and chocolate over ice with a splash of milk. A chocolate iced latte."
   },
   {
    "id": "iced-white-mocha",
@@ -4441,7 +4526,8 @@
    "flavor": [
     "sweet",
     "creamy"
-   ]
+   ],
+   "blurb": "Espresso and melted white chocolate over ice, topped with a cold foam."
   },
   {
    "id": "iced-lavender-oat-latte",
@@ -4499,7 +4585,8 @@
    "flavor": [
     "floral",
     "creamy"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso with lavender syrup and oat milk over ice. Floral and creamy."
   },
   {
    "id": "iced-pistachio-latte",
@@ -4558,7 +4645,8 @@
    "flavor": [
     "nutty",
     "sweet"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso with pistachio syrup and cold milk over ice, topped with toasted pistachios."
   },
   {
    "id": "dirty-matcha",
@@ -4610,7 +4698,8 @@
    "flavor": [
     "grassy",
     "bold"
-   ]
+   ],
+   "blurb": "An iced matcha latte with a shot of espresso poured on top. Green tea and coffee in layers."
   },
   {
    "id": "toasted-vanilla-shaken",
@@ -4670,7 +4759,8 @@
    "flavor": [
     "vanilla",
     "toasty"
-   ]
+   ],
+   "blurb": "Three shots of cold-pressed espresso shaken with toasted vanilla syrup and ice, topped with oat milk."
   },
   {
    "id": "chocolate-almond-shaken",
@@ -4716,7 +4806,8 @@
    "flavor": [
     "chocolate",
     "nutty"
-   ]
+   ],
+   "blurb": "Cold-pressed espresso shaken with chocolate syrup and ice, topped with almond milk."
   },
   {
    "id": "vanilla-iced-coffee",
@@ -4775,7 +4866,8 @@
    "flavor": [
     "vanilla",
     "smooth"
-   ]
+   ],
+   "blurb": "Iced coffee sweetened with vanilla syrup and a splash of milk."
   },
   {
    "id": "brown-sugar-iced-coffee",
@@ -4824,7 +4916,8 @@
    "flavor": [
     "caramel",
     "smooth"
-   ]
+   ],
+   "blurb": "Iced coffee sweetened with a quick brown sugar syrup and topped with milk."
   },
   {
    "id": "coffee-float",
@@ -4871,7 +4964,8 @@
    "flavor": [
     "dessert",
     "creamy"
-   ]
+   ],
+   "blurb": "Espresso and milk over ice with a scoop of vanilla ice cream floating on top. A coffee dessert drink."
   },
   {
    "id": "chocolate-cream-cold-brew",
@@ -4922,7 +5016,8 @@
    "flavor": [
     "chocolate",
     "creamy"
-   ]
+   ],
+   "blurb": "Vanilla cold brew topped with a malty chocolate cold foam."
   },
   {
    "id": "irish-cream-cold-brew",
@@ -4990,7 +5085,8 @@
    "flavor": [
     "creamy",
     "chocolate"
-   ]
+   ],
+   "blurb": "Cold brew with Irish cream syrup and an Irish cream cold foam. Alcohol is optional."
   },
   {
    "id": "brown-sugar-cold-brew",
@@ -5054,7 +5150,8 @@
    "flavor": [
     "caramel",
     "warm spice"
-   ]
+   ],
+   "blurb": "Cold brew with brown sugar syrup, topped with a brown sugar oat milk foam and cinnamon sugar."
   },
   {
    "id": "gingerbread-coffee",
@@ -5106,7 +5203,8 @@
    "flavor": [
     "warm spice",
     "sweet"
-   ]
+   ],
+   "blurb": "Brewed coffee with molasses, brown sugar and cinnamon plus steamed milk. Tastes like gingerbread."
   },
   {
    "id": "maple-brown-sugar-coffee",
@@ -5154,7 +5252,8 @@
    "flavor": [
     "maple",
     "sweet"
-   ]
+   ],
+   "blurb": "Brewed coffee with brown sugar, vanilla, a little maple and half-and-half."
   },
   {
    "id": "hot-buttered-coffee",
@@ -5216,7 +5315,8 @@
    "flavor": [
     "buttery",
     "warm spice"
-   ]
+   ],
+   "blurb": "Dark coffee stirred with a spiced butter and brown sugar mix. Rich and cozy, like hot buttered rum."
   },
   {
    "id": "spiced-coffee",
@@ -5264,7 +5364,8 @@
    "flavor": [
     "warm spice",
     "chocolate"
-   ]
+   ],
+   "blurb": "Coffee steeped with cinnamon, cloves and a hint of anise, sweetened with sugar and chocolate syrup."
   },
   {
    "id": "peppermint-mocha",
@@ -5316,7 +5417,8 @@
    "flavor": [
     "chocolate",
     "minty"
-   ]
+   ],
+   "blurb": "Coffee with melted dark chocolate, milk and peppermint, topped with whipped cream and crushed candy canes."
   },
   {
    "id": "maple-cream-coffee",
@@ -5366,7 +5468,8 @@
    "flavor": [
     "maple",
     "creamy"
-   ]
+   ],
+   "blurb": "Rich coffee with maple syrup and creamy half-and-half, topped with whipped cream."
   }
  ]
 }
