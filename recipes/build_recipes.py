@@ -1286,6 +1286,16 @@ R("maple-cream-coffee", "Maple Cream Coffee", "rich", ("web", "Taste of Home", "
   flavor=["maple", "creamy"])
 
 # ======================================================================
+# step rewrites (recipes/step_edits.py)
+from step_edits import EDITS
+_by = {r["id"]: r for r in RECIPES}
+for _rid, _eds in EDITS.items():
+    _st = _by[_rid]["steps"]
+    for _old, _new in _eds:
+        assert _old in _st, ("step not found", _rid, _old)
+        _i = _st.index(_old)
+        _st[_i:_i + 1] = _new if isinstance(_new, list) else [_new]
+
 # short descriptions (recipes/blurbs.py)
 from blurbs import BLURBS
 _ids = {r["id"] for r in RECIPES}

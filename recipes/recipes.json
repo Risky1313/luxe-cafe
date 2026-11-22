@@ -837,9 +837,10 @@
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
     "Place the warm glass under the spout and press START BREW.",
-    "Stir in 2 tbsp hot water if you'd like it a little longer.",
+    "Optional: stir in 2 tbsp hot water for a slightly longer drink.",
     "Pour the cream gently over the back of a spoon held just above the coffee to build a thick white layer.",
-    "Finish with chocolate shavings or cocoa and serve right away."
+    "Optional: finish with chocolate shavings or cocoa.",
+    "Serve right away."
    ],
    "tips": [
     "Fiaker variation: stir 1 oz kirsch into the espresso before the cream.",
@@ -989,7 +990,7 @@
     "Put 3 ice cubes in a short glass.",
     "Place the glass under the spout and press START BREW.",
     "Pour the cold water over the ice and coffee.",
-    "Add a few slices of fresh ginger if you like."
+    "Optional: add a few slices of fresh ginger."
    ],
    "tips": [],
    "adaptation": null,
@@ -1082,7 +1083,7 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND. The built-in scale doses by weight.",
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Put 3 ice cubes and the sugar (if using) in a cocktail shaker.",
+    "Put 3 ice cubes and the sugar (optional) in a cocktail shaker.",
     "Place the shaker under the spout and press START BREW.",
     "Put the lid on and shake hard for about 10 seconds until frothy.",
     "Pour into a tall glass."
@@ -1132,13 +1133,13 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND. The built-in scale doses by weight.",
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Place a cup under the spout and press START BREW.",
-    "Stir in the brown sugar.",
+    "Put the brown sugar in a cup, place it under the spout and press START BREW.",
+    "Stir until the sugar dissolves.",
     "Pour cold milk up to the minimum fill line into the milk jug. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to THICK FROTH and press START FROTH.",
     "Pour the lungo into a tall glass and add 4 to 5 tbsp crushed ice.",
     "Spoon 3 to 4 tbsp of the milk foam on top.",
-    "Dust with chocolate powder if you like."
+    "Optional: dust with chocolate powder."
    ],
    "tips": [],
    "adaptation": null,
@@ -1329,7 +1330,7 @@
     "Add orange syrup to the mug.",
     "Place a mug under the spout and press START BREW.",
     "Add ¼ cup hot water from the hot water spout and stir.",
-    "Top with a few spoonfuls of the milk foam and sprinkle with sugar if you like."
+    "Top with a few spoonfuls of the milk foam. Optional: sprinkle with sugar."
    ],
    "tips": [],
    "adaptation": "Starbucks blends the milk for 2 minutes to make a stiff foam. The EXTRA-THICK FROTH preset replaces the blender.",
@@ -1387,7 +1388,7 @@
     "Lock the portafilter into the brew head.",
     "Fill a glass with ½ cup ice.",
     "Place the glass under the spout and press START BREW.",
-    "Taste, then add up to 2 tbsp cold water if you want it milder."
+    "Optional: taste, then add up to 2 tbsp cold water for a milder drink."
    ],
    "tips": [
     "Add a splash of oat milk, simple syrup, vanilla syrup or demerara syrup if you like."
@@ -1435,7 +1436,7 @@
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
     "Place the glass under the spout and press START BREW.",
-    "Add the coconut syrup if you like."
+    "Optional: add the coconut syrup."
    ],
    "tips": [],
    "adaptation": "Nespresso uses a 25 ml extraction. The Pro's Single basket shot is the closest match.",
@@ -1623,7 +1624,7 @@
     "Place the shaker under the spout and press START BREW.",
     "Add the simple syrup, vodka and coffee liqueur.",
     "Shake hard for 10 seconds and strain into a martini glass.",
-    "Float 3 espresso beans on top."
+    "Optional: float 3 espresso beans on top."
    ],
    "tips": [
     "Boozy cold foam version (Ninja): froth 2 oz heavy cream with ½ oz Irish cream and 1 tsp vanilla syrup on COLD FOAM, swap the simple syrup for 2 oz Irish cream, use 1 oz vodka, then spoon the foam over the strained martini."
@@ -2020,7 +2021,8 @@
     "Stir the syrup into the coffee.",
     "Pour 4 oz cold whole milk into the milk jug. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to THIN FROTH and press START FROTH.",
-    "Add the milk, then top with whipped cream, caramel, cinnamon or a rolled wafer cookie."
+    "Add the milk and stir.",
+    "Optional: top with whipped cream, caramel, cinnamon or a rolled wafer cookie."
    ],
    "tips": [],
    "adaptation": null,
@@ -2659,9 +2661,9 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND.",
     "Give the portafilter a gentle shake to level the grounds, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Fill a 16 oz glass with ice.",
+    "Fill a 16 oz glass with ice and add some cinnamon honey syrup.",
     "Place the glass under the spout and press START BREW.",
-    "Add a splash of milk and some cinnamon honey syrup, stir, and adjust to taste."
+    "Add a splash of milk, stir, and add more syrup to taste."
    ],
    "tips": [],
    "adaptation": "Starbucks brews double-strength coffee in a press. OVER ICE already brews double-strong for pouring over ice.",
@@ -3074,13 +3076,14 @@
     "hotWater": "HIGH"
    },
    "steps": [
-    "Put the tea bags in an 8 oz mug.",
+    "Put the tea bags and sugar in an 8 oz mug.",
     "Place the mug under the hot water spout.",
     "Press HOT WATER, set the temperature to HIGH and the size to the smallest size, stopping at ½ cup, then press START.",
-    "Steep for 5 minutes, then remove the tea bags and stir in the sugar.",
+    "Steep for 5 minutes, then remove the tea bags and stir.",
     "Pour ½ cup cold milk into the milk jug. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to THIN FROTH and press START FROTH.",
-    "Pour most of the milk into the tea, stir in the cream and vanilla, then add the last of the milk and foam."
+    "Pour most of the milk into the tea, then add the last of the milk and foam.",
+    "Optional: stir in the cream and vanilla before the last of the foam."
    ],
    "tips": [
     "Start with 1 tsp sugar if you like it less sweet.",
@@ -3123,11 +3126,11 @@
     "hotWater": "HIGH, 6 oz"
    },
    "steps": [
-    "Place a mug under the hot water spout.",
+    "Put 2 tsp honey in a mug and place it under the hot water spout.",
     "Press HOT WATER, set the temperature to HIGH and the size to 6 oz, then press START.",
-    "Add the whiskey, 2 tsp honey and 2 tsp lemon juice and stir until the honey dissolves.",
+    "Add the whiskey and 2 tsp lemon juice and stir until the honey dissolves.",
     "Taste and add up to 1 more tsp of honey or lemon.",
-    "Garnish with a lemon round and a cinnamon stick."
+    "Garnish with a lemon round. Optional: add a cinnamon stick."
    ],
    "tips": [
     "Swap the whiskey for brandy or dark rum.",
@@ -3273,7 +3276,7 @@
     "style": "LUNGO"
    },
    "steps": [
-    "Put the cinnamon, nutmeg, clove and sugar (if using) in the cup. Or tie the spices in a paper tea filter for a cleaner cup.",
+    "Put the cinnamon, nutmeg, clove and sugar (optional) in the cup. Or tie the spices in a paper tea filter for a cleaner cup.",
     "Fit the Double basket into the portafilter, put the dosing funnel on and set it in the grinding cradle.",
     "Turn the center dial to LUNGO.",
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND. The built-in scale doses by weight.",
@@ -3328,8 +3331,8 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND. The built-in scale doses by weight.",
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Place a 6 to 8 oz cup under the spout and press START BREW.",
-    "Add 2 oz hot water from the hot water spout and 2 tbsp spiced syrup, and stir.",
+    "Put 2 tbsp spiced syrup in a 6 to 8 oz cup, place it under the spout and press START BREW.",
+    "Add 2 oz hot water from the hot water spout and stir.",
     "Top with a dollop of whipped cream and dust with cinnamon."
    ],
    "tips": [],
@@ -3548,7 +3551,7 @@
     "Pour ¼ cup cold 2% milk (fill to the jug's minimum line if needed) into the milk jug, then add the sugar, cocoa and vanilla. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to STEAMED MILK and press START FROTH.",
     "Pour the hot chocolate milk into a mug, then add the cinnamon coffee.",
-    "Add a cinnamon stick and whipped cream if you like."
+    "Optional: add a cinnamon stick and whipped cream."
    ],
    "tips": [],
    "adaptation": "Taste of Home brews 4 cups with the cinnamon in the basket and heats the chocolate milk in a pan. This is one mug, with STEAMED MILK doing the pan's job.",
@@ -3853,9 +3856,9 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND.",
     "Give the portafilter a gentle shake to level the grounds, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Fill a 16 oz glass with ice.",
+    "Fill a 16 oz glass with ice and add about half the honey syrup.",
     "Place the glass under the spout and press START BREW.",
-    "Stir in about half the honey syrup.",
+    "Stir to mix in the honey.",
     "Pour ¼ cup cold skim milk (fill to the jug's minimum line if needed) into the milk jug, then add the rest of the honey syrup and the salt. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to COLD FOAM and press START FROTH.",
     "Pour or spoon the salted honey foam on top."
@@ -3957,11 +3960,11 @@
     "hotWater": "HIGH, 10 oz"
    },
    "steps": [
-    "Put both tea bags in a large mug.",
+    "Put both tea bags and the honey in a large mug.",
     "Place the mug under the hot water spout.",
     "Press HOT WATER, set the temperature to HIGH and the size to 10 oz, then press START.",
     "Steep for 5 minutes while you warm the lemonade in the microwave for about 1 minute.",
-    "Remove the tea bags, stir in the honey and the warm lemonade."
+    "Remove the tea bags and stir in the warm lemonade."
    ],
    "tips": [
     "Add a drop of peppermint extract for the Starbucks peppermint version.",
@@ -4013,7 +4016,7 @@
     "Pour 1 cup cold whole milk into the milk jug. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY lights up, turn the froth dial to STEAMED MILK and press START FROTH.",
     "Pour the hot milk into the mug while stirring, then stir in the vanilla.",
-    "Top with whipped cream if you like."
+    "Optional: top with whipped cream."
    ],
    "tips": [],
    "adaptation": "Lauren makes 4 mugs on the stove and simmers the cocoa paste for 2 minutes. This is one mug, with the hot water spout for the paste and STEAMED MILK for the milk.",
@@ -4246,7 +4249,8 @@
     "Stir the syrup into the espresso.",
     "Pour 4 oz cold milk (fill to the minimum line if needed) into the milk jug. Set the jug on the frothing platform with the whisk inside.",
     "Press MILK TYPE until DAIRY (or PLANT-BASED) lights up, turn the froth dial to THIN FROTH and press START FROTH.",
-    "Pour the milk into the center of the espresso, finishing with foam. Scatter a few lavender buds on top."
+    "Pour the milk into the center of the espresso, finishing with foam.",
+    "Optional: scatter a few lavender buds on top."
    ],
    "tips": [],
    "adaptation": null,
@@ -4414,7 +4418,7 @@
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
     "Place a small cup under the spout and press START BREW.",
-    "Pour the espresso into the milk and stir until light brown. Taste, and add more sugar or a tiny pinch of salt if you like."
+    "Pour the espresso into the milk and stir until light brown. Optional: add more sugar or a tiny pinch of salt to taste."
    ],
    "tips": [],
    "adaptation": "Ericka brews ¼ cup of moka-pot coffee. A Double basket shot is close to that, and STEAMED MILK replaces heating the milk in a pan.",
@@ -4953,7 +4957,7 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND. The built-in scale doses by weight.",
     "Pull the tamping lever down firmly twice, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Fill a tall heatproof glass with ice and add syrup if you like.",
+    "Fill a tall heatproof glass with ice. Optional: add syrup.",
     "Place the glass under the spout and press START BREW.",
     "Pour in the milk, leaving room at the top.",
     "Float a scoop of vanilla ice cream on top and serve with a long spoon."
@@ -5242,9 +5246,10 @@
     "Turn the grind dial to the number Barista Assist recommends, then press START GRIND.",
     "Give the portafilter a gentle shake to level the grounds, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
-    "Place a 12 oz mug under the spout and press START BREW.",
-    "Stir in the half-and-half, brown sugar, vanilla and maple syrup.",
-    "Top with whipped cream and a pinch of cinnamon if you like."
+    "Put the half-and-half, brown sugar, vanilla and maple syrup in a 12 oz mug.",
+    "Place the mug under the spout and press START BREW. The coffee mixes everything as it brews.",
+    "Stir well once it finishes.",
+    "Optional: top with whipped cream and a pinch of cinnamon."
    ],
    "tips": [],
    "adaptation": "Starbucks brews maple pecan flavored pods. With regular beans, the teaspoon of maple syrup brings the maple back.",
@@ -5290,7 +5295,8 @@
     "Give the portafilter a gentle shake to level the grounds, then lift off the funnel.",
     "Lock the portafilter into the brew head.",
     "Place the mug under the spout and press START BREW.",
-    "Stir until the butter melts. Add a cinnamon stick and whipped cream if you like."
+    "Stir until the butter melts.",
+    "Optional: add a cinnamon stick and whipped cream."
    ],
    "tips": [],
    "adaptation": "Taste of Home calls for a dark roast, so we brew on RICH. Keep it in the Classic list since it's an everyday mug.",

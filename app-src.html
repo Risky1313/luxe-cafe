@@ -315,6 +315,10 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 @keyframes stepback{from{opacity:0;transform:translateX(-28px)}to{opacity:1;transform:none}}
 .bnum{font:400 64px/1 var(--display);background:var(--metal);-webkit-background-clip:text;background-clip:text;color:transparent}
 .btext{font:400 clamp(22px,6vw,32px)/1.35 var(--body);margin:0;text-wrap:pretty}
+.pick{font-weight:650;color:var(--ink);text-decoration:underline 2px var(--gold);text-underline-offset:3px;white-space:nowrap}
+.brew .pick{color:inherit}
+.opt{display:inline-block;vertical-align:.1em;font:700 10.5px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border:1px dashed var(--ink3);border-radius:999px;padding:3px 7px 2px;margin-right:2px}
+.brew .opt{color:inherit;border-color:currentColor;opacity:.8}
 .brew .key{color:var(--goldHi);background:rgb(226 196 130/.14)}
 .bready h2,.bdone h2{font:400 clamp(34px,9vw,52px)/1.05 var(--display)}
 .bready ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
@@ -454,7 +458,7 @@ body.slock{overflow:hidden}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.3.0";
+const APP_V="1.4.0";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
@@ -495,7 +499,13 @@ function avgRating(id){const r=mark(id).rating||{};const v=Object.entries(r).fil
 const first=n=>(n||"").trim().split(/\s+/)[0]||"";
 function toast(msg){const t=$("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove("show"),2000)}
 function keys(text){ // machine controls in CAPS become gold key caps
-  return esc(text).replace(/\b(?:[A-Z][A-Z0-9-]+)(?:[ \/][A-Z][A-Z0-9-]+)*\b/g,m=>m.length<2||/^(OK|I)$/.test(m)?m:`<span class="key">${m}</span>`);
+  return esc(text).replace(/\b(?:[A-Z][A-Z0-9-]+)(?:[ \/][A-Z][A-Z0-9-]+)*\b/g,m=>m.length<2||/^(OK|I)$/.test(m)?m:`<span class="key">${m}</span>`)
+    // choices to set: which basket, which size
+    .replace(/\b(Single|Double|Luxe) basket\b/g,'<span class="pick">$1 basket</span>')
+    .replace(/\b(until|size to|to) (\d+ oz|the smallest size)(?= lights up|[ .,]|$)/g,(m,a,b)=>/^(until|size to)$/.test(a)||/smallest/.test(b)?`${a} <span class="key">${b}</span>`:m)
+    // optional steps
+    .replace(/(^|[.!] )Optional:\s*(\w)/g,(m,a,c)=>`${a}<span class="opt">Optional</span> ${c.toUpperCase()}`)
+    .replace(/ \((?:optional|if using)\)/g,' <span class="opt">optional</span>');
 }
 const norm=s=>String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
 const ESPRESSO_STYLES=["RISTRETTO","ESPRESSO","LUNGO","AMERICANO","COLD-PRESSED"], COFFEE_STYLES=["CLASSIC","RICH","OVER ICE","COLD BREW"];

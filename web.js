@@ -14,7 +14,12 @@
   function checkVersion(){fetch("version.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(j=>{
     if(j&&j.v&&window.APP_BUILD&&j.v!==window.APP_BUILD){let n=0;try{n=+sessionStorage.getItem("reloadFor"+j.v)||0;sessionStorage.setItem("reloadFor"+j.v,n+1);}catch(e){}
       if(n<3)location.replace(location.pathname+"?v="+encodeURIComponent(j.v)+location.hash);}}).catch(()=>{});}
-  checkVersion();document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")checkVersion();});
+  // Wait while someone is mid-brew or typing, then reload on the next check
+  function busy(){const a=document.activeElement;return !!(a&&/^(INPUT|TEXTAREA)$/.test(a.tagName))||!!document.querySelector(".brew:not([hidden])");}
+  function check(){if(document.visibilityState==="visible"&&!busy())checkVersion();}
+  checkVersion();document.addEventListener("visibilitychange",check);
+  window.addEventListener("pageshow",check);window.addEventListener("focus",check);window.addEventListener("online",check);
+  setInterval(check,30000); // open apps pick up a new version within about 30 seconds of it going live
 
   // Remember an invite link even if sign-in takes a few screens
   const m=location.hash.match(/^#join-([A-Za-z0-9]{12,40})$/);
