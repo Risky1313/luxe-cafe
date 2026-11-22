@@ -93,6 +93,7 @@
    "flavor": [
     "bold"
    ],
+   "optional": [],
    "blurb": "A short, strong shot of coffee with a layer of golden crema on top. The base of almost every café drink."
   },
   {
@@ -142,6 +143,7 @@
     "creamy",
     "mellow"
    ],
+   "optional": [],
    "blurb": "Espresso topped with plenty of steamed milk and a thin layer of foam. Smooth, mild and creamy."
   },
   {
@@ -190,6 +192,7 @@
     "creamy",
     "airy"
    ],
+   "optional": [],
    "blurb": "Espresso with equal parts steamed milk and thick, airy foam, finished with a dusting of cocoa."
   },
   {
@@ -210,7 +213,7 @@
    "makes": "6.5 oz",
    "glass": "8 oz cup",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "5 oz whole milk, chilled"
    ],
    "settings": {
@@ -237,6 +240,7 @@
     "velvety",
     "bold"
    ],
+   "optional": [],
    "blurb": "An Australian favorite: a double espresso with a little velvety steamed milk, so the coffee stays bold."
   },
   {
@@ -283,6 +287,7 @@
    "flavor": [
     "bold"
    ],
+   "optional": [],
    "blurb": "A shot of espresso \"marked\" with a spoonful of milk foam. Small and strong."
   },
   {
@@ -331,6 +336,7 @@
    "flavor": [
     "balanced"
    ],
+   "optional": [],
    "blurb": "Espresso cut with an equal splash of warm steamed milk to soften the edges. Small and balanced."
   },
   {
@@ -351,7 +357,7 @@
    "makes": "6.5 oz",
    "glass": "8 oz cup",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1 tbsp vanilla syrup",
     "5 oz whole milk, chilled"
    ],
@@ -380,6 +386,7 @@
     "sweet",
     "vanilla"
    ],
+   "optional": [],
    "blurb": "A classic cappuccino sweetened with vanilla syrup under a thick cap of foam."
   },
   {
@@ -400,7 +407,7 @@
    "makes": "3.5 oz",
    "glass": "6 oz cup",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1½ tsp caramel syrup, plus extra to drizzle",
     "2 oz whole milk, chilled"
    ],
@@ -431,6 +438,7 @@
     "sweet",
     "caramel"
    ],
+   "optional": [],
    "blurb": "Vanilla-sweet steamed milk with espresso poured on top and a crisscross of caramel drizzle."
   },
   {
@@ -451,7 +459,7 @@
    "makes": "9.5 oz",
    "glass": "12 oz cup",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "½ tsp ground cinnamon, plus extra to dust",
     "2 tsp honey",
     "8 oz whole milk, chilled"
@@ -482,6 +490,7 @@
     "warm spice",
     "honey"
    ],
+   "optional": [],
    "blurb": "A latte sweetened with honey and warmed up with cinnamon, dusted with more cinnamon on top."
   },
   {
@@ -529,6 +538,7 @@
    "flavor": [
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Espresso and chocolate, topped with milk frothed with hot chocolate mix. Like a coffee and a hot cocoa in one."
   },
   {
@@ -576,6 +586,7 @@
    "flavor": [
     "warm spice"
    ],
+   "optional": [],
    "blurb": "A spiced chai latte with a shot of espresso added. Also called a dirty chai."
   },
   {
@@ -596,7 +607,7 @@
    "makes": "6.5 oz",
    "glass": "Small bowl or glass",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1 to 2 scoops vanilla ice cream"
    ],
    "settings": {
@@ -620,6 +631,7 @@
     "dessert",
     "sweet"
    ],
+   "optional": [],
    "blurb": "An Italian dessert: a scoop of vanilla ice cream \"drowned\" in a hot shot of espresso."
   },
   {
@@ -640,7 +652,7 @@
    "makes": "1 latte",
    "glass": "Small heatproof glass",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1½ tbsp sweetened condensed milk (adjust to taste)",
     "3 oz (90 ml) whole milk"
    ],
@@ -674,6 +686,7 @@
     "sweet",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Espresso sweetened with condensed milk and topped with steamed milk. Rich, creamy and caramel-sweet."
   },
   {
@@ -694,7 +707,7 @@
    "makes": "1 drink",
    "glass": "Small clear glass",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1 oz (30 ml) sweetened condensed milk",
     "2 oz (60 ml) milk"
    ],
@@ -726,6 +739,7 @@
     "sweet",
     "layered"
    ],
+   "optional": [],
    "blurb": "A Spanish layered drink: sweetened condensed milk at the bottom, espresso on top and a little milk."
   },
   {
@@ -746,7 +760,7 @@
    "makes": "1 latte",
    "glass": "Large mug",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "3 tbsp homemade pumpkin spice syrup (below)",
     "1 cup whole milk",
     "Whipped cream",
@@ -797,6 +811,7 @@
     "warm spice",
     "seasonal"
    ],
+   "optional": [],
    "blurb": "The fall classic: espresso and steamed milk with homemade pumpkin spice syrup, whipped cream and spice."
   },
   {
@@ -818,10 +833,7 @@
    "glass": "8.5 oz footed glass mug",
    "ingredients": [
     "⅓ cup (80 ml) cold heavy cream",
-    "About 1 tsp powdered or vanilla sugar (optional)",
-    "Double shot of espresso (about 2 oz)",
-    "2 tbsp hot water (optional)",
-    "Chocolate shavings or cocoa powder (optional)"
+    "Fresh whole coffee beans, for a double shot of espresso (about 2 oz)"
    ],
    "settings": {
     "basket": "Double",
@@ -852,6 +864,11 @@
     "rich",
     "creamy"
    ],
+   "optional": [
+    "About 1 tsp powdered or vanilla sugar",
+    "2 tbsp hot water",
+    "Chocolate shavings or cocoa powder"
+   ],
    "blurb": "A Viennese coffee: strong espresso under a thick cap of cold whipped cream, sipped through the cream."
   },
   {
@@ -872,7 +889,7 @@
    "makes": "1 piccolo",
    "glass": "3 oz (90 ml) glass",
    "ingredients": [
-    "Ristretto shot (about 40 ml)",
+    "Fresh whole coffee beans, for a ristretto shot (about 40 ml)",
     "About 3½ oz (110 ml) milk"
    ],
    "settings": {
@@ -901,6 +918,7 @@
     "sweet",
     "velvety"
    ],
+   "optional": [],
    "blurb": "A tiny latte: a ristretto shot topped with a little silky steamed milk in a small glass."
   },
   {
@@ -921,7 +939,7 @@
    "makes": "1 magic",
    "glass": "5.4 oz (160 ml) cup",
    "ingredients": [
-    "Double ristretto (about 35 to 40 ml)",
+    "Fresh whole coffee beans, for a double ristretto (about 35 to 40 ml)",
     "Milk of your choice"
    ],
    "settings": {
@@ -952,6 +970,7 @@
     "bold",
     "velvety"
    ],
+   "optional": [],
    "blurb": "A Melbourne café drink: a double ristretto with a small pour of silky milk. Sweet, strong and smooth."
   },
   {
@@ -972,10 +991,9 @@
    "makes": "1 drink",
    "glass": "Short glass",
    "ingredients": [
-    "Ristretto shot (about 40 ml)",
+    "Fresh whole coffee beans, for a ristretto shot (about 40 ml)",
     "3 ice cubes (90 g)",
-    "3 oz (90 ml) cold water",
-    "A few thin slices of fresh ginger (optional)"
+    "3 oz (90 ml) cold water"
    ],
    "settings": {
     "basket": "Double",
@@ -999,6 +1017,9 @@
     "bright",
     "refreshing"
    ],
+   "optional": [
+    "A few thin slices of fresh ginger"
+   ],
    "blurb": "A short, sweet ristretto poured over ice and a little cold water, with optional fresh ginger."
   },
   {
@@ -1019,7 +1040,7 @@
    "makes": "1 drink",
    "glass": "Espresso cup",
    "ingredients": [
-    "Ristretto shot (about 25 to 40 ml)",
+    "Fresh whole coffee beans, for a ristretto shot (about 25 to 40 ml)",
     "3½ oz (100 ml) low-fat milk",
     "A few fresh thyme leaves",
     "Dark chocolate, for grating"
@@ -1049,6 +1070,7 @@
     "herbal",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "A ristretto macchiato with frothed milk, fresh thyme and grated dark chocolate. Herbal and chocolatey."
   },
   {
@@ -1069,9 +1091,8 @@
    "makes": "1 drink",
    "glass": "Tall glass",
    "ingredients": [
-    "Lungo shot",
-    "3 ice cubes (90 g)",
-    "1 tsp sugar (optional)"
+    "Fresh whole coffee beans, for a lungo shot",
+    "3 ice cubes (90 g)"
    ],
    "settings": {
     "basket": "Double",
@@ -1095,6 +1116,9 @@
     "refreshing",
     "smooth"
    ],
+   "optional": [
+    "1 tsp sugar"
+   ],
    "blurb": "A long espresso shot poured straight over ice, lightly sweetened if you like."
   },
   {
@@ -1115,11 +1139,10 @@
    "makes": "1 drink",
    "glass": "Tall glass",
    "ingredients": [
-    "Lungo shot",
+    "Fresh whole coffee beans, for a lungo shot",
     "Brown sugar, to taste",
     "4 to 5 tbsp crushed ice",
-    "3 to 4 tbsp milk foam",
-    "Chocolate powder (optional)"
+    "3 to 4 tbsp milk foam"
    ],
    "settings": {
     "basket": "Double",
@@ -1148,6 +1171,9 @@
     "smooth",
     "creamy"
    ],
+   "optional": [
+    "Chocolate powder"
+   ],
    "blurb": "A lungo over crushed ice with brown sugar, topped with milk foam and a little chocolate powder."
   },
   {
@@ -1169,7 +1195,7 @@
    "glass": "Clear 4 oz cup",
    "ingredients": [
     "1 tbsp (15 g) blueberry jam",
-    "Lungo shot (about 110 ml)"
+    "Fresh whole coffee beans, for a lungo shot (about 110 ml)"
    ],
    "settings": {
     "basket": "Double",
@@ -1191,6 +1217,7 @@
    "flavor": [
     "fruity"
    ],
+   "optional": [],
    "blurb": "A long espresso shot stirred into a spoonful of blueberry jam. Fruity, bright and a little sweet."
   },
   {
@@ -1211,7 +1238,7 @@
    "makes": "1 drink",
    "glass": "Lungo cup",
    "ingredients": [
-    "Lungo shot (about 110 ml)",
+    "Fresh whole coffee beans, for a lungo shot (about 110 ml)",
     "Cold skim milk, up to the minimum line on the jug",
     "Dark chocolate, for grating"
    ],
@@ -1240,6 +1267,7 @@
     "airy",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "A lungo topped with cold frothed milk and finished with grated dark chocolate."
   },
   {
@@ -1285,6 +1313,7 @@
     "clean",
     "bold"
    ],
+   "optional": [],
    "blurb": "Espresso topped up with hot water, so it's as long as a cup of coffee but with espresso flavor."
   },
   {
@@ -1305,11 +1334,10 @@
    "makes": "1 drink",
    "glass": "Mug",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "Orange syrup, to taste (below)",
     "¼ cup hot water",
-    "2 tbsp (⅛ cup) milk",
-    "Sugar, to sprinkle (optional)"
+    "2 tbsp (⅛ cup) milk"
    ],
    "settings": {
     "basket": "Double",
@@ -1352,6 +1380,9 @@
     "citrus",
     "creamy"
    ],
+   "optional": [
+    "Sugar, to sprinkle"
+   ],
    "blurb": "An americano with homemade orange syrup and a splash of milk. Citrusy and smooth."
   },
   {
@@ -1372,9 +1403,8 @@
    "makes": "1 drink",
    "glass": "Glass",
    "ingredients": [
-    "Double shot of espresso (about 2 oz)",
-    "½ cup ice",
-    "2 tbsp cold water (optional)"
+    "Fresh whole coffee beans, for a double shot of espresso (about 2 oz)",
+    "½ cup ice"
    ],
    "settings": {
     "basket": "Double",
@@ -1399,6 +1429,9 @@
     "clean",
     "refreshing"
    ],
+   "optional": [
+    "2 tbsp cold water"
+   ],
    "blurb": "Espresso over ice with a splash of cold water. Clean, crisp and refreshing."
   },
   {
@@ -1421,8 +1454,7 @@
    "ingredients": [
     "4 ice cubes",
     "4 oz sparkling water",
-    "Single shot of espresso (about 1 oz)",
-    "2 tsp (10 ml) coconut syrup (optional)"
+    "Fresh whole coffee beans, for a single shot of espresso (about 1 oz)"
    ],
    "settings": {
     "basket": "Single",
@@ -1445,6 +1477,9 @@
     "sparkling",
     "refreshing"
    ],
+   "optional": [
+    "2 tsp (10 ml) coconut syrup"
+   ],
    "blurb": "Espresso poured over ice and sparkling water, with an optional touch of coconut syrup. Light and fizzy."
   },
   {
@@ -1465,7 +1500,7 @@
    "makes": "9.5 oz",
    "glass": "12 oz glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "1 tbsp hazelnut syrup",
     "1 cup (8 oz) whole milk",
     "Ice"
@@ -1491,6 +1526,7 @@
     "nutty",
     "sweet"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso, hazelnut syrup and cold milk over ice. Nutty and smooth."
   },
   {
@@ -1511,7 +1547,7 @@
    "makes": "5.5 oz",
    "glass": "10 oz glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "1 tbsp brown sugar",
     "Ice",
     "½ cup (4 oz) oat milk"
@@ -1538,6 +1574,7 @@
     "caramel",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso shaken with brown sugar and ice, then topped with oat milk."
   },
   {
@@ -1558,7 +1595,7 @@
    "makes": "11.5 oz",
    "glass": "16 oz glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "Ice",
     "¾ cup (6 oz) whole milk",
     "½ cup chai tea concentrate"
@@ -1583,6 +1620,7 @@
    "flavor": [
     "warm spice"
    ],
+   "optional": [],
    "blurb": "Iced chai latte with a shot of cold-pressed espresso. Spiced, creamy and strong."
   },
   {
@@ -1603,12 +1641,11 @@
    "makes": "5.25 oz",
    "glass": "Martini glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "Ice",
     "¾ oz simple syrup",
     "1½ oz vodka",
-    "1½ oz coffee liqueur",
-    "3 espresso beans, to garnish (optional)"
+    "1½ oz coffee liqueur"
    ],
    "settings": {
     "basket": "Double",
@@ -1635,6 +1672,9 @@
     "boozy",
     "bold"
    ],
+   "optional": [
+    "3 espresso beans, to garnish"
+   ],
    "blurb": "A cocktail of cold-pressed espresso, vodka and coffee liqueur, shaken until frothy. Contains alcohol."
   },
   {
@@ -1658,7 +1698,7 @@
     "Ice",
     "3 tbsp strawberry syrup, divided",
     "1 tbsp chocolate syrup",
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "¼ cup (2 oz) heavy cream",
     "¾ cup (6 oz) whole milk"
    ],
@@ -1699,6 +1739,7 @@
     "fruity",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Iced latte layered with strawberry and chocolate syrups, cream and milk. Like chocolate-covered strawberries."
   },
   {
@@ -1722,7 +1763,7 @@
     "1 oz vanilla syrup",
     "¾ cup cold 2% milk",
     "Ice",
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "Caramel sauce, to drizzle"
    ],
    "settings": {
@@ -1774,6 +1815,7 @@
     "vanilla",
     "layered"
    ],
+   "optional": [],
    "blurb": "Vanilla milk over ice with cold-pressed espresso poured on top and a caramel drizzle."
   },
   {
@@ -1796,7 +1838,7 @@
    "ingredients": [
     "Ice",
     "4 oz (½ cup) tonic water",
-    "Double shot of cold-pressed espresso (about 2 oz)",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso (about 2 oz)",
     "Lemon or orange wedge"
    ],
    "settings": {
@@ -1823,6 +1865,7 @@
     "sparkling",
     "citrus"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso floated on tonic water and ice with a citrus wedge. Bitter, bubbly and refreshing."
   },
   {
@@ -1843,7 +1886,7 @@
    "makes": "1 drink",
    "glass": "Coupe or short glass",
    "ingredients": [
-    "4 oz cold-pressed espresso (a quad shot)",
+    "Fresh whole coffee beans, for 4 oz cold-pressed espresso (a quad shot)",
     "½ tbsp simple syrup",
     "Ice",
     "Sweet cream syrup, to taste (below)"
@@ -1883,6 +1926,7 @@
     "foamy",
     "sweet"
    ],
+   "optional": [],
    "blurb": "Italian iced coffee: a quad shot shaken hard with ice and syrup until foamy, with sweet cream."
   },
   {
@@ -1903,7 +1947,7 @@
    "makes": "11 oz",
    "glass": "12 oz cup",
    "ingredients": [
-    "6 oz brewed coffee",
+    "Fresh whole coffee beans, for 6 oz brewed coffee",
     "5 oz whole milk"
    ],
    "settings": {
@@ -1931,6 +1975,7 @@
     "mellow",
     "creamy"
    ],
+   "optional": [],
    "blurb": "The French breakfast coffee: brewed coffee with an equal pour of hot steamed milk."
   },
   {
@@ -1953,7 +1998,7 @@
    "ingredients": [
     "1 heaping tbsp piloncillo or dark brown sugar",
     "½ small cinnamon stick (Ceylon if you can), broken up",
-    "10 oz brewed dark-roast coffee"
+    "Fresh whole coffee beans, for 10 oz brewed dark-roast coffee"
    ],
    "settings": {
     "basket": "Luxe",
@@ -1978,6 +2023,7 @@
     "warm spice",
     "molasses"
    ],
+   "optional": [],
    "blurb": "Mexican pot coffee: dark coffee sweetened with piloncillo (raw cane sugar) and warmed with cinnamon."
   },
   {
@@ -1999,9 +2045,8 @@
    "glass": "12 oz mug",
    "ingredients": [
     "3 tbsp salted caramel apple syrup (below)",
-    "6 oz brewed coffee",
-    "4 oz whole milk",
-    "Whipped cream, caramel drizzle, a dash of cinnamon, a rolled wafer cookie (any or all)"
+    "Fresh whole coffee beans, for 6 oz brewed coffee",
+    "4 oz whole milk"
    ],
    "settings": {
     "basket": "Luxe",
@@ -2051,6 +2096,12 @@
     "apple",
     "seasonal"
    ],
+   "optional": [
+    "Whipped cream",
+    "Caramel sauce, to drizzle",
+    "Ground cinnamon",
+    "Rolled wafer cookie"
+   ],
    "blurb": "Coffee and milk with a homemade salted caramel apple syrup, topped with whipped cream and caramel."
   },
   {
@@ -2073,7 +2124,7 @@
    "ingredients": [
     "Seeds from 1 cardamom pod, crushed",
     "¾ cup low-fat milk",
-    "6 oz brewed coffee",
+    "Fresh whole coffee beans, for 6 oz brewed coffee",
     "Sugar, to taste"
    ],
    "settings": {
@@ -2103,6 +2154,7 @@
     "floral",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "South Indian-style milky coffee scented with crushed cardamom and sweetened to taste."
   },
   {
@@ -2124,7 +2176,7 @@
    "glass": "16 oz glass mug",
    "ingredients": [
     "1 tbsp brown sugar",
-    "10 oz brewed coffee",
+    "Fresh whole coffee beans, for 10 oz brewed coffee",
     "1½ oz Irish whiskey",
     "1 tbsp whole milk",
     "2 oz heavy cream"
@@ -2156,6 +2208,7 @@
     "boozy",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Hot coffee with brown sugar and Irish whiskey under a cap of cold cream foam. Contains alcohol."
   },
   {
@@ -2179,7 +2232,7 @@
     "½ tsp cinnamon",
     "¼ tsp chili powder",
     "1 pinch cayenne",
-    "10 oz brewed coffee",
+    "Fresh whole coffee beans, for 10 oz brewed coffee",
     "2 oz heavy cream",
     "1 tsp powdered sugar",
     "2 tsp cocoa powder"
@@ -2212,6 +2265,7 @@
     "spicy",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Coffee spiced with cinnamon, chili and cayenne, topped with a chocolate cold foam. Warm with a little heat."
   },
   {
@@ -2236,7 +2290,7 @@
     "1¼ cups water",
     "6 tbsp evaporated milk",
     "1 tbsp sweetened condensed milk",
-    "8 oz brewed coffee"
+    "Fresh whole coffee beans, for 8 oz brewed coffee"
    ],
    "settings": {
     "basket": "Luxe",
@@ -2262,6 +2316,7 @@
     "tea",
     "creamy"
    ],
+   "optional": [],
    "blurb": "A Hong Kong favorite: half coffee, half strong milk tea, made creamy with evaporated and condensed milk."
   },
   {
@@ -2288,7 +2343,7 @@
     "3 cinnamon sticks",
     "2 oz brandy",
     "2 oz orange liqueur (such as Cointreau)",
-    "Two 18 oz batches of brewed French roast coffee, kept hot"
+    "Fresh whole coffee beans, for two 18 oz batches of brewed French roast coffee, kept hot"
    ],
    "settings": {
     "basket": "Luxe",
@@ -2320,6 +2375,7 @@
     "boozy",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "A New Orleans party coffee with citrus peel, cloves, cinnamon, brandy and orange liqueur. Contains alcohol."
   },
   {
@@ -2340,7 +2396,7 @@
    "makes": "2 mugs",
    "glass": "Two mugs",
    "ingredients": [
-    "8 oz strong brewed dark-roast coffee",
+    "Fresh whole coffee beans, for 8 oz strong brewed dark-roast coffee",
     "¼ cup whole milk",
     "2 tbsp honey",
     "1 small pinch ground cinnamon",
@@ -2372,6 +2428,7 @@
     "honey",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "Strong coffee with milk, honey, vanilla and a pinch of cinnamon and nutmeg."
   },
   {
@@ -2392,7 +2449,7 @@
    "makes": "13 oz",
    "glass": "16 oz glass",
    "ingredients": [
-    "10 oz over-ice coffee",
+    "Fresh whole coffee beans, for 10 oz over-ice coffee",
     "Ice",
     "2 oz heavy cream",
     "1 tbsp whole milk",
@@ -2427,6 +2484,7 @@
     "caramel",
     "salty-sweet"
    ],
+   "optional": [],
    "blurb": "Iced coffee topped with a sweet and salty caramel cold foam."
   },
   {
@@ -2447,7 +2505,7 @@
    "makes": "13 oz",
    "glass": "16 oz glass",
    "ingredients": [
-    "10 oz over-ice coffee",
+    "Fresh whole coffee beans, for 10 oz over-ice coffee",
     "Ice",
     "2 oz heavy cream",
     "1 tbsp whole milk",
@@ -2481,6 +2539,7 @@
     "minty",
     "seasonal"
    ],
+   "optional": [],
    "blurb": "Iced coffee topped with a cool peppermint cold foam."
   },
   {
@@ -2501,7 +2560,7 @@
    "makes": "12 oz",
    "glass": "16 oz glass",
    "ingredients": [
-    "10 oz over-ice coffee",
+    "Fresh whole coffee beans, for 10 oz over-ice coffee",
     "Ice",
     "3 tbsp sweetened condensed milk"
    ],
@@ -2527,6 +2586,7 @@
     "sweet",
     "bold"
    ],
+   "optional": [],
    "blurb": "Strong coffee and sweetened condensed milk over ice. Bold, sweet and creamy."
   },
   {
@@ -2547,7 +2607,7 @@
    "makes": "1 drink",
    "glass": "16 oz glass",
    "ingredients": [
-    "6 oz over-ice coffee, from Thai coffee powder or a dark roast",
+    "Fresh dark-roast coffee beans (or Thai coffee powder), for 6 oz over-ice coffee",
     "2 tbsp sweetened condensed milk",
     "2 tsp sugar, or to taste",
     "Pinch of salt",
@@ -2580,6 +2640,7 @@
     "sweet",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Strong coffee sweetened with condensed milk and sugar, poured over ice and topped with evaporated milk."
   },
   {
@@ -2600,7 +2661,7 @@
    "makes": "2 glasses",
    "glass": "Two 12 oz glasses",
    "ingredients": [
-    "Light or medium roast beans",
+    "Fresh whole coffee beans, light or medium roast",
     "Ice"
    ],
    "settings": {
@@ -2625,6 +2686,7 @@
     "bright",
     "clean"
    ],
+   "optional": [],
    "blurb": "Light-roast coffee brewed hot straight onto ice, so it chills instantly and keeps its bright flavor."
   },
   {
@@ -2645,7 +2707,7 @@
    "makes": "1 drink",
    "glass": "16 oz glass",
    "ingredients": [
-    "8 oz over-ice coffee",
+    "Fresh whole coffee beans, for 8 oz over-ice coffee",
     "Ice",
     "Cinnamon honey syrup, to taste (below)",
     "Splash of milk of your choice"
@@ -2687,6 +2749,7 @@
     "honey",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "Iced coffee sweetened with a homemade cinnamon honey syrup and a splash of milk."
   },
   {
@@ -2707,7 +2770,7 @@
    "makes": "12 oz",
    "glass": "12 oz glass",
    "ingredients": [
-    "10 oz cold brew",
+    "Fresh whole coffee beans, for 10 oz cold brew",
     "Ice",
     "1 tbsp caramel syrup",
     "3 tbsp almond milk"
@@ -2736,6 +2799,7 @@
     "caramel",
     "nutty"
    ],
+   "optional": [],
    "blurb": "Cold brew over ice with caramel syrup and a splash of almond milk."
   },
   {
@@ -2789,6 +2853,7 @@
     "smooth",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Smooth cold brew over ice, topped with a thick layer of frothed cold cream."
   },
   {
@@ -2810,7 +2875,7 @@
    "glass": "16 oz glass",
    "ingredients": [
     "2 tbsp vanilla syrup (for the coffee)",
-    "8 oz cold brew",
+    "Fresh whole coffee beans, for 8 oz cold brew",
     "1 cup ice",
     "¼ cup half-and-half",
     "1 tbsp vanilla syrup (for the cream)"
@@ -2840,6 +2905,7 @@
     "vanilla",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Vanilla-sweetened cold brew with a float of vanilla sweet cream on top."
   },
   {
@@ -2860,7 +2926,7 @@
    "makes": "1 drink",
    "glass": "16 oz glass",
    "ingredients": [
-    "8 oz cold brew",
+    "Fresh whole coffee beans, for 8 oz cold brew",
     "Ice",
     "1 tbsp caramel syrup, divided",
     "2 tbsp heavy cream",
@@ -2893,6 +2959,7 @@
     "caramel",
     "salty-sweet"
    ],
+   "optional": [],
    "blurb": "Cold brew with caramel, topped with a sweet and salty caramel cream."
   },
   {
@@ -2913,7 +2980,7 @@
    "makes": "2 drinks",
    "glass": "Two 12 oz glasses",
    "ingredients": [
-    "12 oz cold brew (two 6 oz pours)",
+    "Fresh whole coffee beans, for 12 oz cold brew (two 6 oz pours)",
     "Ice",
     "½ cup half-and-half or heavy cream",
     "2 tbsp vanilla syrup",
@@ -2947,6 +3014,7 @@
     "seasonal",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "Vanilla cold brew topped with a pumpkin spice cold foam. A fall favorite."
   },
   {
@@ -2993,6 +3061,7 @@
     "chocolate",
     "whipped"
    ],
+   "optional": [],
    "blurb": "Whipped instant coffee and cocoa spooned over cold milk and ice. A chocolate take on dalgona coffee."
   },
   {
@@ -3015,8 +3084,7 @@
    "ingredients": [
     "½ to 1 tsp matcha powder, sifted",
     "¼ cup hot water",
-    "¼ cup coconut milk (light or full-fat)",
-    "Maple syrup or honey, to taste (optional)"
+    "¼ cup coconut milk (light or full-fat)"
    ],
    "settings": {
     "froth": "STEAMED MILK",
@@ -3043,6 +3111,9 @@
     "grassy",
     "creamy"
    ],
+   "optional": [
+    "Maple syrup or honey, to taste"
+   ],
    "blurb": "Whisked Japanese green tea powder with frothed coconut milk, sweetened to taste. No coffee."
   },
   {
@@ -3066,9 +3137,7 @@
     "2 Earl Grey tea bags",
     "½ cup hot water",
     "2 tsp sugar",
-    "½ cup milk",
-    "1 tbsp heavy cream (optional)",
-    "⅛ tsp vanilla extract (optional)"
+    "½ cup milk"
    ],
    "settings": {
     "froth": "THIN FROTH",
@@ -3095,6 +3164,10 @@
     "floral",
     "vanilla"
    ],
+   "optional": [
+    "1 tbsp heavy cream",
+    "⅛ tsp vanilla extract"
+   ],
    "blurb": "Earl Grey tea with frothed milk, a little sugar and vanilla. No coffee."
   },
   {
@@ -3119,8 +3192,7 @@
     "1½ oz whiskey",
     "2 to 3 tsp honey",
     "2 to 3 tsp lemon juice",
-    "1 lemon round",
-    "1 cinnamon stick (optional)"
+    "1 lemon round"
    ],
    "settings": {
     "hotWater": "HIGH, 6 oz"
@@ -3143,6 +3215,9 @@
     "citrus",
     "boozy"
    ],
+   "optional": [
+    "1 cinnamon stick"
+   ],
    "blurb": "A warm drink of whiskey, honey and lemon in hot water. Contains alcohol, no coffee."
   },
   {
@@ -3163,7 +3238,7 @@
    "makes": "2 small cups",
    "glass": "Two espresso cups",
    "ingredients": [
-    "Double shot of dark-roast espresso",
+    "Fresh whole coffee beans, for a double shot of dark-roast espresso",
     "4 heaping tsp granulated sugar"
    ],
    "settings": {
@@ -3190,6 +3265,7 @@
     "sweet",
     "bold"
    ],
+   "optional": [],
    "blurb": "A Cuban shot of dark espresso whipped with sugar into a sweet, foamy crema."
   },
   {
@@ -3210,7 +3286,7 @@
    "makes": "1 drink",
    "glass": "Small clear glass",
    "ingredients": [
-    "Ristretto shot (about 25 to 40 ml)",
+    "Fresh whole coffee beans, for a ristretto shot (about 25 to 40 ml)",
     "3½ oz (100 ml) low-fat milk",
     "About ¾ tsp (3 g) brown sugar",
     "A few toasted almonds, chopped",
@@ -3245,6 +3321,7 @@
     "citrus",
     "dessert"
    ],
+   "optional": [],
    "blurb": "A ristretto with frothed milk, caramelized brown sugar, toasted almonds and lemon peel. Like a crème brûlée."
   },
   {
@@ -3265,11 +3342,10 @@
    "makes": "1 drink",
    "glass": "Clear lungo cup",
    "ingredients": [
-    "Lungo shot (about 110 ml), dark roast",
+    "Fresh whole coffee beans, for a lungo shot (about 110 ml), dark roast",
     "About 1 tsp (5 g) ground cinnamon",
     "About 1 tsp (5 g) freshly grated nutmeg",
-    "1 whole clove",
-    "1 tsp (4 g) sugar (optional)"
+    "1 whole clove"
    ],
    "settings": {
     "basket": "Double",
@@ -3292,6 +3368,9 @@
     "warm spice",
     "bold"
    ],
+   "optional": [
+    "1 tsp (4 g) sugar"
+   ],
    "blurb": "A dark lungo spiced with cinnamon, nutmeg and clove, lightly sweetened."
   },
   {
@@ -3312,7 +3391,7 @@
    "makes": "1 drink (syrup makes plenty)",
    "glass": "6 to 8 oz cup",
    "ingredients": [
-    "Double shot of espresso (about 2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (about 2 oz)",
     "2 oz hot water",
     "2 tbsp spiced syrup (below)",
     "¼ cup heavy cream",
@@ -3357,6 +3436,7 @@
     "warm spice",
     "creamy"
    ],
+   "optional": [],
    "blurb": "An americano with homemade spiced syrup, topped with cinnamon whipped cream."
   },
   {
@@ -3377,8 +3457,8 @@
    "makes": "1 large mug",
    "glass": "Large 16 oz mug",
    "ingredients": [
-    "Double shot of espresso",
-    "10 oz brewed coffee"
+    "Fresh whole coffee beans, for a double shot of espresso",
+    "Fresh whole coffee beans, for 10 oz brewed coffee"
    ],
    "settings": {
     "basket": "Double",
@@ -3409,6 +3489,7 @@
     "bold",
     "extra strong"
    ],
+   "optional": [],
    "blurb": "Brewed coffee with a shot of espresso added for an extra kick."
   },
   {
@@ -3429,7 +3510,7 @@
    "makes": "1 drink",
    "glass": "12 oz glass",
    "ingredients": [
-    "Single shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a single shot of cold-pressed espresso",
     "2 oz (60 ml) cold water",
     "1 tsp coconut sugar",
     "6 to 8 ice cubes, crushed",
@@ -3456,6 +3537,7 @@
     "tropical",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso with coconut sugar and coconut milk over crushed ice. Light and tropical."
   },
   {
@@ -3477,7 +3559,7 @@
    "glass": "10 oz glass",
    "ingredients": [
     "6 to 8 ice cubes",
-    "Single shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a single shot of cold-pressed espresso",
     "2 oz (60 ml) cold water",
     "1 tbsp honey",
     "⅓ cup (80 ml) unsweetened oat milk"
@@ -3505,6 +3587,7 @@
     "honey",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso sweetened with honey and topped with oat milk over ice."
   },
   {
@@ -3526,12 +3609,11 @@
    "glass": "12 oz mug",
    "ingredients": [
     "⅛ tsp + a pinch ground cinnamon",
-    "8 oz brewed coffee",
+    "Fresh whole coffee beans, for 8 oz brewed coffee",
     "¼ cup 2% milk",
     "1½ to 2 tsp sugar",
     "1½ tsp baking cocoa",
-    "¼ tsp vanilla extract",
-    "Cinnamon stick and whipped cream (optional)"
+    "¼ tsp vanilla extract"
    ],
    "settings": {
     "basket": "Luxe",
@@ -3560,6 +3642,10 @@
     "chocolate",
     "warm spice"
    ],
+   "optional": [
+    "Cinnamon stick",
+    "Whipped cream"
+   ],
    "blurb": "Brewed coffee with cocoa, cinnamon, vanilla and milk. A quick homemade mocha."
   },
   {
@@ -3580,7 +3666,7 @@
    "makes": "1 mug",
    "glass": "10 oz mug",
    "ingredients": [
-    "8 oz brewed coffee",
+    "Fresh whole coffee beans, for 8 oz brewed coffee",
     "1 tbsp + 1 tsp grass-fed butter (or ghee)",
     "1 tbsp MCT oil"
    ],
@@ -3609,6 +3695,7 @@
     "rich",
     "buttery"
    ],
+   "optional": [],
    "blurb": "Coffee blended with butter and MCT oil until creamy and foamy. Rich, with no sugar or milk."
   },
   {
@@ -3632,7 +3719,7 @@
     "2 large pasteurized egg yolks",
     "¼ cup (60 ml) sweetened condensed milk",
     "½ tsp vanilla extract",
-    "½ cup (4 oz) brewed dark-roast coffee",
+    "Fresh whole coffee beans, for ½ cup (4 oz) brewed dark-roast coffee",
     "Ground cinnamon or cocoa, to top"
    ],
    "settings": {
@@ -3664,6 +3751,7 @@
     "sweet",
     "dessert"
    ],
+   "optional": [],
    "blurb": "A Hanoi specialty: dark coffee topped with a thick, custard-like foam of whipped egg yolk and condensed milk."
   },
   {
@@ -3689,7 +3777,7 @@
     "¼ tsp vanilla extract, divided",
     "1 tbsp Dutch-processed cocoa",
     "6 tbsp half-and-half",
-    "8 oz strong brewed coffee",
+    "Fresh whole coffee beans, for 8 oz strong brewed coffee",
     "2 tbsp caramel syrup",
     "Butterscotch-caramel topping, to drizzle"
    ],
@@ -3721,6 +3809,7 @@
     "caramel",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Coffee with cocoa, half-and-half and caramel, topped with vanilla whipped cream and caramel drizzle."
   },
   {
@@ -3745,7 +3834,7 @@
     "2 oz (56 g) fresh lemon juice",
     "¼ cup (56 g) sugar",
     "2 oz (56 g) water",
-    "10 oz over-ice coffee, light roast",
+    "Fresh whole coffee beans, for 10 oz over-ice coffee, light roast",
     "Fresh ice, for serving"
    ],
    "settings": {
@@ -3770,6 +3859,7 @@
     "citrus",
     "refreshing"
    ],
+   "optional": [],
    "blurb": "Iced coffee lemonade: coffee with fresh lemon juice and sugar over ice. Tart, sweet and refreshing."
   },
   {
@@ -3792,7 +3882,7 @@
    "ingredients": [
     "1½ cups ice",
     "1½ tsp hazelnut syrup",
-    "6 oz over-ice coffee",
+    "Fresh whole coffee beans, for 6 oz over-ice coffee",
     "2 oz milk of your choice"
    ],
    "settings": {
@@ -3817,6 +3907,7 @@
     "nutty",
     "smooth"
    ],
+   "optional": [],
    "blurb": "Iced coffee with a little hazelnut syrup and milk."
   },
   {
@@ -3837,7 +3928,7 @@
    "makes": "1 drink",
    "glass": "16 oz glass",
    "ingredients": [
-    "8 oz cold brew",
+    "Fresh whole coffee beans, for 8 oz cold brew",
     "Ice",
     "1½ tbsp honey syrup, divided (below)",
     "¼ cup skim milk (or a barista-style plant milk)",
@@ -3881,6 +3972,7 @@
     "honey",
     "salty-sweet"
    ],
+   "optional": [],
    "blurb": "Cold brew sweetened with honey syrup and topped with a salted honey cold foam."
   },
   {
@@ -3901,7 +3993,7 @@
    "makes": "1 shake",
    "glass": "Milkshake glass",
    "ingredients": [
-    "6 oz cold brew",
+    "Fresh whole coffee beans, for 6 oz cold brew",
     "2 scoops coconut ice cream",
     "2 tbsp semisweet chocolate chips",
     "Whipped cream",
@@ -3930,6 +4022,7 @@
     "tropical",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "A milkshake of cold brew, coconut ice cream and chocolate, topped with whipped cream and toasted coconut."
   },
   {
@@ -3977,6 +4070,7 @@
     "honey",
     "soothing"
    ],
+   "optional": [],
    "blurb": "A soothing tea of green and peach teas with warm lemonade and honey. No coffee."
   },
   {
@@ -4002,8 +4096,7 @@
     "Small pinch of salt",
     "4 tsp hot water",
     "1 cup whole milk",
-    "Scant ¼ tsp vanilla extract",
-    "Whipped cream (optional)"
+    "Scant ¼ tsp vanilla extract"
    ],
    "settings": {
     "froth": "STEAMED MILK",
@@ -4025,6 +4118,9 @@
     "chocolate",
     "cozy"
    ],
+   "optional": [
+    "Whipped cream"
+   ],
    "blurb": "Classic hot chocolate made with cocoa, sugar, vanilla and frothed whole milk. No coffee."
   },
   {
@@ -4045,7 +4141,7 @@
    "makes": "1 latte",
    "glass": "10 oz mug",
    "ingredients": [
-    "Double shot of espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "4 oz (½ cup) whole milk or oat milk",
     "½ tbsp vanilla syrup"
    ],
@@ -4088,6 +4184,7 @@
     "vanilla",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Espresso and steamed milk sweetened with a little vanilla syrup. The most popular flavored latte."
   },
   {
@@ -4109,7 +4206,7 @@
    "glass": "12 oz mug",
    "ingredients": [
     "4 tbsp white chocolate chips or chopped white chocolate",
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "1 cup (8 oz) 2% milk",
     "Whipped cream"
    ],
@@ -4139,6 +4236,7 @@
     "sweet",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Espresso and steamed milk with melted white chocolate, topped with whipped cream. Sweet and creamy."
   },
   {
@@ -4159,7 +4257,7 @@
    "makes": "1 latte",
    "glass": "10 oz mug",
    "ingredients": [
-    "Double shot of espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "1 tbsp gingerbread syrup",
     "4 oz (½ cup) whole milk or oat milk",
     "Ground cinnamon, to garnish"
@@ -4207,6 +4305,7 @@
     "warm spice",
     "sweet"
    ],
+   "optional": [],
    "blurb": "A holiday latte with gingerbread syrup (ginger, cinnamon and molasses) and a dusting of cinnamon."
   },
   {
@@ -4227,10 +4326,9 @@
    "makes": "1 latte",
    "glass": "10 oz mug",
    "ingredients": [
-    "Double shot of espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "1 tbsp lavender syrup",
-    "4 oz (½ cup) whole milk or oat milk",
-    "Dried lavender buds, to garnish (optional)"
+    "4 oz (½ cup) whole milk or oat milk"
    ],
    "settings": {
     "basket": "Double",
@@ -4272,6 +4370,9 @@
     "floral",
     "sweet"
    ],
+   "optional": [
+    "Dried lavender buds, to garnish"
+   ],
    "blurb": "A latte sweetened with homemade lavender syrup. Lightly floral and smooth."
   },
   {
@@ -4296,7 +4397,7 @@
     "1 tsp water",
     "½ tsp lemon juice",
     "4 cups unsweetened milk",
-    "Double shot of espresso (2 oz)"
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)"
    ],
    "settings": {
     "basket": "Double",
@@ -4325,6 +4426,7 @@
     "honey",
     "caramel"
    ],
+   "optional": [],
    "blurb": "A latte made with honey cooked until it turns caramel, then stirred into steamed milk."
   },
   {
@@ -4345,7 +4447,7 @@
    "makes": "1 latte",
    "glass": "12 oz mug",
    "ingredients": [
-    "Double shot of espresso",
+    "Fresh whole coffee beans, for a double shot of espresso",
     "2 tbsp maple syrup",
     "1 cup (8 oz) milk",
     "2 tbsp whipped cream",
@@ -4377,6 +4479,7 @@
     "maple",
     "nutty"
    ],
+   "optional": [],
    "blurb": "Espresso and steamed milk with maple syrup, topped with whipped cream and chopped pecans."
   },
   {
@@ -4397,10 +4500,9 @@
    "makes": "1 mug",
    "glass": "8 oz mug",
    "ingredients": [
-    "Double shot of espresso (dark Cuban-style roast if you have it)",
+    "Fresh whole coffee beans, for a double shot of espresso (dark Cuban-style roast if you have it)",
     "½ cup (4 oz) whole milk",
-    "2 tsp sugar, or to taste",
-    "Pinch of salt (optional)"
+    "2 tsp sugar, or to taste"
    ],
    "settings": {
     "basket": "Double",
@@ -4427,6 +4529,9 @@
     "mellow",
     "sweet"
    ],
+   "optional": [
+    "Pinch of salt"
+   ],
    "blurb": "The Spanish and Cuban breakfast coffee: strong espresso with hot milk and a little sugar."
   },
   {
@@ -4447,7 +4552,7 @@
    "makes": "1 drink",
    "glass": "12 oz glass",
    "ingredients": [
-    "Double shot of espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "1 tbsp chocolate chips",
     "1 tbsp simple syrup or chocolate syrup",
     "¼ cup (2 oz) milk or oat milk",
@@ -4479,6 +4584,7 @@
     "chocolate",
     "bold"
    ],
+   "optional": [],
    "blurb": "Espresso and chocolate over ice with a splash of milk. A chocolate iced latte."
   },
   {
@@ -4499,7 +4605,7 @@
    "makes": "1 drink",
    "glass": "12 oz glass",
    "ingredients": [
-    "Double shot of espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "2 tbsp white chocolate chips",
     "2 tbsp milk",
     "Ice",
@@ -4531,6 +4637,7 @@
     "sweet",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Espresso and melted white chocolate over ice, topped with a cold foam."
   },
   {
@@ -4551,7 +4658,7 @@
    "makes": "1 drink",
    "glass": "16 oz glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso (2 oz)",
     "1 tbsp lavender syrup",
     "Ice",
     "10 oz barista-style oat milk"
@@ -4590,6 +4697,7 @@
     "floral",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso with lavender syrup and oat milk over ice. Floral and creamy."
   },
   {
@@ -4610,7 +4718,7 @@
    "makes": "1 drink",
    "glass": "Tall glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso (2 oz)",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso (2 oz)",
     "1 to 2 tbsp pistachio syrup",
     "Ice",
     "6 oz cold milk or plant milk",
@@ -4650,6 +4758,7 @@
     "nutty",
     "sweet"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso with pistachio syrup and cold milk over ice, topped with toasted pistachios."
   },
   {
@@ -4675,7 +4784,7 @@
     "1 tbsp vanilla syrup or honey",
     "Ice",
     "½ cup (4 oz) cold milk",
-    "Double shot of cold-pressed espresso (2 oz)"
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso (2 oz)"
    ],
    "settings": {
     "basket": "Double",
@@ -4703,6 +4812,7 @@
     "grassy",
     "bold"
    ],
+   "optional": [],
    "blurb": "An iced matcha latte with a shot of espresso poured on top. Green tea and coffee in layers."
   },
   {
@@ -4723,7 +4833,7 @@
    "makes": "1 grande",
    "glass": "16 oz glass",
    "ingredients": [
-    "Triple shot of cold-pressed espresso (3 oz, light roast if you have it)",
+    "Fresh whole coffee beans, for a triple shot of cold-pressed espresso (3 oz, light roast if you have it)",
     "1½ oz toasted vanilla syrup",
     "Ice",
     "4 oz (½ cup) oat milk"
@@ -4764,6 +4874,7 @@
     "vanilla",
     "toasty"
    ],
+   "optional": [],
    "blurb": "Three shots of cold-pressed espresso shaken with toasted vanilla syrup and ice, topped with oat milk."
   },
   {
@@ -4784,7 +4895,7 @@
    "makes": "1 drink",
    "glass": "12 oz glass",
    "ingredients": [
-    "Double shot of cold-pressed espresso",
+    "Fresh whole coffee beans, for a double shot of cold-pressed espresso",
     "1½ tbsp chocolate syrup, plus a drizzle",
     "1 cup ice, plus more for the glass",
     "½ cup (4 oz) almond milk"
@@ -4811,6 +4922,7 @@
     "chocolate",
     "nutty"
    ],
+   "optional": [],
    "blurb": "Cold-pressed espresso shaken with chocolate syrup and ice, topped with almond milk."
   },
   {
@@ -4832,7 +4944,7 @@
    "glass": "12 oz glass",
    "ingredients": [
     "Ice",
-    "6 oz over-ice coffee",
+    "Fresh whole coffee beans, for 6 oz over-ice coffee",
     "¼ cup (2 oz) milk of your choice",
     "2 to 3 tsp vanilla syrup"
    ],
@@ -4871,6 +4983,7 @@
     "vanilla",
     "smooth"
    ],
+   "optional": [],
    "blurb": "Iced coffee sweetened with vanilla syrup and a splash of milk."
   },
   {
@@ -4895,7 +5008,7 @@
     "2 tbsp hot water",
     "1 cup ice",
     "⅓ cup milk (any kind)",
-    "6 oz over-ice coffee"
+    "Fresh whole coffee beans, for 6 oz over-ice coffee"
    ],
    "settings": {
     "basket": "Luxe",
@@ -4921,6 +5034,7 @@
     "caramel",
     "smooth"
    ],
+   "optional": [],
    "blurb": "Iced coffee sweetened with a quick brown sugar syrup and topped with milk."
   },
   {
@@ -4942,8 +5056,7 @@
    "glass": "Tall heatproof glass",
    "ingredients": [
     "Ice",
-    "Double shot of espresso (2 oz)",
-    "Syrup of your choice (optional)",
+    "Fresh whole coffee beans, for a double shot of espresso (2 oz)",
     "Up to ½ cup (4 oz) milk",
     "1 scoop vanilla ice cream"
    ],
@@ -4969,6 +5082,9 @@
     "dessert",
     "creamy"
    ],
+   "optional": [
+    "Syrup of your choice"
+   ],
    "blurb": "Espresso and milk over ice with a scoop of vanilla ice cream floating on top. A coffee dessert drink."
   },
   {
@@ -4991,7 +5107,7 @@
    "ingredients": [
     "Ice",
     "1 tbsp vanilla syrup",
-    "8 oz cold brew",
+    "Fresh whole coffee beans, for 8 oz cold brew",
     "Chocolate cream: 2 oz heavy cream, 1 oz 2% milk, 1 tbsp chocolate syrup, ½ tsp malt powder, 1 tsp sugar, tiny pinch of salt"
    ],
    "settings": {
@@ -5021,6 +5137,7 @@
     "chocolate",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Vanilla cold brew topped with a malty chocolate cold foam."
   },
   {
@@ -5042,7 +5159,7 @@
    "glass": "12 oz glass",
    "ingredients": [
     "Ice",
-    "10 oz cold brew",
+    "Fresh whole coffee beans, for 10 oz cold brew",
     "½ oz (1 tbsp) Irish cream syrup",
     "Cold foam: ½ cup heavy cream, 1 tbsp Irish cream liqueur or syrup, 1 tbsp sugar"
    ],
@@ -5090,6 +5207,7 @@
     "creamy",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Cold brew with Irish cream syrup and an Irish cream cold foam. Alcohol is optional."
   },
   {
@@ -5112,7 +5230,7 @@
    "ingredients": [
     "Ice",
     "1 tbsp brown sugar syrup",
-    "10 oz cold brew",
+    "Fresh whole coffee beans, for 10 oz cold brew",
     "¼ cup sweetened vanilla oat or almond milk, chilled",
     "1½ tsp dark brown sugar",
     "Cinnamon sugar, to dust"
@@ -5155,6 +5273,7 @@
     "caramel",
     "warm spice"
    ],
+   "optional": [],
    "blurb": "Cold brew with brown sugar syrup, topped with a brown sugar oat milk foam and cinnamon sugar."
   },
   {
@@ -5178,7 +5297,7 @@
     "½ tsp molasses",
     "2 tsp brown sugar, plus a sprinkle",
     "⅛ tsp ground cinnamon, plus a sprinkle",
-    "8 oz brewed coffee",
+    "Fresh whole coffee beans, for 8 oz brewed coffee",
     "4 oz whole milk"
    ],
    "settings": {
@@ -5208,6 +5327,7 @@
     "warm spice",
     "sweet"
    ],
+   "optional": [],
    "blurb": "Brewed coffee with molasses, brown sugar and cinnamon plus steamed milk. Tastes like gingerbread."
   },
   {
@@ -5228,12 +5348,11 @@
    "makes": "1 mug",
    "glass": "12 oz mug",
    "ingredients": [
-    "8 oz brewed coffee",
+    "Fresh whole coffee beans, for 8 oz brewed coffee",
     "1½ tbsp half-and-half",
     "2 tsp brown sugar",
     "¼ tsp vanilla extract",
-    "1 tsp maple syrup (for plain beans)",
-    "Whipped cream and cinnamon (optional)"
+    "1 tsp maple syrup (for plain beans)"
    ],
    "settings": {
     "basket": "Luxe",
@@ -5258,6 +5377,10 @@
     "maple",
     "sweet"
    ],
+   "optional": [
+    "Whipped cream",
+    "Ground cinnamon"
+   ],
    "blurb": "Brewed coffee with brown sugar, vanilla, a little maple and half-and-half."
   },
   {
@@ -5279,8 +5402,7 @@
    "glass": "10 oz mug",
    "ingredients": [
     "1 tbsp spiced butter mix",
-    "8 oz brewed coffee (dark roast)",
-    "Cinnamon stick and whipped cream (optional)"
+    "Fresh whole coffee beans, for 8 oz brewed coffee (dark roast)"
    ],
    "settings": {
     "basket": "Luxe",
@@ -5322,6 +5444,10 @@
     "buttery",
     "warm spice"
    ],
+   "optional": [
+    "Cinnamon stick",
+    "Whipped cream"
+   ],
    "blurb": "Dark coffee stirred with a spiced butter and brown sugar mix. Rich and cozy, like hot buttered rum."
   },
   {
@@ -5347,7 +5473,7 @@
     "1 small drop anise extract (about ⅛ tsp, or to taste)",
     "1 cinnamon stick",
     "2 whole cloves",
-    "8 oz brewed coffee"
+    "Fresh whole coffee beans, for 8 oz brewed coffee"
    ],
    "settings": {
     "basket": "Luxe",
@@ -5371,6 +5497,7 @@
     "warm spice",
     "chocolate"
    ],
+   "optional": [],
    "blurb": "Coffee steeped with cinnamon, cloves and a hint of anise, sweetened with sugar and chocolate syrup."
   },
   {
@@ -5392,10 +5519,11 @@
    "glass": "14 oz mug",
    "ingredients": [
     "1 oz (30 g) bittersweet chocolate, chopped",
-    "8 oz rich coffee",
+    "Fresh whole coffee beans, for 8 oz rich coffee",
     "½ cup (4 oz) milk",
     "⅛ tsp peppermint extract",
-    "Whipped cream and crushed candy canes"
+    "Whipped cream",
+    "Crushed candy canes"
    ],
    "settings": {
     "basket": "Luxe",
@@ -5424,6 +5552,7 @@
     "chocolate",
     "minty"
    ],
+   "optional": [],
    "blurb": "Coffee with melted dark chocolate, milk and peppermint, topped with whipped cream and crushed candy canes."
   },
   {
@@ -5446,7 +5575,7 @@
    "ingredients": [
     "6 tbsp half-and-half",
     "2 tbsp maple syrup",
-    "5 oz rich coffee",
+    "Fresh whole coffee beans, for 5 oz rich coffee",
     "2 tbsp whipped cream"
    ],
    "settings": {
@@ -5475,6 +5604,7 @@
     "maple",
     "creamy"
    ],
+   "optional": [],
    "blurb": "Rich coffee with maple syrup and creamy half-and-half, topped with whipped cream."
   }
  ]

@@ -1296,6 +1296,32 @@ for _rid, _eds in EDITS.items():
         _i = _st.index(_old)
         _st[_i:_i + 1] = _new if isinstance(_new, list) else [_new]
 
+# ingredients: list the beans you actually buy, and keep optional extras in their own list
+_COFFEE = re.compile(r"(?i)^(?:(?:\d+ oz|½ cup|two \d+ oz|double|single|triple)\b.*\b(?:coffee|cold brew|espresso|ristretto|quad shot)\b|(?:lungo|ristretto) shot\b)")
+_SPLIT = {
+    "Whipped cream and cinnamon": ["Whipped cream", "Ground cinnamon"],
+    "Cinnamon stick and whipped cream": ["Cinnamon stick", "Whipped cream"],
+    "Whipped cream, caramel drizzle, a dash of cinnamon, a rolled wafer cookie": ["Whipped cream", "Caramel sauce, to drizzle", "Ground cinnamon", "Rolled wafer cookie"],
+    "Whipped cream and crushed candy canes": ["Whipped cream", "Crushed candy canes"],
+}
+_RENAME = {
+    "6 oz over-ice coffee, from Thai coffee powder or a dark roast": "Fresh dark-roast coffee beans (or Thai coffee powder), for 6 oz over-ice coffee",
+    "Light or medium roast beans": "Fresh whole coffee beans, light or medium roast",
+}
+for r in RECIPES:
+    req, opt = [], []
+    for t in r["ingredients"]:
+        t = _RENAME.get(t, t)
+        if _COFFEE.search(t) and not re.search(r"(?i)liqueur|instant|ice cream|syrup|powder", t):
+            low = t[0].lower() + t[1:]
+            art = "a " if re.match(r"(?i)(double|single|triple|lungo|ristretto)", t) else ""
+            t = f"Fresh whole coffee beans, for {art}{low}"
+        m = re.search(r"\s*\((optional|any or all)\)$", t)
+        base = t[:m.start()] if m else t
+        items = _SPLIT.get(base, [base])
+        (opt if m else req).extend(items)
+    r["ingredients"], r["optional"] = req, opt
+
 # short descriptions (recipes/blurbs.py)
 from blurbs import BLURBS
 _ids = {r["id"] for r in RECIPES}

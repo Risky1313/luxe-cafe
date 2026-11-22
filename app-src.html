@@ -34,6 +34,7 @@ html{-webkit-text-size-adjust:100%;overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;
   padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 body.lock{overflow:hidden}
+html,body,a,button,input,label,select,textarea,summary,[data-act],.card{touch-action:manipulation}
 button,input,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 a{color:inherit}
@@ -326,6 +327,9 @@ details.subr ul{margin:0;padding-left:18px;color:var(--ink2)}
 .bready li .tick{border-color:var(--panelLine)}
 .bready li .tick[aria-checked="true"]{background:var(--goldHi);border-color:var(--goldHi);color:var(--panel)}
 .bready p{margin:0;color:var(--panelInk2)}
+.bready p.blab{margin:6px 0 -4px;font:600 12px/1.3 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--goldHi)}
+.bready p.blab span{margin-left:8px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--panelInk2)}
+.optlab{margin:18px 0 6px;font:600 12px/1.3 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
 .timer{display:flex;align-items:center;gap:16px;background:var(--panel2);border:1px solid var(--panelLine);border-radius:22px;padding:14px 16px}
 .ring{position:relative;width:76px;height:76px;flex:none}
 .ring svg{width:100%;height:100%;transform:rotate(-90deg)}
@@ -458,9 +462,10 @@ body.slock{overflow:hidden}
 <script>
 "use strict";
 // ---------- Version label (bump APP_V with every change) ----------
-const APP_V="1.4.0";
+const APP_V="1.5.0";
 const DATA=window.RECIPES, PHOTOS=new Set(window.PHOTOS||[]), CREDITS=window.CREDITS||{};
 const RECIPES=DATA.recipes, CATS=DATA.categories, byId=Object.fromEntries(RECIPES.map(r=>[r.id,r]));
+RECIPES.forEach(r=>{r.optional=r.optional||[];r.ingAll=r.ingredients.concat(r.optional)});
 const catName=id=>(CATS.find(c=>c.id===id)||{}).name||"";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -571,7 +576,7 @@ const FILTERS=[["serve","hot","Hot"],["serve","iced","Iced"],["milk",true,"Milk"
 function renderFilters(){$("filters").innerHTML=FILTERS.map(([k,v,l],i)=>`<button type="button" class="chip${i&&FILTERS[i-1][0]!==k?" sep":""}" data-f="${i}" aria-pressed="${UI.f[k]===v}">${l}</button>`).join("")}
 function matches(r,q){
   const f=UI.f;if(f.serve&&r.serve!==f.serve)return false;if(f.milk!=null&&r.milk!==f.milk)return false;if(f.effort&&r.effort!==f.effort)return false;if(f.ninja&&r.source.kind!=="ninja")return false;
-  if(q){const hay=norm([r.name,catName(r.category),r.ingredients.join(" "),(r.flavor||[]).join(" "),r.source.site,r.glass].join(" "));return q.split(/\s+/).every(w=>hay.includes(w))}
+  if(q){const hay=norm([r.name,catName(r.category),r.ingAll.join(" "),(r.flavor||[]).join(" "),r.source.site,r.glass].join(" "));return q.split(/\s+/).every(w=>hay.includes(w))}
   return true}
 function cardHTML(r,i){
   const favs=favUids(r.id).map(memberOf),avg=avgRating(r.id);
@@ -656,6 +661,7 @@ function settingsCells(r){const s=r.settings||{},c=[];
   if(s.basket)c.push(["Basket",s.basket]);if(s.style)c.push(["Style",s.style]);if(s.size)c.push(["Size",s.size+" oz"]);
   if(s.froth)c.push(["Froth",s.froth]);if(s.milkType)c.push(["Milk type",s.milkType]);if(s.temp)c.push(["Temp",s.temp]);if(s.hotWater)c.push(["Hot water",s.hotWater]);
   return c.length?`<div class="cells">${c.map(([k,v])=>`<div class="cell"><small>${k}</small><b>${esc(String(v))}</b></div>`).join("")}</div>`:""}
+const ingList=(list,off)=>`<ul class="ing">${list.map((t,i)=>`<li><span>${esc(t)}</span><button class="plus" data-act="addIng" data-i="${i+off}" aria-label="Add ${esc(t)} to shopping list">${IC.plus}</button></li>`).join("")}</ul>`;
 function openRecipe(id){
   const r=byId[id];if(!r){location.hash="#recipes";return}
   UI.recipe=id;const pg=$("page"),fresh=pg.hidden||pg.dataset.id!==id;pg.dataset.id=id;
@@ -671,7 +677,7 @@ function openRecipe(id){
         <div class="favline" id="favLine"></div></div>
       <section class="panel" aria-label="Machine settings"><div class="phd"><span>Set the machine</span><i></i></div>${settingsCells(r)}<button class="btn gold wide" data-act="brew">Start brew mode</button></section>
       <section class="sec"><div class="hrow"><h2>Ingredients</h2><button class="linkbtn" data-act="addAll">Add all to list</button></div>
-        <ul class="ing">${r.ingredients.map((t,i)=>`<li><span>${esc(t)}</span><button class="plus" data-act="addIng" data-i="${i}" aria-label="Add ${esc(t)} to shopping list">${IC.plus}</button></li>`).join("")}</ul></section>
+        ${ingList(r.ingredients,0)}${r.optional.length?`<h3 class="optlab">Optional extras</h3>${ingList(r.optional,r.ingredients.length)}`:""}</section>
       ${(r.subRecipes||[]).map(s=>`<details class="subr"><summary>Make the ${esc(s.name.toLowerCase())}</summary><div class="in"><ul>${s.ingredients.map(t=>`<li>${esc(t)}</li>`).join("")}</ul><ol class="steps">${s.steps.map(t=>`<li><p>${keys(t)}</p></li>`).join("")}</ol></div></details>`).join("")}
       <section class="sec"><h2>Steps</h2><ol class="steps">${r.steps.map(t=>`<li><p>${keys(t)}</p></li>`).join("")}</ol></section>
       ${(r.tips||[]).length?`<section class="sec"><h2>Tips</h2><ul class="tips">${r.tips.map(t=>`<li>${keys(t)}</li>`).join("")}</ul></section>`:""}
@@ -716,9 +722,10 @@ function openBrew(id){
 function closeBrew(){stopTimer();UI.brew=null;$("brew").hidden=true;if($("page").hidden)document.body.classList.remove("lock");try{wake&&wake.release()}catch(e){}wake=null}
 function renderBrew(){
   const B=UI.brew,r=byId[B.id],n=r.steps.length,total=n+2,i=B.i;stopTimer();
+  const bIngs=(list,off)=>`<ul>${list.map((t,j)=>`<li><button type="button" data-act="bcheck" data-k="${j+off}"><span class="tick" role="checkbox" aria-checked="${B.checked.has(j+off)}">${IC.check}</span>${esc(t)}</button></li>`).join("")}</ul>`;
   let stage="";
   if(i===0){stage=`<div class="bstep bready${B.dir<0?" back":""}"><p class="eyebrow" style="color:var(--goldHi)">Get ready</p><h2>${esc(r.name)}</h2>
-      ${settingsCells(r)}<ul>${r.ingredients.map((t,k)=>`<li><button type="button" data-act="bcheck" data-k="${k}"><span class="tick" role="checkbox" aria-checked="${B.checked.has(k)}">${IC.check}</span>${esc(t)}</button></li>`).join("")}</ul>
+      ${settingsCells(r)}<p class="blab">Ingredients <span>Tap each one as you set it out</span></p>${bIngs(r.ingredients,0)}${r.optional.length?`<p class="blab">Optional extras</p>${bIngs(r.optional,r.ingredients.length)}`:""}
       ${(r.subRecipes||[]).length?`<p>Make the ${r.subRecipes.map(s=>esc(s.name.toLowerCase())).join(" and ")} first. It's on the recipe page.</p>`:""}</div>`}
   else if(i<=n){const t=r.steps[i-1],dur=durationIn(t),shot=/START BREW/.test(t);
     stage=`<div class="bstep${B.dir<0?" back":""}"><div class="bnum">${i}</div><p class="btext">${keys(t)}</p>
@@ -832,7 +839,7 @@ document.addEventListener("click",e=>{
   else if(a==="fav"&&r){const on=!isFav(r.id);BE.setFav(r.id,on);toast(on?"Added to favorites":"Removed from favorites")}
   else if(a==="rate"){const id=UI.brew?UI.brew.id:UI.recipe;const n=+t.dataset.n,cur=(mark(id).rating||{})[S.me.uid]||0;BE.setRating(id,n===cur?0:n);
     if(UI.brew)t.parentElement.querySelectorAll("button").forEach(b=>b.classList.toggle("on",n!==cur&&+b.dataset.n<=n))}
-  else if(a==="addIng"&&r){const txt=r.ingredients[+t.dataset.i];if(onList(txt)){removeItems([txt]);toast("Removed from the shopping list")}else addItems([{text:txt,rid:r.id}])}
+  else if(a==="addIng"&&r){const txt=r.ingAll[+t.dataset.i];if(onList(txt)){removeItems([txt]);toast("Removed from the shopping list")}else addItems([{text:txt,rid:r.id}])}
   else if(a==="addAll"&&r){if(r.ingredients.every(onList)){removeItems(r.ingredients);toast("Removed from the shopping list")}else addItems(r.ingredients.map(x=>({text:x,rid:r.id})))}
   else if(a==="brew"&&r){UI.brewPushed=true;go("#brew-"+r.id)}
   else if(a==="bnext")brewStep(1);
@@ -864,7 +871,7 @@ const onList=txt=>S.shopping.some(i=>!i.done&&norm(i.text)===norm(txt));
 function removeItems(texts){const k=new Set(texts.map(norm));S.shopping.filter(i=>!i.done&&k.has(norm(i.text))).forEach(i=>BE.removeItem(i.id))}
 // Ingredient buttons on the recipe page show what's already on the list; tapping again takes it off.
 function syncIngButtons(){const id=UI.recipe;if(!id||$("page").hidden)return;const r=byId[id];if(!r)return;
-  document.querySelectorAll(".ing .plus").forEach(b=>{const t=r.ingredients[+b.dataset.i],on=onList(t);b.classList.toggle("added",on);b.innerHTML=on?IC.check:IC.plus;
+  document.querySelectorAll(".ing .plus").forEach(b=>{const t=r.ingAll[+b.dataset.i],on=onList(t);b.classList.toggle("added",on);b.innerHTML=on?IC.check:IC.plus;
     b.setAttribute("aria-pressed",on);b.setAttribute("aria-label",(on?"Remove ":"Add ")+t+(on?" from":" to")+" shopping list")});
   const all=document.querySelector('[data-act="addAll"]');if(all)all.textContent=r.ingredients.every(onList)?"Remove all from list":"Add all to list"}
 function addItems(list){const have=new Set(S.shopping.filter(i=>!i.done).map(i=>norm(i.text)));const add=list.filter(x=>!have.has(norm(x.text)));
